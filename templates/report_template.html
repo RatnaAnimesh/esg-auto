@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ company_name }} - ESG Rating Report</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap');
+
+        /* Page Layout & Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+            background-color: #ffffff;
+            line-height: 1.5;
+            padding: 20mm;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Typography & Headings */
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Outfit', sans-serif;
+            color: #0f172a;
+        }
+
+        /* Utility classes */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge-draft {
+            background-color: #fef3c7;
+            color: #d97706;
+            border: 1px solid #fcd34d;
+        }
+
+        .badge-final {
+            background-color: #dcfce7;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+
+        /* Header Styles */
+        header {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo-section h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: #1e3a8a;
+        }
+
+        .logo-section p {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .rating-status {
+            text-align: right;
+        }
+
+        .rating-status .status-tag {
+            margin-bottom: 5px;
+        }
+
+        .rating-status .date {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* Executive Summary Section */
+        .company-hero {
+            display: flex;
+            justify-content: space-between;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .company-details h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .company-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px 20px;
+            font-size: 0.85rem;
+        }
+
+        .meta-item span {
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .meta-item strong {
+            color: #334155;
+        }
+
+        /* Large Grade Badge */
+        .grade-box {
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 12px 20px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+        }
+
+        .grade-letter {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1;
+            color: #1e3a8a;
+            margin-right: 15px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .grade-label {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grade-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #64748b;
+            letter-spacing: 0.05em;
+        }
+
+        .grade-score {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        /* Pillars Overview Grid */
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e3a8a;
+            padding-left: 10px;
+            color: #0f172a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .pillar-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px;
+            background: #ffffff;
+            transition: all 0.2s ease;
+        }
+
+        .pillar-card-E {
+            border-top: 4px solid #10b981;
+        }
+
+        .pillar-card-S {
+            border-top: 4px solid #6366f1;
+        }
+
+        .pillar-card-G {
+            border-top: 4px solid #3b82f6;
+        }
+
+        .pillar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .pillar-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #334155;
+        }
+
+        .pillar-score {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .pillar-score-E {
+            color: #10b981;
+        }
+
+        .pillar-score-S {
+            color: #6366f1;
+        }
+
+        .pillar-score-G {
+            color: #3b82f6;
+        }
+
+        /* Custom Progress Bar */
+        .progress-container {
+            background-color: #f1f5f9;
+            border-radius: 9999px;
+            height: 8px;
+            width: 100%;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 9999px;
+        }
+
+        .progress-bar-E {
+            background-color: #10b981;
+        }
+
+        .progress-bar-S {
+            background-color: #6366f1;
+        }
+
+        .progress-bar-G {
+            background-color: #3b82f6;
+        }
+
+        .pillar-metrics-summary {
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .summary-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .summary-row span {
+            font-weight: 500;
+        }
+
+        .summary-row strong {
+            color: #334155;
+        }
+
+        /* Peer Benchmarking Table */
+        .benchmarking-section {
+            margin-bottom: 25px;
+        }
+
+        table.bench-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            text-align: left;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table.bench-table th {
+            background-color: #f8fafc;
+            color: #475569;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        table.bench-table td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        table.bench-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .highlight-row {
+            background-color: #eff6ff;
+            font-weight: 600;
+        }
+
+        /* Page Break for print */
+        .page-break {
+            page-break-before: always;
+            margin-top: 40px;
+        }
+
+        /* Detailed Metrics Section */
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .metric-detail-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .metric-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #1e3a8a;
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 5px;
+        }
+
+        .metric-values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            font-size: 0.8rem;
+        }
+
+        .val-box {
+            background-color: #f8fafc;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .val-box span {
+            display: block;
+            color: #64748b;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .val-box strong {
+            font-size: 0.95rem;
+            color: #334155;
+        }
+
+        /* SEBI Addendum Block */
+        .addendum-container {
+            background-color: #fef2f2;
+            border: 2px dashed #f87171;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .addendum-title {
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+            color: #991b1b;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .addendum-title svg {
+            margin-right: 8px;
+            fill: #991b1b;
+        }
+
+        .addendum-body {
+            font-size: 0.85rem;
+            color: #7f1d1d;
+        }
+
+        .addendum-body p {
+            margin-bottom: 10px;
+        }
+
+        .addendum-body p:last-child {
+            margin-bottom: 0;
+        }
+
+        .addendum-change-log {
+            background-color: #ffffff;
+            border: 1px solid #fca5a5;
+            border-radius: 6px;
+            padding: 10px;
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 0.75rem;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 40px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 0.7rem;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= PAGE 1 ================= -->
+    <header>
+        <div class="header-top">
+            <div class="logo-section">
+                <h1>NSRAL</h1>
+                <p>NSE Sustainability Ratings & Analytics Ltd. (SEBI Registered ERP)</p>
+            </div>
+            <div class="rating-status">
+                <div class="status-tag">
+                    {% if is_draft %}
+                    <span class="badge badge-draft">Draft ESG Rating</span>
+                    {% else %}
+                    <span class="badge badge-final">Final ESG Rating</span>
+                    {% endif %}
+                </div>
+                <div class="date">Issued: {{ date_str }}</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="company-hero">
+        <div class="company-details">
+            <h2>{{ company_name }}</h2>
+            <div class="company-meta-grid">
+                <div class="meta-item"><span>NSE Symbol:</span> <strong>{{ nse_symbol }}</strong></div>
+                <div class="meta-item"><span>ISIN:</span> <strong>{{ isin }}</strong></div>
+                <div class="meta-item"><span>Industry Sector:</span> <strong>{{ sector }}</strong></div>
+                <div class="meta-item"><span>Reporting Period:</span> <strong>{{ fy_display }}</strong></div>
+            </div>
+        </div>
+        <div class="grade-box">
+            <div class="grade-letter">{{ esg_grade }}</div>
+            <div class="grade-label">
+                <span class="grade-title">ESG Grade</span>
+                <span class="grade-score">{{ overall_score }}/100</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <span>ESG Pillar Performance Summary</span>
+    </div>
+
+    <div class="pillar-grid">
+        <!-- Environmental -->
+        <div class="pillar-card pillar-card-E">
+            <div class="pillar-header">
+                <span class="pillar-name">Environmental (E)</span>
+                <span class="pillar-score pillar-score-E">{{ pillars.environmental.score }}</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar progress-bar-E" style="width: {{ pillars.environmental.score }}%;"></div>
+            </div>
+            <div class="pillar-metrics-summary">
+                <div class="summary-row"><span>Renewable Energy:</span> <strong>{{
+                        pillars.environmental.metrics.renewable_energy|default('N/A', True) }}{% if
+                        pillars.environmental.metrics.renewable_energy %}%{% endif %}</strong></div>
+                <div class="summary-row"><span>Carbon Score:</span> <strong>{{
+                        pillars.environmental.metrics.carbon_intensity|default('N/A', True) }}</strong></div>
+                <div class="summary-row"><span>Water Score:</span> <strong>{{
+                        pillars.environmental.metrics.water_efficiency|default('N/A', True) }}</strong></div>
+            </div>
+        </div>
+
+        <!-- Social -->
+        <div class="pillar-card pillar-card-S">
+            <div class="pillar-header">
+                <span class="pillar-name">Social (S)</span>
+                <span class="pillar-score pillar-score-S">{{ pillars.social.score }}</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar progress-bar-S" style="width: {{ pillars.social.score }}%;"></div>
+            </div>
+            <div class="pillar-metrics-summary">
+                <div class="summary-row"><span>Gender Wage Score:</span> <strong>{{
+                        pillars.social.metrics.gender_equity|default('N/A', True) }}</strong></div>
+                <div class="summary-row"><span>Min Wage Compliance:</span> <strong>{{
+                        pillars.social.metrics.min_wage_compliance|default('N/A', True) }}%</strong></div>
+                <div class="summary-row"><span>Human Rights Score:</span> <strong>{{
+                        pillars.social.metrics.training|default('N/A', True) }}</strong></div>
+            </div>
+        </div>
+
+        <!-- Governance -->
+        <div class="pillar-card pillar-card-G">
+            <div class="pillar-header">
+                <span class="pillar-name">Governance (G)</span>
+                <span class="pillar-score pillar-score-G">{{ pillars.governance.score }}</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar progress-bar-G" style="width: {{ pillars.governance.score }}%;"></div>
+            </div>
+            <div class="pillar-metrics-summary">
+                <div class="summary-row"><span>Data Privacy Score:</span> <strong>{{
+                        pillars.governance.metrics.data_privacy|default('N/A', True) }}</strong></div>
+                <div class="summary-row"><span>Ethics Score:</span> <strong>{{
+                        pillars.governance.metrics.ethics|default('N/A', True) }}</strong></div>
+                <div class="summary-row"><span>Legal Compliance:</span> <strong>{{
+                        pillars.governance.metrics.environmental_law|default('N/A', True) }}</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="benchmarking-section">
+        <div class="section-title">
+            <span>Peer Benchmarking (Sector: {{ sector }})</span>
+        </div>
+        <table class="bench-table">
+            <thead>
+                <tr>
+                    <th>Entity</th>
+                    <th>Overall ESG Score</th>
+                    <th>Environmental</th>
+                    <th>Social</th>
+                    <th>Governance</th>
+                    <th>Sector Rank</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight-row">
+                    <td>{{ company_name }} (This Issuer)</td>
+                    <td>{{ overall_score }}</td>
+                    <td>{{ pillars.environmental.score }}</td>
+                    <td>{{ pillars.social.score }}</td>
+                    <td>{{ pillars.governance.score }}</td>
+                    <td>{{ sector_rank }}</td>
+                </tr>
+                <tr>
+                    <td>Sector Top</td>
+                    <td>{{ sector_top_score }}</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>1/{{ sector_rank.split('/')[-1] }}</td>
+                </tr>
+                <tr>
+                    <td>Sector Median</td>
+                    <td>{{ sector_median_score }}</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Sector Bottom</td>
+                    <td>{{ sector_bottom_score }}</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>{{ sector_rank.split('/')[-1] }}/{{ sector_rank.split('/')[-1] }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        Page 1 of 2 • NSRAL ESG Rating Report • CONFIDENTIAL. Generated under SEBI (ESG Rating Providers) Regulations.
+    </footer>
+
+    <!-- ================= PAGE 2 ================= -->
+    <div class="page-break"></div>
+
+    <header style="margin-top: 20px;">
+        <div class="header-top">
+            <div class="logo-section">
+                <h1>NSRAL</h1>
+                <p>NSE Sustainability Ratings & Analytics Ltd.</p>
+            </div>
+            <div class="rating-status">
+                <div class="date">ISIN: {{ isin }}</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="section-title">
+        <span>Detailed BRSR Disclosures & Raw Values</span>
+    </div>
+
+    <div class="details-grid">
+        <!-- Environmental Details -->
+        <div class="metric-detail-card">
+            <div class="metric-title">Environmental Disclosures</div>
+            <div class="metric-values-grid">
+                <div class="val-box">
+                    <span>Renewable Energy</span>
+                    <strong>{% if raw_values.renewable_energy_cy is not none %}{{
+                        '{:,.0f}'.format(raw_values.renewable_energy_cy) }}{% else %}N/A{% endif %} GJ</strong>
+                </div>
+                <div class="val-box">
+                    <span>Total Energy</span>
+                    <strong>{% if raw_values.total_energy_cy is not none %}{{
+                        '{:,.0f}'.format(raw_values.total_energy_cy) }}{% else %}N/A{% endif %} GJ</strong>
+                </div>
+                <div class="val-box">
+                    <span>Scope 1 Emissions</span>
+                    <strong>{% if raw_values.scope1_emissions_cy is not none %}{{
+                        '{:,.0f}'.format(raw_values.scope1_emissions_cy) }}{% else %}N/A{% endif %} tCO2e</strong>
+                </div>
+                <div class="val-box">
+                    <span>Scope 2 Emissions</span>
+                    <strong>{% if raw_values.scope2_emissions_cy is not none %}{{
+                        '{:,.0f}'.format(raw_values.scope2_emissions_cy) }}{% else %}N/A{% endif %} tCO2e</strong>
+                </div>
+                <div class="val-box">
+                    <span>Water Consumption</span>
+                    <strong>{% if raw_values.water_consumption_cy is not none %}{{
+                        '{:,.0f}'.format(raw_values.water_consumption_cy) }}{% else %}N/A{% endif %} KL</strong>
+                </div>
+                <div class="val-box">
+                    <span>Zero Liquid Discharge (ZLD)</span>
+                    <strong>{{ 'Yes' if raw_values.zld_mechanism == True else ('No' if raw_values.zld_mechanism == False
+                        else 'N/A') }}</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social & Governance Details -->
+        <div class="metric-detail-card">
+            <div class="metric-title">Social & Governance Disclosures</div>
+            <div class="metric-values-grid">
+                <div class="val-box">
+                    <span>Female Wage Share</span>
+                    <strong>{% if raw_values.female_wage_share_cy is not none %}{{
+                        '{:.2f}'.format(raw_values.female_wage_share_cy * 100) }}%{% else %}N/A{% endif %}</strong>
+                </div>
+                <div class="val-box">
+                    <span>POSH Complaints</span>
+                    <strong>{{ raw_values.posh_complaints_cy|default(0) }}</strong>
+                </div>
+                <div class="val-box">
+                    <span>Cyber Security Policy</span>
+                    <strong>{{ 'Yes' if raw_values.cybersecurity_policy == True else ('No' if
+                        raw_values.cybersecurity_policy == False else 'N/A') }}</strong>
+                </div>
+                <div class="val-box">
+                    <span>Data Breaches</span>
+                    <strong>{{ raw_values.data_breaches_cy|default(0) }}</strong>
+                </div>
+                <div class="val-box">
+                    <span>Environmental Fines</span>
+                    <strong>{{ 'None' if raw_values.environmental_compliance == True else 'Yes' }}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEBI Addendum Block -->
+    {% if not is_draft %}
+    <div class="addendum-container">
+        <div class="addendum-title">
+            <svg width="20" height="20" viewBox="0 0 20 20">
+                <path
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 11-2 0 1 1 0 012 0zm-1 3a1 1 0 00-1 1v3a1 1 0 002 0v-3a1 1 0 00-1-1z" />
+            </svg>
+            <span>SEBI Category I ERP Addendum & Issuer Comments</span>
+        </div>
+        <div class="addendum-body">
+            <p><strong>Issuer (Company) Feedback Received:</strong></p>
+            <p
+                style="font-style: italic; background-color: #fff; padding: 10px; border-radius: 6px; border: 1px solid #fecaca; margin-bottom: 12px;">
+                "{{ feedback_comments }}"
+            </p>
+            <p>
+                Under the SEBI <em>Policy for sharing of ESG Rating Reports</em>, the issuer's comments have been
+                reviewed.
+                Any verified metric adjustments have been applied to this finalized scorecard.
+                Below is the audit trail log of rating adjustments:
+            </p>
+            <div class="addendum-change-log">
+                {% for log in feedback_logs %}
+                &gt; {{ log }}<br>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="addendum-container" style="background-color: #fffbeb; border: 2px dashed #f59e0b;">
+        <div class="addendum-title" style="color: #b45309;">
+            <svg width="20" height="20" viewBox="0 0 20 20" style="fill: #b45309;">
+                <path
+                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" />
+            </svg>
+            <span style="color: #b45309;">DRAFT REPORT FOR ISSUER REVIEW</span>
+        </div>
+        <div class="addendum-body" style="color: #78350f;">
+            <p>
+                This is a <strong>DRAFT ESG Rating Report</strong> generated by NSRAL.
+                As per SEBI Category I ERP guidelines, this draft is shared with the issuer for verification.
+                The issuer has a standard <strong>2-day feedback window</strong> to submit comments or request
+                corrections to any parsed disclosures.
+            </p>
+            <p>
+                Feedback can be submitted directly via the NSRAL Issuer Feedback portal.
+                Upon review, verified adjustments will be compiled into the <strong>Final ESG Rating Report</strong>,
+                and the original issuer comments will be appended as a SEBI-compliant Addendum.
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    <footer>
+        Page 2 of 2 • NSRAL ESG Rating Report • CONFIDENTIAL. Generated under SEBI (ESG Rating Providers) Regulations.
+    </footer>
+
+</body>
+
+</html>
