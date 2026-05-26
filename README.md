@@ -1,4 +1,4 @@
-# NSE Sustainability Ratings and Analytics Ltd. (NSRAL) Pipeline
+# NSRAL Report Automation Pipeline
 
 ```mermaid
 graph TD
