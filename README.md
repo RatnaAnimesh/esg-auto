@@ -1,12 +1,4 @@
-# NSRAL: NSE Sustainability Ratings and Analytics Ltd.
-
-NSRAL (NSE Sustainability Ratings and Analytics Ltd.) pipeline is a robust, highly-deterministic data extraction and natural language system. It is designed to safely parse massive regulatory datasets (like 8,000+ column BRSR CSVs) against proprietary, wide-matrix Excel scorecards without relying on Large Language Models for arithmetic.
-
-By offloading the mathematical lifting to a deterministic Pandas engine and relying on a Small Language Model (SLM) solely for narrative generation, this architecture completely eliminates numeric hallucination.
-
-## System Architecture
-
-The pipeline leverages a "Metadata Formula Row" injected directly into the proprietary scorecard. This allows the system to seamlessly calculate Booleans, conditionals, and Year-over-Year variance dynamically.
+# NSE Sustainability Ratings and Analytics Ltd. (NSRAL) Pipeline
 
 ```mermaid
 graph TD
