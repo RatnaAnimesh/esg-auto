@@ -16,10 +16,10 @@ def build_leaf_paths(hierarchy, current_path=""):
 def build_hierarchical_db():
     print("Loading tree hierarchy and mappings...")
     
-    with open('data/reference/tree_hierarchy.json', 'r') as f:
+    with open('data/reference/hierarchy/tree_hierarchy.json', 'r') as f:
         hierarchy = json.load(f)
         
-    with open('data/reference/tree_to_nic_mapping.json', 'r') as f:
+    with open('data/reference/mappings/tree_to_nic_mapping.json', 'r') as f:
         nic_mapping = json.load(f)
         
     leaf_paths = build_leaf_paths(hierarchy)
@@ -32,7 +32,7 @@ def build_hierarchical_db():
             nic_to_path[str(code)] = path
             
     print("Loading master consolidated CSV...")
-    csv_path = 'data/processed/brsr_consolidated.csv'
+    csv_path = 'data/processed/consolidated/brsr_consolidated.csv'
     if not os.path.exists(csv_path):
         print("Error: Master CSV not found.")
         return

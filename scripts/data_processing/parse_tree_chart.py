@@ -30,14 +30,14 @@ def parse_excel_tree(excel_path, sheet_name='Sheet2'):
             
     # Save the full hierarchy
     os.makedirs('data/reference', exist_ok=True)
-    with open('data/reference/tree_hierarchy.json', 'w') as f:
+    with open('data/reference/hierarchy/tree_hierarchy.json', 'w') as f:
         json.dump(hierarchy, f, indent=4)
         
     # Save the leaf nodes as a template for NIC mapping
     mapping_template = {node: [] for node in leaf_nodes}
     
     # If the mapping file already exists, don't overwrite existing mappings
-    mapping_path = 'data/reference/tree_to_nic_mapping.json'
+    mapping_path = 'data/reference/mappings/tree_to_nic_mapping.json'
     if os.path.exists(mapping_path):
         with open(mapping_path, 'r') as f:
             existing_mapping = json.load(f)
@@ -49,8 +49,8 @@ def parse_excel_tree(excel_path, sheet_name='Sheet2'):
         json.dump(mapping_template, f, indent=4)
         
     print(f"Extracted {len(leaf_nodes)} basic industries (leaf nodes).")
-    print(f"Hierarchy saved to data/reference/tree_hierarchy.json")
-    print(f"Mapping template saved to data/reference/tree_to_nic_mapping.json")
+    print(f"Hierarchy saved to data/reference/hierarchy/tree_hierarchy.json")
+    print(f"Mapping template saved to data/reference/mappings/tree_to_nic_mapping.json")
     
 if __name__ == "__main__":
-    parse_excel_tree('tree chart - financial sector.xlsx')
+    parse_excel_tree('data/reference/hierarchy/nsral_sector_hierarchy.xlsx')

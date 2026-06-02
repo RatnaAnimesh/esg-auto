@@ -1,75 +1,67 @@
-# NSRAL Report Automation Pipeline
+# NSE Sustainability Ratings and Analytics Ltd. (NSRAL)
+## ESG Scorecard Generation Pipeline
 
-```mermaid
-graph TD
-    subgraph Data Ingestion
-        A[Wide-Matrix Excel Scorecard]
-        B[8,000+ Column BRSR CSV]
-        C[Two-Stage Tabular RAG]
-        D[Deterministic Math Engine]
-        B --> C
-        C --> D
-        A -->|Metadata Formula Rows| D
-    end
+This repository contains the automated pipeline for evaluating corporate ESG metrics, generating percentile scores, and generating comprehensive PDF reports (Executive Summaries, Peer Benchmarking, and Thematic Scorecards).
 
-    subgraph Processing Layer
-        E[Classification Failsafe / Missing Data Logic]
-        F[Structured JSON Payload]
-        D -->|Natively Calculates Booleans & YoY| E
-        E --> F
-    end
+---
 
-    subgraph LLM Generation Layer
-        G[DSPy Prompt Optimizer]
-        H[Local LLM Server]
-        I[Phi-4 Mini]
-        J[Narrative Output]
-        F --> G
-        G --> H
-        H --> I
-        I --> J
-    end
+## 📂 Directory Structure
+
+To keep data and code organized, please adhere strictly to the following folder structure:
+
+```text
+nsral/
+├── data/
+│   ├── input/         # [DROP ZONE] Place all raw files here (BRSR dumps, master schemas, mappings)
+│   └── intermediate/  # [INTERNAL] Temporary storage for generated JSON weights and processed data
+├── reports/           # [OUTPUT] Generated PDF Scorecards, Executive Summaries, and Peer Reports
+├── scripts/           
+│   ├── data_processing/       # Scripts to parse BRSR/XBRL files
+│   ├── scoring_and_weights/   # Hierarchical redistribution and sector-based percentile scoring
+│   └── report_generation/     # PDF compilers and Matplotlib visual generators
+├── run_pipeline.sh    # [ENTRY POINT] Master orchestration script
+└── README.md
 ```
 
-## Directory Structure
+---
 
-The repository is built around a secure `data/` structure (ignored by Git to protect proprietary records) and a modular `scripts/` folder that executes the pipeline.
+## 🚀 Execution Instructions (For IT Operations)
 
-### Core Architecture Scripts (`/scripts`)
+Whenever new data is received, you do not need to modify the Python scripts. Simply swap out the files in the `data/input/` directory and execute the bash pipeline.
 
-#### 1. Data Ingestion & RAG
-- **`embed_columns.py`**: Executes the first stage of the Tabular RAG. Generates high-density vector embeddings (using SentenceTransformers) for all 8,000+ BRSR column headers to allow for semantic matching.
-- **`semantic_cross_verify.py`**: A cross-verification utility that maps proprietary scorecard questions against the BRSR embeddings. Generates heatmaps and match scores to validate alignment.
+### Step 1: Update Data Files
+Place your updated files into `data/input/`. Ensure the exact filenames and structures are preserved:
+- `master_weights.xlsx`: The master hierarchical schema containing `Pillar -> Theme -> Question` and the `0/1` binary relevance columns for each Basic Industry.
+- `nsral_sector_hierarchy.xlsx` (Optional): The company-to-industry mappings.
+- Raw BRSR extraction dumps.
 
-#### 2. The Deterministic Math Engine
-- **`extract_brsr_metrics.py`**: The core extraction script. It iterates through the target companies, pulls raw numerical data from the BRSR CSV, and evaluates it.
-- **`run_sdg_pipeline.py`**: The execution engine that parses the "Metadata Formula Row" from the Excel scorecard. It evaluates the string-based formulas natively in Pandas (including missing-data failsafes) and generates the populated scorecard.
+### Step 2: Run the Pipeline
+Use the `run_pipeline.sh` script to trigger the full execution (Weight Redistribution -> Percentile Scoring -> Report Compilation).
 
-#### 3. LLM Translation Layer
-- **`generate_llm_reports.py`**: Ingests the perfectly calculated numerical facts and passes them to the local SLM to generate professional, institutional financial narratives.
+You can target a specific company:
+```bash
+./run_pipeline.sh --company "Tata Motors"
+```
 
-#### 4. Synthetic Data Testing (SDG)
-*Because the pipeline handles highly proprietary data, testing must be done synthetically.*
-- **`generate_synthetic_data.py`**: Acts as "The Mocker." Uses an LLM to generate a synthetic Golden Dataset of fictional companies based strictly on the BRSR schema, purposefully injecting edge cases (missing data, zeroes, nulls).
-- **`llm_as_a_judge.py`**: The decoupled evaluation script. Fires up an isolated LLM Judge to grade the pipeline's output against the ground-truth synthetic facts, ensuring zero hallucinations.
+Or run an entire sector at once:
+```bash
+./run_pipeline.sh --sector "Automotive"
+```
 
-#### 5. Data Acquisition (Legacy/Utility)
-- **`download_xbrl.py`**: Automates the scraping and downloading of raw XBRL filings.
-- **`build_database.py` & `build_hierarchical_database.py`**: Utilities to organize the raw XBRL files into a structured directory for parsing.
-- **`compile_brsr_csv.py`**: Parses the raw financial data into the master 8,000-column CSV format.
-- **`parse_tree_chart.py`**: Parses organizational hierarchies from reference Excel charts.
+Or pass a text file containing a batch list:
+```bash
+./run_pipeline.sh --batch target_companies.txt
+```
 
-## Setup & Execution
+### Step 3: Collect Reports
+Once execution finishes, navigate to the `reports/` directory. You will find:
+1. Executive Summaries
+2. Peer Benchmarking Analysis
+3. Full ESG Scorecards (which includes ESG Drivers, E/S/G Thematic representations and assessments, and Final Conclusions)
 
-### 1. Requirements
-Ensure you have Python installed along with the dependencies for Pandas, SentenceTransformers, and Requests.
-The translation and testing layers require a local instance of [Ollama](https://ollama.com) running `phi4-mini:latest`.
+---
 
-### 2. Local Data Safety
-The `.gitignore` strictly ignores the contents of the `/data` folder. You can safely place your raw CSVs, proprietary Excel scorecards, and parsed databases in their respective `data/raw/` or `data/reference/` folders without risking a public leak.
-
-### 3. Pipeline Run
-To test the architecture using Synthetic Data:
-1. Generate the synthetic data: `python scripts/generate_synthetic_data.py`
-2. Run the deterministic math engine: `python scripts/run_sdg_pipeline.py`
-3. Audit the results: `python scripts/llm_as_a_judge.py`
+## ⚙️ Upcoming Rating Logic Modularity
+*Note: The pipeline incorporates dynamic logic intended for future-proofing:*
+1. **Dynamic Weight Redistribution:** The system calculates and drops weights for irrelevant questions (marked `0` in your Excel) and proportionally redistributes them to active themes in the same Pillar.
+2. **Sector-Based Percentiles:** The underlying scoring engine calculates rank-based percentiles tailored strictly to basic industry cohorts rather than a global pool.

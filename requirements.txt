@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+scipy
+sentence-transformers
+transformers
+torch
+fpdf2
+matplotlib
+seaborn
+playwright
+requests

@@ -7,7 +7,7 @@ def sanitize_filename(name):
     return re.sub(r'[<>:"/\\|?*]', '_', name)
 
 def build_database():
-    csv_path = 'data/processed/brsr_consolidated.csv'
+    csv_path = 'data/processed/consolidated/brsr_consolidated.csv'
     companies_dir = 'data/database/companies'
     sectors_dir = 'data/database/sectors'
     
@@ -26,7 +26,7 @@ def build_database():
             
     # Load official NIC 2008 mapping
     import json
-    mapping_path = 'data/reference/nic_2008_mapping.json'
+    mapping_path = 'data/reference/mappings/nic_2008_mapping.json'
     if os.path.exists(mapping_path):
         with open(mapping_path, 'r') as f:
             nic_mapping = json.load(f)

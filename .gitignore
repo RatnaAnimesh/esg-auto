@@ -52,3 +52,9 @@ data/database/*
 !data/companies/
 data/companies/*
 !data/companies/.gitkeep
+
+# Scratch and tests
+scratch/
+test_*.py
+evaluate_rmse_nnls.py
+
