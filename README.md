@@ -5,7 +5,7 @@ This repository contains the automated pipeline for evaluating corporate ESG met
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 To keep data and code organized, please adhere strictly to the following folder structure:
 
@@ -25,7 +25,7 @@ nsral/
 
 ---
 
-## 🚀 Execution Instructions (For IT Operations)
+## Execution Instructions (For IT Operations)
 
 Whenever new data is received, you do not need to modify the Python scripts. Simply swap out the files in the `data/input/` directory and execute the bash pipeline.
 
@@ -61,7 +61,7 @@ Once execution finishes, navigate to the `reports/` directory. You will find:
 
 ---
 
-## ⚙️ Upcoming Rating Logic Modularity
+## Upcoming Rating Logic Modularity
 *Note: The pipeline incorporates dynamic logic intended for future-proofing:*
 1. **Dynamic Weight Redistribution:** The system calculates and drops weights for irrelevant questions (marked `0` in your Excel) and proportionally redistributes them to active themes in the same Pillar.
 2. **Sector-Based Percentiles:** The underlying scoring engine calculates rank-based percentiles tailored strictly to basic industry cohorts rather than a global pool.
