@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESG Metrics Dashboard - Bodal Chemicals Limited</title>
+    <!-- Tailwind CSS (for layout and utilities) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Apache ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        glass: 'rgba(255, 255, 255, 0.05)',
+                        glassBorder: 'rgba(255, 255, 255, 0.1)',
+                        neonBlue: '#4fd1c5',
+                        neonPurple: '#b794f4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a; /* Tailwind slate-900 */
+            color: #f8fafc; /* Tailwind slate-50 */
+            margin: 0;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(79, 209, 197, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(183, 148, 244, 0.15), transparent 25%);
+            background-attachment: fixed;
+        }
+        
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.6); /* slate-800 with opacity */
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        th {
+            font-weight: 600;
+            color: #94a3b8; /* slate-400 */
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        tr:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .metric-item {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .metric-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .metric-item.active {
+            background: rgba(79, 209, 197, 0.1);
+            border-left: 3px solid #4fd1c5;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-sm">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col h-screen">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8 shrink-0">
+            <div>
+                <h1 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-purple-500">
+                    Bodal Chemicals Limited
+                </h1>
+                <p class="text-slate-400 mt-1">Commodity Chemicals • Peer & YoY Analytics</p>
+            </div>
+            <div class="glass-panel px-4 py-2 flex items-center gap-2">
+                <div class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></div>
+                <span class="text-slate-300 font-medium">Live Dashboard</span>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="flex-1 grid grid-cols-1 lg:grid-cols-4 gap-6 min-h-0">
+            
+            <!-- Sidebar: Metric Selection -->
+            <div class="glass-panel col-span-1 flex flex-col overflow-hidden">
+                <div class="p-4 border-b border-white/10 shrink-0">
+                    <h2 class="text-lg font-semibold">Metrics</h2>
+                    <p class="text-xs text-slate-400 mt-1">Select to view analytics</p>
+                </div>
+                <div class="overflow-y-auto flex-1 p-2 space-y-1 scrollbar-hide" id="metric-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Main Panel: Charts & Tables -->
+            <div class="col-span-1 lg:col-span-3 flex flex-col gap-6 overflow-y-auto scrollbar-hide">
+                
+                <h2 id="current-metric-title" class="text-xl font-semibold text-white px-2 shrink-0">Select a metric</h2>
+
+                <!-- Charts Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 shrink-0">
+                    <!-- YoY Chart -->
+                    <div class="glass-panel p-4 flex flex-col">
+                        <h3 class="text-sm font-medium text-slate-300 mb-4">Year-over-Year Trend</h3>
+                        <div id="yoy-chart" class="w-full h-64"></div>
+                    </div>
+                    
+                    <!-- Peer Chart -->
+                    <div class="glass-panel p-4 flex flex-col">
+                        <h3 class="text-sm font-medium text-slate-300 mb-4">Peer Distribution</h3>
+                        <div id="peer-chart" class="w-full h-64"></div>
+                    </div>
+                </div>
+
+                <!-- Tables Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 shrink-0 pb-8">
+                    <!-- YoY Table -->
+                    <div class="glass-panel p-0 overflow-hidden flex flex-col">
+                        <div class="p-4 border-b border-white/10 bg-white/5">
+                            <h3 class="text-sm font-medium text-slate-300">YoY Data</h3>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table id="yoy-table">
+                                <thead>
+                                    <tr>
+                                        <th>Period</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Peer Table -->
+                    <div class="glass-panel p-0 overflow-hidden flex flex-col">
+                        <div class="p-4 border-b border-white/10 bg-white/5">
+                            <h3 class="text-sm font-medium text-slate-300">Peer Data</h3>
+                        </div>
+                        <div class="overflow-x-auto h-48 overflow-y-auto scrollbar-hide">
+                            <table id="peer-table">
+                                <thead>
+                                    <tr>
+                                        <th>Entity</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Injection -->
+    <script id="dashboard-data" type="application/json">
+        {"company": "Bodal Chemicals Limited", "industry": "Commodity Chemicals", "metrics": [{"name": "Percentage Of Well Being Of Employees Or Workers - Male Member - Accident Insurance Member - Permanent Workers Member", "yoy": {"current": 1.0, "previous": null}, "peer_analytics": {"target": 1.0, "industry_average": 0.8333, "peers": [{"name": "Godrej Industries Limited", "value": 1.0}, {"name": "Tata Chemicals Limited", "value": 1.0}, {"name": "Gujarat Narmada Valley Fertilizers And Chemicals Limited", "value": 0.0}, {"name": "Deepak Fertilizers And Petrochemicals Corporation Limited", "value": 1.0}, {"name": "Srf Limited", "value": 1.0}]}}, {"name": "Number Of Differently Abled Employees Or Workers - Male Member - Other Than Permanent Employees Member", "yoy": {"current": 0.0, "previous": null}, "peer_analytics": {"target": 0.0, "industry_average": 0.3333, "peers": [{"name": "Godrej Industries Limited", "value": 1.0}, {"name": "Tata Chemicals Limited", "value": 0.0}, {"name": "Gujarat Narmada Valley Fertilizers And Chemicals Limited", "value": 1.0}, {"name": "Deepak Fertilizers And Petrochemicals Corporation Limited", "value": 0.0}, {"name": "Srf Limited", "value": 0.0}]}}, {"name": "Percentage Of Well Being Of Employees Or Workers - Male Member - Accident Insurance Member - Other Than Permanent Workers Member", "yoy": {"current": 1.0, "previous": null}, "peer_analytics": {"target": 1.0, "industry_average": 0.8333, "peers": [{"name": "Godrej Industries Limited", "value": 0.0}, {"name": "Tata Chemicals Limited", "value": 1.0}, {"name": "Gujarat Narmada Valley Fertilizers And Chemicals Limited", "value": 1.0}, {"name": "Deepak Fertilizers And Petrochemicals Corporation Limited", "value": 1.0}, {"name": "Srf Limited", "value": 1.0}]}}, {"name": "Does The Entity Have Any Sites Or Facilities Identified As Designated Consumers Under The Performance Achieve And Trade Scheme Of The Government Of India", "yoy": {"current": 1.0, "previous": null}, "peer_analytics": {"target": 1.0, "industry_average": 0.6667, "peers": [{"name": "Godrej Industries Limited", "value": 0.0}, {"name": "Tata Chemicals Limited", "value": 1.0}, {"name": "Gujarat Narmada Valley Fertilizers And Chemicals Limited", "value": 1.0}, {"name": "Deepak Fertilizers And Petrochemicals Corporation Limited", "value": 1.0}, {"name": "Srf Limited", "value": 0.0}]}}, {"name": "Has The Entity Carried Out Independent Assessment Evaluation Of The Working Of Its Policies By An External Agency - Principle1 Member", "yoy": {"current": 0.0, "previous": null}, "peer_analytics": {"target": 0.0, "industry_average": 0.3333, "peers": [{"name": "Godrej Industries Limited", "value": 0.0}, {"name": "Tata Chemicals Limited", "value": 0.0}, {"name": "Gujarat Narmada Valley Fertilizers And Chemicals Limited", "value": 1.0}, {"name": "Deepak Fertilizers And Petrochemicals Corporation Limited", "value": 1.0}, {"name": "Srf Limited", "value": 0.0}]}}]}
+    </script>
+
+    <!-- App Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rawData = document.getElementById('dashboard-data').textContent;
+            const data = JSON.parse(rawData);
+            
+            const metricList = document.getElementById('metric-list');
+            const titleEl = document.getElementById('current-metric-title');
+            
+            // ECharts instances
+            const yoyChart = echarts.init(document.getElementById('yoy-chart'), 'dark', { renderer: 'svg' });
+            const peerChart = echarts.init(document.getElementById('peer-chart'), 'dark', { renderer: 'svg' });
+
+            // Handle Resize
+            window.addEventListener('resize', () => {
+                yoyChart.resize();
+                peerChart.resize();
+            });
+
+            // Initialize List
+            if (data.metrics && data.metrics.length > 0) {
+                data.metrics.forEach((metric, index) => {
+                    const div = document.createElement('div');
+                    div.className = `metric-item p-3 rounded-lg text-slate-300 truncate`;
+                    div.textContent = metric.name;
+                    div.title = metric.name;
+                    div.dataset.index = index;
+                    
+                    div.addEventListener('click', () => selectMetric(index));
+                    metricList.appendChild(div);
+                });
+                
+                // Select first by default
+                selectMetric(0);
+            } else {
+                titleEl.textContent = "No metrics available";
+            }
+
+            function selectMetric(index) {
+                // Update active class
+                document.querySelectorAll('.metric-item').forEach(el => {
+                    if (parseInt(el.dataset.index) === index) {
+                        el.classList.add('active');
+                        el.classList.add('text-white');
+                        el.classList.add('font-medium');
+                    } else {
+                        el.classList.remove('active');
+                        el.classList.remove('text-white');
+                        el.classList.remove('font-medium');
+                    }
+                });
+
+                const metric = data.metrics[index];
+                titleEl.textContent = metric.name;
+                
+                renderYoY(metric);
+                renderPeers(metric);
+            }
+
+            function renderYoY(metric) {
+                const current = metric.yoy.current;
+                const previous = metric.yoy.previous;
+                const hasPrev = previous !== null && previous !== undefined;
+
+                // Chart
+                const option = {
+                    backgroundColor: 'transparent',
+                    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+                    grid: { left: '3%', right: '4%', bottom: '3%', top: '10%', containLabel: true },
+                    xAxis: {
+                        type: 'category',
+                        data: hasPrev ? ['Previous Year', 'Current Year'] : ['Current Year'],
+                        axisLine: { lineStyle: { color: 'rgba(255,255,255,0.2)' } },
+                        axisLabel: { color: '#94a3b8' }
+                    },
+                    yAxis: {
+                        type: 'value',
+                        splitLine: { lineStyle: { color: 'rgba(255,255,255,0.05)' } },
+                        axisLabel: { color: '#94a3b8' }
+                    },
+                    series: [
+                        {
+                            name: 'Value',
+                            type: 'bar',
+                            barWidth: '40%',
+                            data: [
+                                ...(hasPrev ? [{
+                                    value: previous,
+                                    itemStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{offset: 0, color: '#94a3b8'}, {offset: 1, color: '#64748b'}]) }
+                                }] : []),
+                                {
+                                    value: current,
+                                    itemStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{offset: 0, color: '#4fd1c5'}, {offset: 1, color: '#319795'}]) }
+                                }
+                            ],
+                            itemStyle: { borderRadius: [4, 4, 0, 0] },
+                            label: { show: true, position: 'top', color: '#fff' }
+                        }
+                    ]
+                };
+                yoyChart.setOption(option);
+
+                // Table
+                const tbody = document.querySelector('#yoy-table tbody');
+                tbody.innerHTML = '';
+                
+                if (hasPrev) {
+                    tbody.innerHTML += `<tr><td>Previous Year</td><td class="font-medium">${Number(previous).toFixed(4)}</td></tr>`;
+                }
+                tbody.innerHTML += `<tr><td class="text-teal-400">Current Year</td><td class="font-medium text-teal-400">${Number(current).toFixed(4)}</td></tr>`;
+                
+                if (hasPrev && previous !== 0) {
+                    const pct = ((current - previous) / previous) * 100;
+                    const color = pct >= 0 ? 'text-green-400' : 'text-red-400';
+                    const sign = pct >= 0 ? '+' : '';
+                    tbody.innerHTML += `<tr><td class="text-slate-400">YoY Change</td><td class="font-medium ${color}">${sign}${pct.toFixed(1)}%</td></tr>`;
+                }
+            }
+
+            function renderPeers(metric) {
+                const target = metric.peer_analytics.target;
+                const avg = metric.peer_analytics.industry_average;
+                const peers = metric.peer_analytics.peers || [];
+                
+                // Sort peers for chart
+                const allData = [
+                    {name: 'Target (You)', value: target, type: 'target'},
+                    ...peers.map(p => ({name: p.name, value: p.value, type: 'peer'}))
+                ].sort((a, b) => b.value - a.value);
+
+                // Add average line via markLine
+                
+                const option = {
+                    backgroundColor: 'transparent',
+                    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+                    grid: { left: '3%', right: '4%', bottom: '5%', top: '10%', containLabel: true },
+                    xAxis: {
+                        type: 'value',
+                        splitLine: { lineStyle: { color: 'rgba(255,255,255,0.05)' } },
+                        axisLabel: { color: '#94a3b8' }
+                    },
+                    yAxis: {
+                        type: 'category',
+                        data: allData.map(d => d.name.length > 15 ? d.name.substring(0, 15) + '...' : d.name),
+                        axisLine: { lineStyle: { color: 'rgba(255,255,255,0.2)' } },
+                        axisLabel: { color: '#94a3b8', width: 100, overflow: 'truncate' }
+                    },
+                    series: [
+                        {
+                            name: 'Value',
+                            type: 'bar',
+                            data: allData.map(d => ({
+                                value: d.value,
+                                itemStyle: { 
+                                    color: d.type === 'target' 
+                                        ? new echarts.graphic.LinearGradient(1, 0, 0, 0, [{offset: 0, color: '#b794f4'}, {offset: 1, color: '#805ad5'}]) 
+                                        : new echarts.graphic.LinearGradient(1, 0, 0, 0, [{offset: 0, color: '#cbd5e1'}, {offset: 1, color: '#94a3b8'}])
+                                }
+                            })),
+                            itemStyle: { borderRadius: [0, 4, 4, 0] },
+                            label: { show: true, position: 'right', color: '#fff', formatter: (params) => Number(params.value).toFixed(2) },
+                            markLine: avg !== null && avg !== undefined ? {
+                                data: [{ xAxis: avg, name: 'Industry Avg' }],
+                                lineStyle: { color: '#f59e0b', type: 'dashed' },
+                                label: { position: 'insideEndTop', formatter: 'Avg: {c}' }
+                            } : undefined
+                        }
+                    ]
+                };
+                peerChart.setOption(option);
+
+                // Table
+                const tbody = document.querySelector('#peer-table tbody');
+                tbody.innerHTML = '';
+                
+                tbody.innerHTML += `<tr><td class="text-purple-400">Target (You)</td><td class="font-medium text-purple-400">${Number(target).toFixed(4)}</td></tr>`;
+                if (avg !== null && avg !== undefined) {
+                    tbody.innerHTML += `<tr><td class="text-amber-400">Industry Average</td><td class="font-medium text-amber-400">${Number(avg).toFixed(4)}</td></tr>`;
+                }
+                
+                peers.forEach(p => {
+                    tbody.innerHTML += `<tr><td>${p.name}</td><td class="font-medium">${Number(p.value).toFixed(4)}</td></tr>`;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

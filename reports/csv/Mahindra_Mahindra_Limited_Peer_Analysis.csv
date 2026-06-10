@@ -1,0 +1,5 @@
+Metric,Linear_Weight,Target_Company_Value,Industry_Average,Industry_Median,Status,Peer_Values
+Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member,0.455111,1.0,1.0,1.0,Underperforming,{'Mahindra & Mahindra Limited': 1.0}
+Turnover Rate - Female Member - Permanent Employees Member,0.388574,0.12,0.12,0.12,Underperforming,{'Mahindra & Mahindra Limited': 0.12}
+Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member,0.272378,291.0,291.0,291.0,Underperforming,{'Mahindra & Mahindra Limited': 291.0}
+Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member,0.002511,0.0,0.0,0.0,Underperforming,{'Mahindra & Mahindra Limited': 0.0}

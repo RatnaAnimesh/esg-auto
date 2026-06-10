@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSRAL - ESG Intelligence</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Syne:wght@400;600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepDark: '#08080a',
+                        luxuryPanel: '#111113',
+                        luxuryBorder: '#27272a',
+                        gold: '#d4af37',
+                        mutedGold: '#8c7b4c',
+                        champagne: '#f7e7ce',
+                    },
+                    fontFamily: {
+                        sans: ['DM Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        display: ['Syne', 'sans-serif'],
+                    },
+                    animation: {
+                        'gradient-x': 'gradient-x 8s ease infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        'gradient-x': {
+                            '0%, 100%': {
+                                'background-size': '200% 200%',
+                                'background-position': 'left center'
+                            },
+                            '50%': {
+                                'background-size': '200% 200%',
+                                'background-position': 'right center'
+                            },
+                        },
+                        'float': {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #08080a;
+            color: #f7e7ce;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(212, 175, 55, 0.05), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(212, 175, 55, 0.03), transparent 25%);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #f7e7ce, #d4af37, #8c7b4c, #f7e7ce);
+            background-size: 300% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-x 8s ease infinite;
+        }
+
+        .filter-container {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            background: rgba(17, 17, 19, 0.7);
+            border: 1px solid rgba(39, 39, 42, 0.8);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .select-custom {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%238c7b4c'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1.5em 1.5em;
+        }
+        
+        .select-custom:focus {
+            border-color: rgba(212, 175, 55, 0.4);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.1);
+            outline: none;
+        }
+
+        /* Custom Scrollbar for grid */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111113; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #27272a; 
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #8c7b4c; 
+        }
+    </style>
+</head>
+<body class="font-sans antialiased min-h-screen flex flex-col items-center pt-24 relative overflow-x-hidden">
+
+    <!-- Ambient glowing orbs -->
+    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-gold opacity-[0.02] rounded-full mix-blend-screen filter blur-3xl animate-pulse-slow"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold opacity-[0.02] rounded-full mix-blend-screen filter blur-3xl animate-pulse-slow" style="animation-delay: 2s;"></div>
+
+    <!-- Main Content -->
+    <main class="relative z-10 w-full max-w-5xl px-6 flex flex-col items-center">
+        
+        <!-- Header -->
+        <div class="text-center mb-10 animate-float">
+            <h1 class="text-5xl md:text-6xl font-serif font-semibold tracking-tight mb-4">
+                <span class="gradient-text">Hello.</span>
+            </h1>
+            <p class="text-lg font-display text-gray-400 tracking-wide">
+                Filter by industry or search for a specific company.
+            </p>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="w-full filter-container rounded-2xl p-6 mb-8 grid grid-cols-1 md:grid-cols-2 gap-6 relative z-20">
+            <!-- SASB Industry -->
+            <div class="flex flex-col">
+                <label for="sasb-select" class="text-xs font-display text-mutedGold uppercase tracking-widest mb-2">SASB Industry</label>
+                <select id="sasb-select" class="select-custom w-full bg-deepDark border border-luxuryBorder text-champagne text-sm rounded-lg px-4 py-3 cursor-pointer">
+                    <option value="">All SASB Industries</option>
+                    <!-- Populated by JS -->
+                </select>
+            </div>
+            
+            <!-- Basic Industry -->
+            <div class="flex flex-col">
+                <label for="basic-select" class="text-xs font-display text-mutedGold uppercase tracking-widest mb-2">Basic Industry</label>
+                <select id="basic-select" class="select-custom w-full bg-deepDark border border-luxuryBorder text-champagne text-sm rounded-lg px-4 py-3 cursor-pointer">
+                    <option value="">All Basic Industries</option>
+                    <!-- Populated by JS -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="w-full relative mb-8 z-20">
+            <div class="filter-container flex items-center rounded-2xl p-4 transition-all duration-300 relative">
+                <svg class="w-6 h-6 text-mutedGold ml-2 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <input 
+                    type="text" 
+                    id="search-input"
+                    autocomplete="off"
+                    class="w-full bg-transparent border-none text-lg text-champagne placeholder-gray-600 focus:outline-none font-sans"
+                    placeholder="Search within filtered companies..."
+                >
+            </div>
+        </div>
+
+        <!-- Company Grid -->
+        <div class="w-full">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="font-serif text-2xl text-champagne">Companies <span id="company-count" class="text-mutedGold text-sm ml-2 font-display"></span></h2>
+            </div>
+            <div id="company-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[500px] overflow-y-auto pr-2 pb-10">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sasbSelect = document.getElementById('sasb-select');
+            const basicSelect = document.getElementById('basic-select');
+            const searchInput = document.getElementById('search-input');
+            const companyGrid = document.getElementById('company-grid');
+            const countDisplay = document.getElementById('company-count');
+            
+            let metadata = {
+                companies: [],
+                basic_to_companies: {},
+                sasb_to_basic: {}
+            };
+
+            // Fetch metadata
+            fetch('/api/metadata')
+                .then(res => res.json())
+                .then(data => {
+                    metadata = data;
+                    initializeFilters();
+                    renderCompanies(metadata.companies);
+                })
+                .catch(err => console.error("Error fetching metadata:", err));
+
+            function initializeFilters() {
+                // Populate SASB
+                const sasbs = Object.keys(metadata.sasb_to_basic).sort();
+                sasbs.forEach(sasb => {
+                    const opt = document.createElement('option');
+                    opt.value = sasb;
+                    opt.textContent = sasb;
+                    sasbSelect.appendChild(opt);
+                });
+
+                // Populate Basic Industry initially
+                updateBasicDropdown();
+            }
+
+            function updateBasicDropdown() {
+                const selectedSasb = sasbSelect.value;
+                basicSelect.innerHTML = '<option value="">All Basic Industries</option>';
+                
+                let basics = [];
+                if (selectedSasb) {
+                    basics = metadata.sasb_to_basic[selectedSasb] || [];
+                } else {
+                    basics = Object.keys(metadata.basic_to_companies);
+                }
+                
+                basics.sort().forEach(basic => {
+                    const opt = document.createElement('option');
+                    opt.value = basic;
+                    opt.textContent = basic;
+                    basicSelect.appendChild(opt);
+                });
+            }
+
+            function getFilteredCompanies() {
+                const selectedSasb = sasbSelect.value;
+                const selectedBasic = basicSelect.value;
+                const searchTerm = searchInput.value.toLowerCase().trim();
+
+                let validCompanies = new Set();
+
+                if (selectedBasic) {
+                    // Just companies in this basic industry
+                    const comps = metadata.basic_to_companies[selectedBasic] || [];
+                    comps.forEach(c => validCompanies.add(c));
+                } else if (selectedSasb) {
+                    // All companies in all basic industries under this SASB
+                    const basics = metadata.sasb_to_basic[selectedSasb] || [];
+                    basics.forEach(b => {
+                        const comps = metadata.basic_to_companies[b] || [];
+                        comps.forEach(c => validCompanies.add(c));
+                    });
+                } else {
+                    // All companies
+                    metadata.companies.forEach(c => validCompanies.add(c));
+                }
+
+                // Apply text search
+                let result = Array.from(validCompanies);
+                if (searchTerm) {
+                    result = result.filter(c => c.toLowerCase().includes(searchTerm));
+                }
+                
+                return result.sort();
+            }
+
+            function applyFilters() {
+                const companiesToRender = getFilteredCompanies();
+                renderCompanies(companiesToRender);
+            }
+
+            // Event Listeners
+            sasbSelect.addEventListener('change', () => {
+                updateBasicDropdown();
+                applyFilters();
+            });
+
+            basicSelect.addEventListener('change', () => {
+                applyFilters();
+            });
+
+            searchInput.addEventListener('input', () => {
+                applyFilters();
+            });
+
+            function renderCompanies(companiesList) {
+                companyGrid.innerHTML = '';
+                countDisplay.textContent = `(${companiesList.length})`;
+
+                // Optimization: only render first 150 to avoid locking the browser
+                // The user can use search to narrow down further
+                const toRender = companiesList.slice(0, 150);
+
+                if (toRender.length === 0) {
+                    companyGrid.innerHTML = '<div class="col-span-full text-gray-500 italic p-4 text-center">No companies found matching the current filters.</div>';
+                    return;
+                }
+
+                toRender.forEach(company => {
+                    const card = document.createElement('a');
+                    card.href = `/dashboard?company=${encodeURIComponent(company)}`;
+                    card.className = 'bg-luxuryPanel border border-luxuryBorder rounded-xl p-4 transition-all hover:border-gold hover:shadow-[0_0_15px_rgba(212,175,55,0.15)] group cursor-pointer block flex items-center';
+                    
+                    const text = document.createElement('span');
+                    text.className = 'font-sans text-gray-300 group-hover:text-champagne transition-colors truncate text-sm flex-1';
+                    text.textContent = company;
+                    
+                    const icon = document.createElement('div');
+                    icon.className = 'text-gold opacity-0 group-hover:opacity-100 transition-opacity ml-2 transform group-hover:translate-x-1 duration-300';
+                    icon.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>';
+                    
+                    card.appendChild(text);
+                    card.appendChild(icon);
+                    companyGrid.appendChild(card);
+                });
+
+                if (companiesList.length > 150) {
+                    const msg = document.createElement('div');
+                    msg.className = 'col-span-full text-mutedGold text-xs text-center pt-4 pb-2';
+                    msg.textContent = `Showing 150 of ${companiesList.length} companies. Please use search to narrow down.`;
+                    companyGrid.appendChild(msg);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

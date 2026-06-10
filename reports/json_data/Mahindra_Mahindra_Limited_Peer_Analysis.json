@@ -1,0 +1,55 @@
+{
+    "Company": "Mahindra & Mahindra Limited",
+    "Basic_Industry": "Passenger Cars & Utility Vehicles",
+    "Peer_Count": 1,
+    "Predicted_ESG_Score": 74.0,
+    "Predicted_E_Score": 13.6,
+    "Predicted_S_Score": 66.2,
+    "Predicted_G_Score": 9.1,
+    "Analysis": [
+        {
+            "Metric": "Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member",
+            "Linear_Weight": 0.455111,
+            "Target_Company_Value": 1.0,
+            "Industry_Average": 1.0,
+            "Industry_Median": 1.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Mahindra & Mahindra Limited": 1.0
+            }
+        },
+        {
+            "Metric": "Turnover Rate - Female Member - Permanent Employees Member",
+            "Linear_Weight": 0.388574,
+            "Target_Company_Value": 0.12,
+            "Industry_Average": 0.12,
+            "Industry_Median": 0.12,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Mahindra & Mahindra Limited": 0.12
+            }
+        },
+        {
+            "Metric": "Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member",
+            "Linear_Weight": 0.272378,
+            "Target_Company_Value": 291.0,
+            "Industry_Average": 291.0,
+            "Industry_Median": 291.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Mahindra & Mahindra Limited": 291.0
+            }
+        },
+        {
+            "Metric": "Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member",
+            "Linear_Weight": 0.002511,
+            "Target_Company_Value": 0.0,
+            "Industry_Average": 0.0,
+            "Industry_Median": 0.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Mahindra & Mahindra Limited": 0.0
+            }
+        }
+    ]
+}

@@ -17,41 +17,16 @@ def main():
     target_company = args.company
     
     print(f"Loading datasets for {target_company}...")
-    brsr_df = pd.read_csv('data/processed/consolidated/brsr_consolidated.csv', low_memory=False)
-    scores_df = pd.read_csv('data/reference/scores/nsral_scores_full.csv')
-    
-    brsr_df['clean_name'] = brsr_df['CompanyName'].astype(str).str.strip().str.lower()
-    scores_df['clean_name'] = scores_df['Company Name'].astype(str).str.strip().str.lower()
-    
-    
-    # Do not inner join if we might need unclassified companies. Just keep BRSR data.
-    if args.industry:
-        # If industry is forced, we don't need inner join with scores to find it.
-        # But we DO need the peers! Wait, if we don't inner join, peers won't have Basic Industry either unless we merge.
-        # So let's merge with left join to keep target company, or just merge to get peers' industries.
-        pass
+    try:
+        from data_processing.extract_brsr_metrics import load_live_xbrl_dataset
+    except ImportError:
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), '../data_processing'))
+        from extract_brsr_metrics import load_live_xbrl_dataset
         
-    merged_df = pd.merge(brsr_df, scores_df[['clean_name', 'Basic Industry']], on='clean_name', how='left')
-    
-    # Find the target company
+    merged_df, target_company, basic_industry = load_live_xbrl_dataset(target_company, args.industry)
     company_row = merged_df[merged_df['clean_name'] == target_company.lower().strip()]
     
-    if company_row.empty:
-        print(f"Error: Company '{target_company}' not found in the BRSR dataset.")
-        return
-        
-    basic_industry = args.industry
-    if not basic_industry:
-        if 'Basic Industry' in company_row.columns and not pd.isna(company_row.iloc[0].get('Basic Industry')):
-            basic_industry = company_row.iloc[0]['Basic Industry']
-        else:
-            print(f"Error: 'Basic Industry' is missing for '{target_company}'. Please provide it via --industry.")
-            return
-    else:
-        # Inject the forced industry into the target company's row so it is part of the peer group calculation
-        merged_df.loc[merged_df['clean_name'] == target_company.lower().strip(), 'Basic Industry'] = basic_industry
-        company_row = merged_df[merged_df['clean_name'] == target_company.lower().strip()]
-            
     print(f"Target Company using Basic Industry: {basic_industry}")
     
     # Load the corresponding weight file
@@ -145,6 +120,12 @@ def main():
     
     # Apply MinMaxScaler strictly to the peer group to match extraction logic
     # Recreate the exact scaler used during weight extraction
+    print("Loading global context for Scaler...")
+    scores_df = pd.read_csv('data/reference/scores/nsral_scores_full.csv')
+    scores_df['clean_name'] = scores_df['Company Name'].astype(str).str.strip().str.lower()
+    brsr_df = pd.read_csv('data/processed/consolidated/brsr_consolidated.csv', low_memory=False)
+    brsr_df['clean_name'] = brsr_df['CompanyName'].astype(str).str.strip().str.lower()
+    
     training_merged = pd.merge(brsr_df, scores_df, on='clean_name', how='inner')
     
     # Match the basic_industry to the training data name using difflib

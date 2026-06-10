@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESG Metrics Dashboard - {{ company }}</title>
+    <!-- Tailwind CSS (for layout and utilities) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Apache ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    
+    <!-- Distinctive Typography: Cormorant Garamond for headers, Syne for accents, DM Sans for data -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Syne:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        display: ['Syne', 'sans-serif'],
+                        sans: ['DM Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        luxuryBg: '#09090b',
+                        luxuryPanel: '#111113',
+                        luxuryBorder: '#27272a',
+                        gold: '#d4af37',
+                        champagne: '#f7e7ce',
+                        mutedGold: '#8c7b4c',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --reveal-duration: 0.8s;
+        }
+
+        body {
+            background-color: #09090b;
+            color: #fafafa;
+            margin: 0;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Subtle noise texture for luxury editorial feel */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 50;
+        }
+
+        /* Refined Panels with thin borders, no rounded corners for a sharp editorial look */
+        .editorial-panel {
+            background: #111113;
+            border: 1px solid #27272a;
+            position: relative;
+            transition: border-color 0.4s ease;
+        }
+        
+        .editorial-panel:hover {
+            border-color: #d4af37;
+        }
+
+        /* Staggered Reveal Animation */
+        @keyframes slideUpFade {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-reveal {
+            opacity: 0;
+            animation: slideUpFade var(--reveal-duration) cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* Table Styling - Editorial layout */
+        table { width: 100%; border-collapse: collapse; }
+        th, td {
+            padding: 1rem 0;
+            text-align: left;
+            border-bottom: 1px solid #27272a;
+        }
+        th {
+            font-family: 'Syne', sans-serif;
+            font-weight: 600;
+            color: #8c7b4c;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        tr:hover td { color: #d4af37; transition: color 0.3s ease; }
+
+        .metric-item {
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+            border-left: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .metric-item::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.05), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .metric-item:hover::before {
+            left: 100%;
+        }
+        
+        .metric-item.active {
+            border-left-color: #d4af37;
+            background: rgba(212, 175, 55, 0.03);
+            color: #f7e7ce;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-gold selection:text-black">
+
+    <div class="max-w-[90rem] mx-auto px-6 py-10 flex flex-col h-screen">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-end mb-12 shrink-0 border-b border-luxuryBorder pb-6 animate-reveal delay-1">
+            <div>
+                <h1 class="text-5xl font-serif font-semibold text-champagne tracking-tight">
+                    {{ company }}
+                </h1>
+                <p class="font-display text-mutedGold mt-2 text-sm uppercase tracking-widest">{{ industry }} — Peer & YoY Intelligence</p>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-8 min-h-0">
+            
+            <!-- Sidebar: Metric Selection -->
+            <div class="lg:col-span-3 flex flex-col overflow-hidden animate-reveal delay-2">
+                <div class="pb-4 border-b border-luxuryBorder shrink-0">
+                    <h2 class="font-serif text-2xl text-champagne mb-4">Index</h2>
+                    <div class="relative">
+                        <input type="text" id="metric-search" placeholder="Search metrics..." 
+                               class="w-full bg-[#111113] border border-luxuryBorder rounded px-3 py-2 text-sm text-gray-300 placeholder-gray-600 focus:outline-none focus:border-gold transition-colors font-sans">
+                        <svg class="w-4 h-4 text-gray-600 absolute right-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    </div>
+                </div>
+                <div class="overflow-y-auto flex-1 py-4 space-y-2 scrollbar-hide" id="metric-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Main Panel: Charts & Tables -->
+            <div class="lg:col-span-9 flex flex-col gap-10 overflow-y-auto scrollbar-hide animate-reveal delay-3">
+                
+                <h2 id="current-metric-title" class="text-3xl font-serif text-champagne shrink-0 leading-tight">
+                    Select a metric
+                </h2>
+                <p id="current-metric-unit" class="text-xs font-display text-mutedGold uppercase tracking-widest mt-1"></p>
+
+                <!-- Charts Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 shrink-0">
+                    <!-- YoY Chart -->
+                    <div class="editorial-panel p-6 flex flex-col min-h-[320px]">
+                        <h3 class="font-display text-xs uppercase tracking-widest text-mutedGold mb-6">Chronological Trend</h3>
+                        <div id="yoy-chart" class="w-full h-full flex-1"></div>
+                    </div>
+                    
+                    <!-- Peer Chart -->
+                    <div class="editorial-panel p-6 flex flex-col min-h-[320px]">
+                        <h3 class="font-display text-xs uppercase tracking-widest text-mutedGold mb-6">Market Distribution</h3>
+                        <div id="peer-chart" class="w-full h-full flex-1"></div>
+                    </div>
+                </div>
+
+                <!-- Tables Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 shrink-0 pb-12 animate-reveal delay-4">
+                    <!-- YoY Table -->
+                    <div>
+                        <h3 class="font-display text-xs uppercase tracking-widest text-mutedGold mb-4 border-b border-luxuryBorder pb-2">Annual Data</h3>
+                        <table id="yoy-table">
+                            <thead>
+                                <tr>
+                                    <th>Period</th>
+                                    <th class="text-right">Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Peer Table -->
+                    <div>
+                        <h3 class="font-display text-xs uppercase tracking-widest text-mutedGold mb-4 border-b border-luxuryBorder pb-2">Peer Data</h3>
+                        <div class="overflow-y-auto max-h-[300px] scrollbar-hide pr-2">
+                            <table id="peer-table">
+                                <thead>
+                                    <tr>
+                                        <th>Entity</th>
+                                        <th class="text-right">Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Injection -->
+    <script id="dashboard-data" type="application/json">
+        {{ dashboard_data | safe }}
+    </script>
+
+    <!-- App Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const rawData = document.getElementById('dashboard-data').textContent;
+            const data = JSON.parse(rawData);
+            
+            const metricList = document.getElementById('metric-list');
+            const titleEl = document.getElementById('current-metric-title');
+            
+            // Format numbers compactly for charts and tables
+            function formatNumber(num) {
+                if (num === null || num === undefined || isNaN(num)) return '-';
+                const absNum = Math.abs(num);
+                if (absNum >= 1e9) {
+                    return (num / 1e9).toFixed(2) + 'B';
+                } else if (absNum >= 1e6) {
+                    return (num / 1e6).toFixed(2) + 'M';
+                } else if (absNum >= 1e3) {
+                    return (num / 1e3).toFixed(2) + 'K';
+                } else if (absNum > 0 && absNum < 0.01) {
+                    return num.toExponential(2);
+                }
+                
+                return new Intl.NumberFormat('en-US', {
+                    maximumFractionDigits: 2
+                }).format(num);
+            }
+            
+            // Apply identical formatting for exact numbers as requested by the user
+            function formatExact(num) {
+                return formatNumber(num);
+            }
+
+            // ECharts instances
+            const yoyChart = echarts.init(document.getElementById('yoy-chart'), null, { renderer: 'svg' });
+            const peerChart = echarts.init(document.getElementById('peer-chart'), null, { renderer: 'svg' });
+
+            // Handle Resize
+            window.addEventListener('resize', () => {
+                yoyChart.resize();
+                peerChart.resize();
+            });
+
+            // Initialize List
+            if (data.metrics && data.metrics.length > 0) {
+                const categories = ['Environmental', 'Social', 'Governance'];
+                
+                categories.forEach(cat => {
+                    // Create Accordion Header
+                    const header = document.createElement('button');
+                    header.className = 'sticky top-0 z-20 w-full flex justify-between items-center py-3 px-3 mt-2 mb-1 bg-luxuryPanel border border-luxuryBorder text-champagne font-serif text-lg text-left transition-colors hover:border-gold group';
+                    header.innerHTML = `
+                        <span>${cat}</span>
+                        <svg class="w-4 h-4 transform transition-transform group-hover:text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    `;
+                    
+                    // Create Accordion Content
+                    const content = document.createElement('div');
+                    content.className = 'category-content space-y-1 overflow-hidden transition-all duration-300';
+                    content.style.display = 'block'; // Open by default
+                    
+                    // Toggle Logic
+                    header.addEventListener('click', () => {
+                        const svg = header.querySelector('svg');
+                        if (content.style.display === 'none') {
+                            content.style.display = 'block';
+                            svg.style.transform = 'rotate(0deg)';
+                        } else {
+                            content.style.display = 'none';
+                            svg.style.transform = 'rotate(-90deg)';
+                        }
+                    });
+                    
+                    const groupDiv = document.createElement('div');
+                    groupDiv.className = 'category-group';
+                    groupDiv.appendChild(header);
+                    groupDiv.appendChild(content);
+                    metricList.appendChild(groupDiv);
+                    
+                    // Append Metrics
+                    const catMetrics = data.metrics.filter(m => m.category === cat);
+                    catMetrics.forEach((metric) => {
+                        const globalIndex = data.metrics.indexOf(metric);
+                        const div = document.createElement('div');
+                        div.className = `metric-item py-2 px-3 text-sm text-gray-400 font-sans`;
+                        div.textContent = metric.name;
+                        div.dataset.index = globalIndex;
+                        div.dataset.category = cat;
+                        
+                        div.addEventListener('click', () => selectMetric(globalIndex));
+                        content.appendChild(div);
+                    });
+                });
+                
+                // Select first by default
+                selectMetric(0);
+            } else {
+                titleEl.textContent = "No metrics available";
+            }
+            
+            // Search Functionality
+            const searchInput = document.getElementById('metric-search');
+            if (searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    const term = e.target.value.toLowerCase();
+                    const items = document.querySelectorAll('.metric-item');
+                    let hasVisible = { 'Environmental': false, 'Social': false, 'Governance': false };
+                    
+                    items.forEach(item => {
+                        if (item.textContent.toLowerCase().includes(term)) {
+                            item.style.display = 'block';
+                            hasVisible[item.dataset.category] = true;
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                    
+                    // Hide empty categories when searching
+                    const headers = document.querySelectorAll('#metric-list > button');
+                    headers.forEach(h => {
+                        const cat = h.querySelector('span').textContent;
+                        if (term && !hasVisible[cat]) {
+                            h.style.display = 'none';
+                        } else {
+                            h.style.display = 'flex';
+                            // Auto-expand if searching
+                            if (term) {
+                                const content = h.nextElementSibling;
+                                content.style.display = 'block';
+                                h.querySelector('svg').style.transform = 'rotate(0deg)';
+                            }
+                        }
+                    });
+                });
+            }
+
+            function selectMetric(index) {
+                // Update active class
+                document.querySelectorAll('.metric-item').forEach(el => {
+                    if (parseInt(el.dataset.index) === index) {
+                        el.classList.add('active');
+                    } else {
+                        el.classList.remove('active');
+                    }
+                });
+
+                const metric = data.metrics[index];
+                titleEl.textContent = metric.name;
+                document.getElementById('current-metric-unit').textContent = 'Measured in: ' + (metric.unit || 'Units');
+                
+                renderYoY(metric);
+                renderPeers(metric);
+            }
+
+            function renderYoY(metric) {
+                const current = metric.yoy.current;
+                const previous = metric.yoy.previous;
+                const hasPrev = previous !== null && previous !== undefined;
+
+                const option = {
+                    backgroundColor: 'transparent',
+                    tooltip: { 
+                        trigger: 'axis', 
+                        axisPointer: { type: 'line', lineStyle: { color: '#d4af37', type: 'dashed' } },
+                        backgroundColor: '#111113',
+                        borderColor: '#d4af37',
+                        textStyle: { color: '#f7e7ce', fontFamily: 'DM Sans' },
+                        formatter: function(params) {
+                            return params[0].axisValue + '<br/>' + params[0].marker + ' ' + formatExact(params[0].value);
+                        }
+                    },
+                    grid: { left: '2%', right: '5%', bottom: '5%', top: '15%', containLabel: true },
+                    xAxis: {
+                        type: 'category',
+                        data: hasPrev ? ['Prev Year', 'Curr Year'] : ['Curr Year'],
+                        axisLine: { lineStyle: { color: '#27272a' } },
+                        axisLabel: { color: '#8c7b4c', fontFamily: 'Syne', textTransform: 'uppercase', fontSize: 10, margin: 15 },
+                        axisTick: { show: false }
+                    },
+                    yAxis: {
+                        type: 'value',
+                        splitLine: { lineStyle: { color: '#27272a', type: 'dashed' } },
+                        axisLabel: { color: '#8c7b4c', fontFamily: 'DM Sans', formatter: function(val) { return formatNumber(val); } }
+                    },
+                    series: [
+                        {
+                            name: 'Value',
+                            type: 'bar',
+                            barWidth: 30,
+                            data: [
+                                ...(hasPrev ? [{
+                                    value: previous,
+                                    itemStyle: { color: '#27272a' }
+                                }] : []),
+                                {
+                                    value: current,
+                                    itemStyle: { color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{offset: 0, color: '#d4af37'}, {offset: 1, color: '#8c7b4c'}]) }
+                                }
+                            ],
+                            itemStyle: { borderRadius: [0, 0, 0, 0] },
+                            label: { show: true, position: 'top', color: '#f7e7ce', fontFamily: 'DM Sans', distance: 10, formatter: function(params) { return formatNumber(params.value); } }
+                        }
+                    ],
+                    animationDuration: 1000,
+                    animationEasing: 'cubicOut'
+                };
+                yoyChart.setOption(option, true);
+
+                // Table
+                const tbody = document.querySelector('#yoy-table tbody');
+                tbody.innerHTML = '';
+                
+                if (hasPrev) {
+                    tbody.innerHTML += `<tr><td class="text-gray-400">Previous Year</td><td class="font-medium text-right text-gray-300">${formatExact(previous)}</td></tr>`;
+                }
+                tbody.innerHTML += `<tr><td class="text-champagne">Current Year</td><td class="font-medium text-right text-gold">${formatExact(current)}</td></tr>`;
+                
+                if (hasPrev && previous !== 0) {
+                    const pct = ((current - previous) / previous) * 100;
+                    const color = pct >= 0 ? 'text-green-500' : 'text-red-500';
+                    const sign = pct >= 0 ? '+' : '';
+                    tbody.innerHTML += `<tr><td class="text-gray-500">Variance</td><td class="font-medium text-right ${color}">${sign}${formatExact(pct)}%</td></tr>`;
+                }
+            }
+
+            function renderPeers(metric) {
+                const target = metric.peer_analytics.target;
+                const avg = metric.peer_analytics.industry_average;
+                const peers = metric.peer_analytics.peers || [];
+                
+                const allData = [
+                    {name: 'You', value: target, type: 'target'},
+                    ...peers.map(p => ({name: p.name, value: p.value, type: 'peer'}))
+                ].sort((a, b) => b.value - a.value);
+
+                const option = {
+                    backgroundColor: 'transparent',
+                    tooltip: { 
+                        trigger: 'axis', 
+                        axisPointer: { type: 'shadow' },
+                        backgroundColor: '#111113',
+                        borderColor: '#27272a',
+                        textStyle: { color: '#fafafa', fontFamily: 'DM Sans' },
+                        formatter: function(params) {
+                            return params[0].name + '<br/>' + params[0].marker + ' ' + formatExact(params[0].value);
+                        }
+                    },
+                    grid: { left: '2%', right: '10%', bottom: '5%', top: '15%', containLabel: true },
+                    xAxis: {
+                        type: 'value',
+                        splitLine: { lineStyle: { color: '#27272a', type: 'dashed' } },
+                        axisLabel: { color: '#8c7b4c', fontFamily: 'DM Sans', formatter: function(val) { return formatNumber(val); } }
+                    },
+                    dataZoom: [
+                        {
+                            type: 'inside',
+                            yAxisIndex: 0,
+                            startValue: 0,
+                            endValue: 7,
+                            zoomOnMouseWheel: false,
+                            moveOnMouseWheel: true
+                        },
+                        {
+                            type: 'slider',
+                            yAxisIndex: 0,
+                            width: 8,
+                            right: 0,
+                            startValue: 0,
+                            endValue: 7,
+                            showDataShadow: false,
+                            fillerColor: 'rgba(212, 175, 55, 0.3)',
+                            borderColor: 'transparent',
+                            backgroundColor: 'rgba(39, 39, 42, 0.2)',
+                            handleSize: '100%',
+                            showDetail: false
+                        }
+                    ],
+                    yAxis: {
+                        type: 'category',
+                        inverse: true,
+                        data: allData.map(d => d.name.length > 20 ? d.name.substring(0, 18) + '...' : d.name),
+                        axisLine: { lineStyle: { color: '#27272a' } },
+                        axisLabel: { color: '#8c7b4c', fontFamily: 'Syne', fontSize: 10, margin: 15 },
+                        axisTick: { show: false }
+                    },
+                    series: [
+                        {
+                            name: 'Value',
+                            type: 'bar',
+                            barWidth: 16,
+                            data: allData.map(d => ({
+                                value: d.value,
+                                itemStyle: { 
+                                    color: d.type === 'target' 
+                                        ? new echarts.graphic.LinearGradient(1, 0, 0, 0, [{offset: 0, color: '#d4af37'}, {offset: 1, color: '#8c7b4c'}]) 
+                                        : '#27272a'
+                                }
+                            })),
+                            label: { show: true, position: 'right', color: '#f7e7ce', fontFamily: 'DM Sans', formatter: function(params) { return formatNumber(params.value); } },
+                            markLine: avg !== null && avg !== undefined ? {
+                                data: [{ xAxis: avg, name: 'Avg' }],
+                                lineStyle: { color: '#6b7280', type: 'dotted', width: 2 },
+                                label: { position: 'insideEndTop', color: '#6b7280', fontFamily: 'Syne', formatter: function(params) { return 'AVG: ' + formatNumber(avg); } },
+                                symbol: ['none', 'none']
+                            } : undefined
+                        }
+                    ],
+                    animationDuration: 1200,
+                    animationEasing: 'cubicOut'
+                };
+                peerChart.setOption(option, true);
+
+                // Table
+                const tbody = document.querySelector('#peer-table tbody');
+                tbody.innerHTML = '';
+                
+                tbody.innerHTML += `<tr><td class="text-champagne">Target (You)</td><td class="font-medium text-right text-gold">${formatExact(target)}</td></tr>`;
+                if (avg !== null && avg !== undefined) {
+                    tbody.innerHTML += `<tr><td class="text-gray-400">Industry Average</td><td class="font-medium text-right text-gray-400">${formatExact(avg)}</td></tr>`;
+                }
+                
+                peers.forEach(p => {
+                    tbody.innerHTML += `<tr><td class="text-gray-500">${p.name}</td><td class="font-medium text-right text-gray-500">${formatExact(p.value)}</td></tr>`;
+                });
+            }
+        });
+    </script>
+</body>
+</html>

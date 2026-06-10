@@ -1,0 +1,56 @@
+{
+    "company_overview": "Mahindra & Mahindra Limited (BANKNIFTY1) is a leading multinational automotive and farm equipment manufacturer with a diversified portfolio spanning vehicles, tractors, two and three-wheelers, UTVs, and agricultural solutions. The company has a significant presence in India and internationally, focusing on innovation, quality, and sustainability across its operations.",
+    "environmental": [
+        {
+            "metric_name": "Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member",
+            "company_value": 1.0,
+            "industry_average": 1.0,
+            "peer_values": {
+                "Peer A": 1.0,
+                "Peer B": 1.0
+            },
+            "analysis": "The company's performance in employing differently-abled male permanent workers is on par with the industry average, aligning with the benchmark. However, the status indicates underperformance, which may suggest a need for deeper analysis or context regarding the specific metrics used.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        }
+    ],
+    "social": [
+        {
+            "metric_name": "Turnover Rate - Female Member - Permanent Employees Member",
+            "company_value": 0.12,
+            "industry_average": 0.12,
+            "peer_values": {
+                "Peer A": 0.12,
+                "Peer B": 0.12
+            },
+            "analysis": "The turnover rate for female permanent employees is in line with the industry average, but the status indicates underperformance. This could be due to factors not captured in the metric or a need for further investigation into employee retention strategies.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member",
+            "company_value": 291.0,
+            "industry_average": 291.0,
+            "peer_values": {
+                "Peer A": 291.0,
+                "Peer B": 291.0
+            },
+            "analysis": "The number of employees (including differently-abled) other than permanent male workers is matching the industry benchmark, yet the status shows underperformance. This discrepancy may require clarification on the definition or scope of the metric.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member",
+            "company_value": 0.0,
+            "industry_average": 0.0,
+            "peer_values": {
+                "Peer A": 0.0,
+                "Peer B": 0.0
+            },
+            "analysis": "The company has zero differently-abled female permanent employees, which is consistent with the industry average. However, the underperforming status suggests that there might be unmet opportunities or benchmarks that are not being addressed.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        }
+    ],
+    "governance": []
+}

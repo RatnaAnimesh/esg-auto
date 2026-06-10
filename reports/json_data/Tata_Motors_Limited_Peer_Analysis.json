@@ -1,0 +1,55 @@
+{
+    "Company": "Tata Motors Limited",
+    "Basic_Industry": "Passenger Cars & Utility Vehicles",
+    "Peer_Count": 1,
+    "Predicted_ESG_Score": 66.5,
+    "Predicted_E_Score": 13.8,
+    "Predicted_S_Score": 59.5,
+    "Predicted_G_Score": 28.8,
+    "Analysis": [
+        {
+            "Metric": "Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member",
+            "Linear_Weight": 0.455111,
+            "Target_Company_Value": 1.0,
+            "Industry_Average": 1.0,
+            "Industry_Median": 1.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Tata Motors Limited": 1.0
+            }
+        },
+        {
+            "Metric": "Turnover Rate - Female Member - Permanent Employees Member",
+            "Linear_Weight": 0.388574,
+            "Target_Company_Value": 0.11,
+            "Industry_Average": 0.11,
+            "Industry_Median": 0.11,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Tata Motors Limited": 0.11
+            }
+        },
+        {
+            "Metric": "Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member",
+            "Linear_Weight": 0.272378,
+            "Target_Company_Value": 63.0,
+            "Industry_Average": 63.0,
+            "Industry_Median": 63.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Tata Motors Limited": 63.0
+            }
+        },
+        {
+            "Metric": "Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member",
+            "Linear_Weight": 0.002511,
+            "Target_Company_Value": 0.0,
+            "Industry_Average": 0.0,
+            "Industry_Median": 0.0,
+            "Status": "Underperforming",
+            "Peer_Values": {
+                "Tata Motors Limited": 0.0
+            }
+        }
+    ]
+}

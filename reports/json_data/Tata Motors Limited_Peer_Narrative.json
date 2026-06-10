@@ -1,0 +1,96 @@
+{
+    "company_overview": "Tata Motors Limited (Ticker: TMCV) is a leading automotive manufacturer in the global market, known for its diverse portfolio including passenger vehicles, commercial vehicles, and luxury automobiles. As part of the Tata Group, TMCV has a strong presence in emerging markets and is committed to innovation, sustainability, and responsible business practices. The company operates across various segments, focusing on electric vehicles, mobility solutions, and customer-centric manufacturing processes.",
+    "environmental": [
+        {
+            "metric_name": "Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member",
+            "company_value": 1.0,
+            "industry_average": 1.0,
+            "peer_values": {
+                "Tata Motors Limited": 1.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) reports a 1.0% representation of differently-abled male permanent workers, matching the industry average. However, the peer data indicates that TMCV is underperforming relative to its peers in this specific category, as the peer average is higher than TMCV's value, highlighting a need for improvement in inclusive workforce policies.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Turnover Rate - Female Member - Permanent Employees Member",
+            "company_value": 0.11,
+            "industry_average": 0.11,
+            "peer_values": {
+                "Tata Motors Limited": 0.11
+            },
+            "analysis": "The turnover rate for female permanent employees at Tata Motors Limited (TMCV) is 0.11%, aligning with the industry average. However, despite this alignment, TMCV is identified as underperforming in this metric, suggesting that additional measures may be needed to retain female employees effectively.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member",
+            "company_value": 63.0,
+            "industry_average": 63.0,
+            "peer_values": {
+                "Tata Motors Limited": 63.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) has a total of 63.0 employees or workers including differently-abled individuals in the male category beyond permanent positions. This matches the industry average, but TMCV is still classified as underperforming, indicating that further enhancement in inclusive recruitment and retention strategies is required.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member",
+            "company_value": 0.0,
+            "industry_average": 0.0,
+            "peer_values": {
+                "Tata Motors Limited": 0.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) reports zero differently-abled female permanent employees, which is consistent with the industry average. Despite this consistency, TMCV is underperforming, implying a lack of diversity in disability representation among female permanent staff, necessitating proactive policies to improve inclusivity.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        }
+    ],
+    "social": [
+        {
+            "metric_name": "Percentage Of Differently Abled Employees Or Workers - Male Member - Permanent Workers Member",
+            "company_value": 1.0,
+            "industry_average": 1.0,
+            "peer_values": {
+                "Tata Motors Limited": 1.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) has a 1.0% representation of differently-abled male permanent workers, matching the industry average. However, TMCV is underperforming compared to peers, which suggests that while the company meets basic industry standards, it may not be leading in inclusive workforce development.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Turnover Rate - Female Member - Permanent Employees Member",
+            "company_value": 0.11,
+            "industry_average": 0.11,
+            "peer_values": {
+                "Tata Motors Limited": 0.11
+            },
+            "analysis": "The turnover rate for female permanent employees at Tata Motors Limited (TMCV) is 0.11%, which equals the industry average. Despite this alignment, TMCV is underperforming, indicating potential issues in employee engagement or retention strategies for women in permanent roles.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Employees Or Workers Including Differently Abled - Male Member - Other Than Permanent Employees Member",
+            "company_value": 63.0,
+            "industry_average": 63.0,
+            "peer_values": {
+                "Tata Motors Limited": 63.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) has 63.0 employees or workers including differently-abled individuals in the male category beyond permanent positions. This matches the industry average, but TMCV is underperforming, suggesting that the company needs to focus on creating more inclusive opportunities for differently-abled male workers in non-permanent roles.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        },
+        {
+            "metric_name": "Number Of Differently Abled Employees Or Workers - Female Member - Permanent Employees Member",
+            "company_value": 0.0,
+            "industry_average": 0.0,
+            "peer_values": {
+                "Tata Motors Limited": 0.0
+            },
+            "analysis": "Tata Motors Limited (TMCV) reports zero differently-abled female permanent employees, aligning with the industry average. However, despite this alignment, TMCV is underperforming, highlighting a significant gap in diversity representation and the need for targeted initiatives to include differently-abled women in permanent roles.",
+            "requires_chart": true,
+            "suggested_chart_type": "bar"
+        }
+    ],
+    "governance": []
+}

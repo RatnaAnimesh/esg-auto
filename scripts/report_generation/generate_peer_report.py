@@ -179,11 +179,12 @@ def generate_report(peer_analysis_path, company_name, model="deepseek-r1:8b"):
         drivers_str += f"  Peer Values: {item.get('Peer_Values', {})}\\n"
         drivers_str += f"  Status: {item['Status']}\\n\\n"
         
-    print(f"RAG Retrieval: Querying brsr_consolidated.csv for {company_name} verified ticker...")
+    print(f"RAG Retrieval: Querying live XBRL data for {company_name} verified ticker...")
     nse_symbol = company_name  # Fallback
     try:
-        brsr_df = pd.read_csv("data/processed/consolidated/brsr_consolidated.csv", low_memory=False)
-        company_row = brsr_df[(brsr_df['Name Of The Company'] == company_name) | (brsr_df['CompanyName'] == company_name)]
+        from data_processing.extract_brsr_metrics import load_live_xbrl_dataset
+        merged_df, _, _ = load_live_xbrl_dataset(company_name)
+        company_row = merged_df[merged_df['clean_name'] == company_name.lower().strip()]
         if not company_row.empty:
             extracted_symbol = str(company_row.iloc[0].get('NSESymbol', ''))
             if extracted_symbol and extracted_symbol.lower() != 'nan':
