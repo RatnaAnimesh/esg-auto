@@ -1,0 +1,3100 @@
+Accounting Estimates Domain
+Accounting Profit
+Accrued Expenses Payable
+Accrued Salary Payable
+Accumulated Allowance For Uncollectible Minimum Lease Payments Receivable
+Acquisition And Disposal Of Investments Domain
+Acquisitiondate Fair Value Of Equity Interest In Acquiree Held By Acquirer Immediately Before Acquisition Date
+Acquisitiondate Fair Value Of Total Consideration Transferred
+Acquisitions Through Business Combinations Biological Assets Other Than Bearer Plants At Cost
+Acquisitions Through Business Combinations Biological Assets Other Than Bearer Plants At Fair Value
+Acquisitions Through Business Combinations Deferred Acquisition Costs Arising From Insurance Contracts
+Acquisitions Through Business Combinations Goodwill
+Acquisitions Through Business Combinations Investment Property
+Acquisitions Through Business Combinations Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Acquisitions Through Business Combinations Other Intangible Assets
+Acquisitions Through Business Combinations Other Provisions
+Acquisitions Through Business Combinations Property Plant And Equipment
+Acquisitions Through Business Combinations Reinsurance Assets
+Acquisitions Through Business Combinations Tangible Assets
+Actuarial Assumption Of Discount Rates
+Actuarial Assumption Of Expected Rates Of Inflation
+Actuarial Assumption Of Expected Rates Of Pension Increases
+Actuarial Assumption Of Expected Rates Of Salary Increases
+Actuarial Assumption Of Medical Cost Trend Rates
+Actuarial Gains Losses Arising From Changes In Demographic Assumptions Net Defined Benefit Liability Assets
+Actuarial Gains Losses Arising From Changes In Financial Assumptions Net Defined Benefit Liability Assets
+Addition In Indebtedness
+Additional Information About Entity Exposure To Risk
+Additional Information About Nature And Financial Effect Of Business Combination
+Additional Information On Profit And Loss Account Explanatory
+Additional Provisions Other Provisions
+Additional Recognition Goodwill Business Combinations
+Additions From Acquisitions Investment Property
+Additions From Subsequent Expenditure Recognised As Assets Investment Property
+Additions Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Additions Other Than Through Business Combinations Biological Assets Other Than Bearer Plants At Cost
+Additions Other Than Through Business Combinations Biological Assets Other Than Bearer Plants At Fair Value
+Additions Other Than Through Business Combinations Intangible Assets
+Additions Other Than Through Business Combinations Investment Property
+Additions Other Than Through Business Combinations Other Intangible Assets
+Additions Other Than Through Business Combinations Property Plant And Equipment
+Additions Other Than Through Business Combinations Reinsurance Assets
+Additions Other Than Through Business Combinations Tangible Assets
+Additions To Equity Share Warrants During Period
+Additions To Intangible Assets
+Additions To Noncurrent Assets Reportable Segment
+Additions To Reserves
+Address And Contact Details Of Registrar And Transfer Agent
+Address Of Auditors
+Address Of Registered Office Of Company
+Address Of Secretarial Auditors
+Address Where Consolidated Financial Statements Are Obtainable
+Adjusted Weighted Average Shares
+Adjustments For Amounts Transferred To Initial Carrying Amount Of Hedged Items
+Adjustments For Current Tax Of Prior Period
+Adjustments For Decrease Increase In Inventories
+Adjustments For Decrease Increase In Other Current Assets
+Adjustments For Decrease Increase In Other Noncurrent Assets
+Adjustments For Decrease Increase In Trade Receivables
+Adjustments For Decrease Increase In Trade Receivables Current
+Adjustments For Decrease Increase In Trade Receivables Noncurrent
+Adjustments For Deferred Tax Of Prior Periods
+Adjustments For Depreciation And Amortisation Expense
+Adjustments For Dividend Income
+Adjustments For Fair Value Gains Losses
+Adjustments For Finance Costs
+Adjustments For Impairment Loss Reversal Of Impairment Loss Recognised In Profit Or Loss
+Adjustments For Increase Decrease In Other Current Liabilities
+Adjustments For Increase Decrease In Other Noncurrent Liabilities
+Adjustments For Increase Decrease In Trade Payables
+Adjustments For Increase Decrease In Trade Payables Current
+Adjustments For Increase Decrease In Trade Payables Noncurrent
+Adjustments For Interest Income
+Adjustments For Other Bank Balances
+Adjustments For Other Financial Assets Current
+Adjustments For Other Financial Assets Noncurrent
+Adjustments For Other Financial Liabilities Current
+Adjustments For Other Financial Liabilities Noncurrent
+Adjustments For Provisions
+Adjustments For Provisions Current
+Adjustments For Provisions Noncurrent
+Adjustments For Reconcile Profit Loss
+Adjustments For Sharebased Payments
+Adjustments For Undistributed Profits Of Associates
+Adjustments For Unrealised Foreign Exchange Losses Gains
+Adjustments For Working Capital
+Adjustments To Equity For Restatement
+Adjustments To Profit Loss
+Administrative Expenditure Pertaining To Exploration And Production Activities
+Advance Due By Directors
+Advance Due By Directors Other Officers Or Others
+Advance Due By Firms In Which Any Director Is Partner
+Advance Due By Firms Or Companies In Which Any Director Is Partner Or Director
+Advance Due By Other Officers
+Advance Due By Others
+Advance Due By Private Companies In Which Any Director Is Director
+Advance Due By Private Companies In Which Any Director Is Member
+Advance Received Against Contracts
+Advance Received From Customers
+Advances
+Advances Given During Year Related Party Transactions
+Advances Received For Contracts In Progress
+Advances Received Noncurrent Liabilities
+Advertising Promotional Expenses
+After Sales Service Expenses
+Aggregate Amount Of Increase In Equity Share Capital During Period
+Aggregate Amount Of Increase In Share Capital During Period
+Aggregate Amount Of Loans Guaranteed By Directors
+Aggregate Amount Of Loans Guaranteed By Others
+Aggregate Amount Of Quoted Current Investments
+Aggregate Amount Of Quoted Noncurrent Investments
+Aggregate Amount Of Trade Receivables Outstanding For Period Exceeding Six Months
+Aggregate Amount Of Unquoted Current Investments
+Aggregate Amount Of Unquoted Noncurrent Investments
+Aggregate Amount Set Aside To Provisions Made For Meeting Specific Liabilities Contingencies Or Commitments
+Aggregate Amount Withdrawn From Such Provisions Made For Meeting Specific Liabilities Contingencies Or Commitments No Longer Required
+Aggregate Number Of Fully Paid Up Shares Issued By Way Of Bonus Shares During Last Five Years
+Aggregate Number Of Fully Paid Up Shares Issued Pursuant To Contracts Without Payment Being Received In Cash During Last Five Years
+Aggregate Number Of Shares Bought Back During Last Five Years
+Aggregate Number Of Shares Issued During Period
+Aggregate Provision For Diminution In Value Of Current Investments
+Aggregate Provision For Diminution In Value Of Noncurrent Investments
+Aggregated Income Tax Relating To Components Of Other Comprehensive Income
+Allowance For Bad And Doubtful Debts
+Allowance For Bad And Doubtful Loans
+Allowance For Bad And Doubtful Loans And Advances
+Amortisation Deferred Acquisition Costs Arising From Insurance Contracts
+Amortisation Expense
+Amortisation Method Other Intangible Assets
+Amortisation Of Gains And Losses Arising On Buying Reinsurance
+Amortisation Other Intangible Assets
+Amortization Intangible Assets
+Amount By Which Regulatory Deferral Account Credit Balance Has Been Reduced Because It Is No Longer Fully Reversible
+Amount By Which Regulatory Deferral Account Debit Balance Has Been Reduced Because It Is No Longer Fully Recoverable
+Amount CSR Spent For Financial Year
+Amount CSR To Be Spent For Financial Year
+Amount Credited To Profit And Loss As Transfer From Revaluation Reserve On Account Of Additional Depreciation Charged On Revalued Tangible Assets
+Amount Due For Transfer To Investor Education And Protection Fund
+Amount Each Member Undertakes To Contribute As Per Memorandum Of Association In Case Of Companies Limited By Guarantee Having Share Capital
+Amount Each Member Undertakes To Contribute As Per Memorandum Of Association In Case Of Companies Limited By Guarantee Not Having Share Capital
+Amount Incurred By Entity For Provision Of Key Management Personnel Services Provided By Separate Management Entity
+Amount Of Bonds Or Debentures Issued During Period
+Amount Of Bonus Issue During Period
+Amount Of Contributions Made To National Defence Fund
+Amount Of Contributions Made To Political Party Or For Political Purpose
+Amount Of Default In Repayment Of Deposits Or Payment Of Interest Thereon Beginning Of Year
+Amount Of Default In Repayment Of Deposits Or Payment Of Interest Thereon End Of Year
+Amount Of Dividend Remitted In Foreign Currency
+Amount Of Dividends Proposed To Be Distributed To Equity Shareholders
+Amount Of Dividends Proposed To Be Distributed To Preference Shareholders
+Amount Of Employee Stock Option Plan Issued During Period
+Amount Of Further Interest Due And Payable Even In Succeeding Year
+Amount Of Interest Accrued And Remaining Unpaid At End Of Accounting Year
+Amount Of Interest Due And Payable For Period
+Amount Of Interest Paid Under MSMED Act 2006
+Amount Of Investment In Associate
+Amount Of Investment In Joint Venture
+Amount Of Issue Allotted For Contracts Without Payment Received In Cash During Period
+Amount Of Issue Under Scheme Of Amalgamation During Period
+Amount Of Net Assets Of Entity Consolidated
+Amount Of Other Issue Arising Out Of Conversion Of Securities During Period
+Amount Of Other Issues During Period
+Amount Of Other Preferential Allotment Issue During Period
+Amount Of Other Private Placement Issue During Period
+Amount Of Payments Made To Supplier Beyond Due Date During Year
+Amount Of Per Share Dividend Proposed To Be Distributed To Equity Shareholders
+Amount Of Per Share Dividend Proposed To Be Distributed To Preference Shareholders
+Amount Of Preferential Allotment Issue Arising Out Of Conversion Of Debentures Preference Shares During Period
+Amount Of Private Placement Issue Arising Out Of Conversion Of Debentures Preference Shares During Period
+Amount Of Provisions To Be Made On Account Of Income Reversal And Non Performing Assets Remaining Unrealised
+Amount Of Public Issue During Period
+Amount Of Reclassifications Or Changes In Presentation
+Amount Of Reduction In Capital During Year
+Amount Of Rights Issue During Period
+Amount Of Share Application Money Received Back During Year
+Amount Of Share Application Money Repaid Returned Back During Year
+Amount Of Share Based Payment Transactions During Period
+Amount Of Share In Other Comprehensive Income Consolidated
+Amount Of Share In Profit Or Loss Of Entity Consolidated
+Amount Of Share In Total Comprehensive Income Consolidated
+Amount Of Shares Issued Under Employee Stock Option Plan
+Amount Of Shares Reserved For Issue Under Options And Contracts Or Commitments For Sale Of Shares Or Disinvestment
+Amount Of Sweat Equity Shares Issued
+Amount Of Unutilised Amounts Invested
+Amount Paid As Advances If Any For Contracts Arrangements Transactions With Related Party
+Amount Paid As Advances If Any For Material Contracts Arrangements Transactions With Related Party
+Amount Per Share Called In Case Shares Not Fully Called
+Amount Provided In Current Year
+Amount Raised From Public Offering During Year
+Amount Recognised As Income From Arrangement Involving Legal Form Of Lease
+Amount Remaining Unutilised Received In Respect Of Public Offering
+Amount Spent In Local Area
+Amount Spent On Construction Or Acquisition Of Any Asset
+Amount Spent On Construction Or Acquisition Of Any Asset In Cash
+Amount Spent On Construction Or Acquisition Of Any Asset Yet To Be Paid In Cash
+Amount Spent On Projects Or Programs
+Amount Spent On Purposes Other Than Construction Or Acquisition Of Any Asset
+Amount Spent On Purposes Other Than Construction Or Acquisition Of Any Asset In Cash
+Amount Spent On Purposes Other Than Construction Or Acquisition Of Any Asset Yet To Be Paid In Cash
+Amount Unspent CSR
+Amount Utilised Towards Specified Purposes For Public Offering
+Amount Written Back During Period In Respect Of Debts Due To Related Parties
+Amount Written Off During Period In Respect Of Debts Due From Related Parties
+Amounts Incurred Deferred Acquisition Costs Arising From Insurance Contracts
+Amounts Payable Related Party Transactions
+Amounts Receivable Related Party Transactions
+Amounts Removed From Equity And Adjusted Against Fair Value Of Financial Assets On Reclassification Out Of Fair Value Through Other Comprehensive Income Measurement Category Before Tax
+Amounts Removed From Equity And Adjusted Against Fair Value Of Financial Assets On Reclassification Out Of Fair Value Through Other Comprehensive Income Measurement Category Net Of Tax
+Amounts Removed From Equity And Included In Carrying Amount Of Nonfinancial Assets Liability Whose Acquisition Or Incurrence Was Hedged Highly Probable Forecast Transaction Before Tax
+Applicable Tax Rate
+Application Money Received For Allotment Of Securities And Due For Refund And Interest Accrued Thereon
+Application Money Received For Allotment Of Securities And Due For Refund Interest Accrued
+Application Money Received For Allotment Of Securities And Due For Refund Principal
+Appropriation Towards Bonus Shares
+Appropriations For Dividend Dividend Tax And General Reserve
+Appropriations For Dividend Dividend Tax And Retained Earnings
+Arrangements Involving Legal Form Of Lease Domain
+Arrears Of Fixed Cumulative Dividends On Preference Shares
+Assets
+Assets And Regulatory Deferral Account Debit Balances
+Assets Arising From Exploration For And Evaluation Of Mineral Resources
+Assets Arising From Insurance Contracts
+Assets Fair Value
+Assets Other Than Cash Or Cash Equivalents In Subsidiary Or Businesses Acquired Or Disposed 2013
+Assets Recognised For Expected Reimbursement Other Provisions
+Assets Reportable Segment
+Assets Under Insurance Contracts And Reinsurance Contracts Issued
+Assets Under Reinsurance Ceded
+Associates Liquidated Or Sold During Year Domain
+Associates Which Are Yet To Commence Operations Domain
+Auditors Domain
+Auditors Qualifications Reservations Adverse Remarks In Auditors Report
+Auditors Qualifications Reservations Adverse Remarks In Auditors Report Domain
+Auditors Qualifications Reservations Or Adverse Remarks In Auditors Report
+Average Effective Tax Rate
+Average Net Profit For Last Three Financial Years
+Average Percentile Increase In Salaries Of Employees Other Than Managerial Personnels In Last Financial Year And Its Comparison With Percentile Increase In Managerial Remuneration
+Bad Debts Advances Written Off
+Bad Debts Of Related Parties
+Bad Debts Of Related Parties As Per AS18
+Bad Debts Written Off
+Balance Amount To Be Provided
+Balance With Banks
+Balances Held With Banks To Extent Held Against Other Commitments
+Balances Held With Banks To Extent Held As Guarantees
+Balances Held With Banks To Extent Held As Margin Money
+Balances Held With Banks To Extent Held As Margin Money Or Security Against Borrowings Guarantees Or Other Commitments
+Balances Held With Banks To Extent Held As Security Against Borrowings
+Bank Balance Other Than Cash And Cash Equivalents
+Bank Charges
+Bank Deposits With More Than 12 Months Maturity
+Bank Deposits With More Than Twelve Months Maturity
+Bank Overdrafts Classified As Cash Equivalents
+Basic And Diluted Earnings Loss Per Share From Continuing Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basic And Diluted Earnings Loss Per Share From Discontinued Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basic And Diluted Earnings Loss Per Share Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basic Earning Per Equity Share
+Basic Earnings Loss Per Share
+Basic Earnings Loss Per Share From Continuing Operations
+Basic Earnings Loss Per Share From Continuing Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basic Earnings Loss Per Share From Discontinued Operations
+Basic Earnings Loss Per Share From Discontinued Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basic Earnings Loss Per Share Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Basis For Attributing Revenues From External Customers To Individual Countries
+Basis Of Valuation Of Current Investments
+Benefits Derived Regarding Technology Absorption
+Best Estimate At Acquisition Date Of Contractual Cash Flows Not Expected To Be Collected For Acquired Receivables
+Bills Payable Acceptances
+Biological Assets
+Biological Assets Other Than Bearer Plants
+Biological Assets Other Than Bearer Plants At Cost
+Biological Assets Other Than Bearer Plants At Fair Value
+Biological Assets Pledged As Security For Liabilities
+Biological Assets Whose Title Is Restricted
+Book Value Of Bonds Or Debentures Held By Nominee Or Trustee Of Company
+Books Periodicals
+Borrowing Costs Capitalised
+Borrowing Costs Incurred
+Borrowing Costs Recognised As Expense
+Borrowings
+Borrowings Current
+Borrowings Noncurrent
+Borrowings Recognised As Of Acquisition Date
+Budget Amount Outlay Project Or Program Wise
+Business Combinations Domain
+CIN Of Associate Entity
+CIN Of Associate Liquidated Or Sold During Year
+CIN Of Associate Which Is Yet To Commence Operations
+CIN Of Joint Venture
+CIN Of Joint Venture Liquidated Or Sold During Year
+CIN Of Joint Venture Which Is Yet To Commence Operations
+CIN Of Joint Venturer Whose Reporting Date Is Different
+CIN Of Related Party
+CIN Of Shareholder
+CIN Of Subsidiary Company
+CIN Of Subsidiary Company Liquidated Or Sold During Year
+CIN Of Subsidiary Company Which Is Yet To Commence Operations
+CSR Expenditure
+CSR Expenditure Provision
+CSR Project Or Activity Identified
+Calls Unpaid
+Calls Unpaid By Directors
+Calls Unpaid By Directors And Officers
+Calls Unpaid By Officers
+Calls Unpaid By Others
+Capital Expenditure In Foreign Currency
+Capital Investment On Energy Conservation Equipments
+Capital Requirements Domain
+Capital Subsidies Or Grants Received From Government Authorities
+Capital Work In Progress
+Capitalisation Rate Of Borrowing Costs Eligible For Capitalisation
+Cash Advances And Loans Made To Other Parties Classified As Investing Activities
+Cash And Bank Balances
+Cash And Cash Equivalents
+Cash And Cash Equivalents Amount Contributed To Fair Value Of Plan Assets
+Cash And Cash Equivalents Cash Flow Statement
+Cash And Cash Equivalents Classified As Part Of Disposal Group Held For Sale
+Cash And Cash Equivalents Held By Entity Unavailable For Use By Group
+Cash And Cash Equivalents Of Joint Venture
+Cash And Cash Equivalents Recognised As Of Acquisition Date
+Cash Flows From Losing Control Of Subsidiaries Or Other Businesses Classified As Investing Activities
+Cash Flows From Used In Exploration For And Evaluation Of Mineral Resources Classified As Investing Activities
+Cash Flows From Used In Exploration For And Evaluation Of Mineral Resources Classified As Operating Activities
+Cash Flows From Used In Financing Activities
+Cash Flows From Used In Financing Activities Before Extraordinary Items
+Cash Flows From Used In Financing Activities Continuing Operations
+Cash Flows From Used In Financing Activities Discontinued Operations
+Cash Flows From Used In Financing Activities Reportable Segment
+Cash Flows From Used In Insurance Contracts
+Cash Flows From Used In Investing Activities
+Cash Flows From Used In Investing Activities Before Extraordinary Items
+Cash Flows From Used In Investing Activities Continuing Operations
+Cash Flows From Used In Investing Activities Discontinued Operations
+Cash Flows From Used In Investing Activities Reportable Segment
+Cash Flows From Used In Operating Activities
+Cash Flows From Used In Operating Activities Before Extraordinary Items
+Cash Flows From Used In Operating Activities Continuing Operations
+Cash Flows From Used In Operating Activities Discontinued Operations
+Cash Flows From Used In Operating Activities Reportable Segment
+Cash Flows From Used In Operations
+Cash Flows Used In Obtaining Control Of Subsidiaries Or Other Businesses Classified As Investing Activities
+Cash On Hand
+Cash Paid Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Cash Payment For Investment In Partnership Firm Or Association Of Persons Or Limited Liability Partnerships
+Cash Payments For Future Contracts Forward Contracts Option Contracts And Swap Contracts Classified As Investing Activities
+Cash Receipts From Future Contracts Forward Contracts Option Contracts And Swap Contracts Classified As Investing Activities
+Cash Receipts From Repayment Of Advances And Loans Made To Other Parties Classified As Investing Activities
+Cash Receipts From Share Of Profits Of Partnership Firm Or Association Of Persons Or Limited Liability Partnerships
+Cash Transferred
+Category Of Auditor
+Category Of Secretarial Auditor
+Category Or Subcategory Of Company
+Catering Canteen Expenses
+Ceiling As Per Act Key Managerial Personnel Or Director Remuneration
+Certificate Of Practice Number Of Secretarial Auditor
+Cess Pertaining To Exploration And Production Activities
+Change In Amount Recognised For Preacquisition Deferred Tax Assets
+Changes In Biological Assets Other Than Bearer Plants At Cost
+Changes In Biological Assets Other Than Bearer Plants At Fair Value
+Changes In Comprehensive Income Components
+Changes In Equity
+Changes In Equity Share Warrants During Period
+Changes In Exposure To Risk
+Changes In Goodwill
+Changes In Goodwill Business Combinations
+Changes In Indebtedness
+Changes In Intangible Assets
+Changes In Inventories Of Finished Goods
+Changes In Inventories Of Finished Goods Work In Progress And Stock In Trade
+Changes In Inventories Of Stock In Trade
+Changes In Inventories Of Work In Progress
+Changes In Investment Property
+Changes In Methods Used To Measure Risk
+Changes In Objectives Policies And Processes For Managing Risk
+Changes In Other Intangible Assets
+Changes In Other Inventories
+Changes In Other Provisions
+Changes In Property Plant And Equipment
+Changes In Reserves
+Changes In Tangible Assets
+Changes Of Number Of Other Equity Instruments Outstanding In Sharebased Payment Arrangement
+Changes Of Number Of Share Options Outstanding In Share Based Payment Arrangement
+Changes Of Weighted Average Exercise Price Of Other Equity Instruments Outstanding In Sharebased Payment Arrangement
+Changes Of Weighted Average Exercise Price Of Share Options Outstanding In Sharebased Payment Arrangement
+Cheques Drafts On Hand
+Circumstances Leading To Reversals Of Inventory Writedown
+Claims Against Company Not Acknowledged As Debt
+Claims Incurred But Not Reported
+Claims Reported By Policyholders
+Class Of Current Investments
+Class Of Noncurrent Investments
+Classes Of Regulatory Deferral Account Balances Domain
+Classification Of CSR Spending Domain
+Classification Of Current Investments Domain
+Classification Of Noncurrent Investments Domain
+Commission As Percentage Of Profit Key Managerial Personnel Or Director
+Commission Employees
+Commission Paid Other Selling Agents
+Commission Paid Sole Buying Agents
+Commission Paid Sole Selling Agents
+Commission To Directors
+Commission To Directors Other Than Whole Time Director Or Managing Director Or Manager
+Commission To Manager
+Commitments
+Commitments For Development Or Acquisition Of Biological Assets
+Commitments In Relation To Joint Ventures
+Commitments Made By Entity Related Party Transactions
+Commitments Made On Behalf Of Entity Related Party Transactions
+Company Secretary Qualification Or Observation Or Other Remarks In Secretarial Audit Report
+Company Secretary Qualification Or Observation Or Other Remarks In Secretarial Audit Report Domain
+Compensation From Third Parties For Items Of Property Plant And Equipment
+Complete Postal Address Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Comprehensive Income
+Comprehensive Income As Per Ind As
+Comprehensive Income As Per Indian Gaap
+Comprehensive Income Attributable To Noncontrolling Interests
+Comprehensive Income Attributable To Owners Of Parent
+Comprehensive Income Equity
+Comprehensive Income Of Associate
+Comprehensive Income Of Joint Venture
+Comprehensive Income Of Subsidiary
+Concentrations Of Risk
+Consolidated Structured Entities Domain
+Consumption Of Stores And Spare Parts
+Content Of Report
+Contingent Consideration Arrangements And Indemnification Assets Recognised As Of Acquisition Date
+Contingent Liabilities
+Contingent Liabilities And Commitments
+Contingent Liabilities Incurred By Venturer In Relation To Interests In Joint Ventures
+Contingent Liabilities Incurred In Relation To Interests In Associates
+Contingent Liabilities Recognised As Of Acquisition Date
+Contingent Rents Recognised As Expense
+Contingent Rents Recognised As Expense Classified As Finance Lease
+Contingent Rents Recognised As Expense Classified As Operating Lease
+Contingent Rents Recognised As Income
+Contingent Rents Recognised As Income Classified As Finance Lease
+Contingent Rents Recognised As Income Classified As Operating Lease
+Contract Cost
+Contracts Arrangements Transactions Not At Arms Length Basis Domain
+Contractual Commitments For Acquisition Of Intangible Assets
+Contractual Commitments For Acquisition Of Property Plant And Equipment
+Contribution To Provident And Other Funds
+Contribution To Provident And Other Funds For Contract Labour
+Contribution To Provident And Other Funds For Others
+Contribution To Provident Fund Scheme
+Contributions To Plan By Employer Net Defined Benefit Liability Assets
+Contributions To Plan By Plan Participants Net Defined Benefit Liability Assets
+Contributions To Plan Net Defined Benefit Liability Assets
+Corporate Identity Number
+Correction Of Prior Period Errors
+Cost Design Technical Assistance Contracts
+Cost Dry Wells
+Cost Effluent Disposal
+Cost Freight
+Cost Incurred By Holding Company For Issuing Options Or Shares Under Employee Stock Option Or Stock Purchase Scheme
+Cost Lease Rentals
+Cost Loading And Unloading
+Cost Octroi
+Cost Of Inventories Recognised As Expense During Period
+Cost Of Materials Consumed
+Cost Of Restructuring Of Enterprise
+Cost Other Transporting
+Cost Reimbursed By Subsidiary Company For Issuing Options Or Shares Under Employee Stock Option Or Stock Purchase Scheme
+Cost Repairs Maintenance Other Assets
+Cost Royalty
+Cost Taxes Other Levies By Government Local Authorities
+Cost Technical Services
+Cost Transportation
+Cost Transportation Assets Contracts
+Cost Warehousing
+Cost Water Charges
+Costs Incurred And Recognised Profits Less Recognised Losses
+Country Of Domicile Or Foreign Country
+Country Of Incorporation Of Entity Whose Consolidated Financial Statements Have Been Produced For Public Use
+Country Of Incorporation Of Joint Operation
+Country Of Incorporation Of Joint Venture
+Country Of Incorporation Or Residence Of Associate
+Country Of Incorporation Or Residence Of Associate Liquidated Or Sold During Year
+Country Of Incorporation Or Residence Of Associate Which Is Yet To Commence Operations
+Country Of Incorporation Or Residence Of Joint Venture Liquidated Or Sold During Year
+Country Of Incorporation Or Residence Of Joint Venture Which Is Yet To Commence Operations
+Country Of Incorporation Or Residence Of Related Party
+Country Of Incorporation Or Residence Of Shareholder
+Country Of Incorporation Or Residence Of Subsidiary
+Country Of Incorporation Or Residence Of Subsidiary Consolidated
+Country Of Incorporation Or Residence Of Subsidiary Liquidated Or Sold During Year
+Country Of Incorporation Or Residence Of Subsidiary Which Is Yet To Commence Operations
+Cumulative Amount Provided Till Previous Year
+Cumulative Expenditure Upto Reporting Period
+Cumulative Unrecognised Share Of Losses Of Associates
+Cumulative Unrecognised Share Of Losses Of Joint Ventures
+Current Advances
+Current And Deferred Tax Relating To Items Charged Or Credited Directly To Equity
+Current Assets
+Current Assets Of Associate
+Current Assets Of Joint Venture
+Current Assets Of Subsidiary
+Current Assets Recognised As Of Acquisition Date
+Current Financial Assets
+Current Financial Liabilities
+Current Investments
+Current Liabilities
+Current Liabilities Of Associate
+Current Liabilities Of Joint Venture
+Current Liabilities Of Subsidiary
+Current Liabilities Portion Of Share Application Money Pending Allotment
+Current Liabilities Recognised As Of Acquisition Date
+Current Maturities Of Finance Lease Obligations
+Current Maturities Of Long Term Debt
+Current Service Cost Net Defined Benefit Liability Assets
+Current Tax
+Current Tax Assets
+Current Tax Expense Income
+Current Tax Expense Income And Adjustments For Current Tax Of Prior Periods
+Current Tax Liabilities
+Current Tax Pertaining To Current Year
+Current Tax Pertaining To Previous Years
+Current Tax Relating To Items Charged Or Credited Directly To Equity
+Custodial Fees
+Customer Deposits Refundable Current
+Customerrelated Intangible Assets Recognised As Of Acquisition Date
+Date From Which Register Of Members Remained Closed
+Date Of Acquisition 2013
+Date Of Approval For Issue Of Financial Statements
+Date Of Birth Of Key Managerial Personnel Or Director
+Date Of Board Meeting When Final Accounts Were Approved
+Date Of Board Of Directors Meeting In Which Board Report Referred To Under Section 134 Was Approved
+Date Of End Of Reporting Period
+Date Of End Of Reporting Period Of Financial Statements Of Subsidiary Consolidated
+Date Of Grant Of Sharebased Payment Arrangement
+Date Of Listing On Exchange
+Date Of Signing Audit Report By Auditors
+Date Of Signing Board Report
+Date Of Signing Of Balance Sheet By Auditors
+Date Of Signing Of Financial Statements By Chief Financial Officer
+Date Of Signing Of Financial Statements By Company Secretary
+Date Of Signing Of Financial Statements By Director
+Date Of Signing Secretarial Audit Report
+Date Of Start Of Reporting Period
+Date Till Which Register Of Members Remained Closed
+Dates Of Approval Of Contracts Arrangements Transactions With Related Party By Board
+Dates Of Approval Of Material Contracts Arrangements Transactions With Related Party By Board
+Dates On Which Special Resolution Passed In General Meeting For Contracts Arrangements Transactions With Related Party Required By Section 188 Of Companies Act 2013
+Debentures Claimed But Not Paid
+Decrease Due To Harvest Biological Assets Other Than Bearer Plants At Cost
+Decrease Due To Harvest Biological Assets Other Than Bearer Plants At Fair Value
+Decrease In Amount Of Shares Bought Back
+Decrease In Amount Of Treasury Shares Or Shares Bought Back
+Decrease In Equity Share Capital During Period
+Decrease In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Assets
+Decrease In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Liabilities
+Decrease In Number Of Shares During Period
+Decrease In Share Capital During Period
+Decrease Through Balances Recovered In Current Period Regulatory Deferral Account Debit Balances
+Decrease Through Balances Reversed In Current Period Regulatory Deferral Account Credit Balances
+Decrease Through Classified As Held For Sale Biological Assets Other Than Bearer Plants At Cost
+Decrease Through Classified As Held For Sale Biological Assets Other Than Bearer Plants At Fair Value
+Decrease Through Classified As Held For Sale Goodwill
+Decrease Through Classified As Held For Sale Goodwill Business Combinations
+Decrease Through Classified As Held For Sale Investment Property
+Decrease Through Classified As Held For Sale Other Intangible Assets
+Decrease Through Classified As Held For Sale Property Plant And Equipment
+Decrease Through Derecognition Financial Assets
+Decrease Through Disposals Regulatory Deferral Account Credit Balances
+Decrease Through Disposals Regulatory Deferral Account Debit Balances
+Decrease Through Impairments Regulatory Deferral Account Debit Balances
+Decrease Through Loss Of Control Of Subsidiary Goodwill
+Decrease Through Loss Of Control Of Subsidiary Other Intangible Assets
+Decrease Through Loss Of Control Of Subsidiary Other Provisions
+Decrease Through Loss Of Control Of Subsidiary Property Plant And Equipment
+Decrease Through Transfer To Liabilities Included In Disposal Groups Classified As Held For Sale Other Provisions
+Decrease Through Writeoff Financial Assets
+Deductible Temporary Differences For Which No Deferred Tax Assets Is Recognised
+Deductions In Equity Share Warrants During Period
+Deductions To Reserves
+Deferred Acquisition Costs Arising From Insurance Contracts
+Deferred Government Grants Current
+Deferred Government Grants Noncurrent
+Deferred Income Recognised As Of Acquisition Date
+Deferred Tax
+Deferred Tax Asset Employee Benefits
+Deferred Tax Asset Provision Doubtful Debts
+Deferred Tax Assets
+Deferred Tax Assets Associated With Regulatory Deferral Account Balances
+Deferred Tax Assets Net
+Deferred Tax Assets Recognised As Of Acquisition Date
+Deferred Tax Assets When Utilisation Is Dependent On Future Taxable Profits In Excess Of Profits From Reversal Of Taxable Temporary Differences And Entity Has Suffered Loss In Jurisdiction To Which Deferred Tax Assets Relates
+Deferred Tax Expense Arising From Writedown Or Reversal Of Writedown Of Deferred Tax Assets
+Deferred Tax Expense Income
+Deferred Tax Expense Income Recognised In Profit Or Loss
+Deferred Tax Expense Income Relating To Origination And Reversal Of Temporary Differences
+Deferred Tax Expense Income Relating To Tax Rate Changes Or Imposition Of New Taxes
+Deferred Tax Liabilities
+Deferred Tax Liabilities Net
+Deferred Tax Liabilities Recognised As Of Acquisition Date
+Deferred Tax Liability Assets
+Deferred Tax Liability Associated With Regulatory Deferral Account Balances
+Deferred Tax Liability Investments
+Deferred Tax Relating To Items Charged Or Credited Directly To Equity
+Defined Benefit Obligation At Present Value
+Defined Benefit Plans Categories Domain
+Depletion Expense
+Deposit Repayment Reserve Account With Banks
+Deposits Accepted During Year
+Deposits Accepted Or Renewed During Period
+Deposits Matured And Claimed But Not Paid
+Deposits Matured And Claimed But Not Paid During Period
+Deposits Matured But Not Claimed
+Deposits Refundable Current
+Deposits Remained Unpaid Or Unclaimed At End Of Year
+Depreciation And Amortisation Expense Of Joint Venture
+Depreciation And Amortisation Expense Reportable Segment
+Depreciation Assets Contracts
+Depreciation Biological Assets Other Than Bearer Plants At Cost
+Depreciation Depletion And Amortisation Expense
+Depreciation Expense
+Depreciation Investment Property
+Depreciation Method Biological Assets Other Than Bearer Plants At Cost
+Depreciation Method Investment Property Cost Model
+Depreciation Method Property Plant And Equipment
+Depreciation Method Tangible Assets
+Depreciation Property Plant And Equipment
+Depreciation Recognised As Part Of Cost Of Other Assets
+Depreciation Recognised In Profit Or Loss
+Depreciation Tangible Assets
+Derivative Assets
+Derivative Financial Instruments
+Derivative Liabilities
+Derivative Liabilities Noncurrent
+Description How There Is Significant Influence In Associate
+Description Of Accounting Policy Decision To Use Exception In INDAS11348 Assets
+Description Of Accounting Policy Decision To Use Exception In INDAS11348 Liabilities
+Description Of Accounting Policy For Biological Assets Other Than Bearer Plants Explanatory
+Description Of Accounting Policy For Borrowing Costs Explanatory
+Description Of Accounting Policy For Borrowings Explanatory
+Description Of Accounting Policy For Business Combinations And Goodwill Explanatory
+Description Of Accounting Policy For Business Combinations Explanatory
+Description Of Accounting Policy For Cash Flows Explanatory
+Description Of Accounting Policy For Collateral Explanatory
+Description Of Accounting Policy For Construction In Progress Explanatory
+Description Of Accounting Policy For Contingent Liabilities And Contingent Assets Explanatory
+Description Of Accounting Policy For Customer Acquisition Costs Explanatory
+Description Of Accounting Policy For Customer Loyalty Programmes Explanatory
+Description Of Accounting Policy For Decommissioning Restoration And Rehabilitation Provisions Explanatory
+Description Of Accounting Policy For Deferred Acquisition Costs Arising From Insurance Contracts Explanatory
+Description Of Accounting Policy For Deferred Income Tax Explanatory
+Description Of Accounting Policy For Depreciation Expense Explanatory
+Description Of Accounting Policy For Derecognition Of Financial Instruments Explanatory
+Description Of Accounting Policy For Derivative Financial Instruments And Hedging Explanatory
+Description Of Accounting Policy For Derivative Financial Instruments Explanatory
+Description Of Accounting Policy For Discontinued Operations Explanatory
+Description Of Accounting Policy For Dividends Explanatory
+Description Of Accounting Policy For Earnings Per Share Explanatory
+Description Of Accounting Policy For Emission Rights Explanatory
+Description Of Accounting Policy For Employee Benefits Explanatory
+Description Of Accounting Policy For Environment Related Expense Explanatory
+Description Of Accounting Policy For Exemption Availed On First Time Adoption
+Description Of Accounting Policy For Expenses Explanatory
+Description Of Accounting Policy For Exploration And Evaluation Expenditures Explanatory
+Description Of Accounting Policy For Fair Value Measurement Explanatory
+Description Of Accounting Policy For Fee And Commission Income And Expense Explanatory
+Description Of Accounting Policy For Finance Costs Explanatory
+Description Of Accounting Policy For Finance Income And Costs Explanatory
+Description Of Accounting Policy For Financial Assets Explanatory
+Description Of Accounting Policy For Financial Guarantees Explanatory
+Description Of Accounting Policy For Financial Instruments At Fair Value Through Profit Or Loss Explanatory
+Description Of Accounting Policy For Financial Instruments Explanatory
+Description Of Accounting Policy For Financial Liabilities Explanatory
+Description Of Accounting Policy For Foreign Currency Translation Explanatory
+Description Of Accounting Policy For Functional Currency Explanatory
+Description Of Accounting Policy For Goodwill Explanatory
+Description Of Accounting Policy For Government Grants Explanatory
+Description Of Accounting Policy For Hedging Explanatory
+Description Of Accounting Policy For Impairment Of Assets Explanatory
+Description Of Accounting Policy For Impairment Of Financial Assets Explanatory
+Description Of Accounting Policy For Impairment Of Nonfinancial Assets Explanatory
+Description Of Accounting Policy For Income Tax Explanatory
+Description Of Accounting Policy For Insurance Contracts Explanatory
+Description Of Accounting Policy For Intangible Assets And Goodwill Explanatory
+Description Of Accounting Policy For Intangible Assets Other Than Goodwill Explanatory
+Description Of Accounting Policy For Interest Income And Expense Explanatory
+Description Of Accounting Policy For Investment In Associates And Joint Ventures Explanatory
+Description Of Accounting Policy For Investment In Associates Explanatory
+Description Of Accounting Policy For Investment Property Explanatory
+Description Of Accounting Policy For Investments In Joint Ventures Explanatory
+Description Of Accounting Policy For Investments Other Than Investments Accounted For Using Equity Method Explanatory
+Description Of Accounting Policy For Issued Capital Explanatory
+Description Of Accounting Policy For Leases Explanatory
+Description Of Accounting Policy For Loans And Receivables Explanatory
+Description Of Accounting Policy For Measuring Inventories Explanatory
+Description Of Accounting Policy For Mining Assets Explanatory
+Description Of Accounting Policy For Mining Rights Explanatory
+Description Of Accounting Policy For Noncurrent Assets Or Disposal Groups Classified As Held For Sale And Discontinued Operations Explanatory
+Description Of Accounting Policy For Noncurrent Assets Or Disposal Groups Classified As Held For Sale Explanatory
+Description Of Accounting Policy For Offsetting Of Financial Instruments Explanatory
+Description Of Accounting Policy For Oil And Gas Assets Explanatory
+Description Of Accounting Policy For Programming Assets Explanatory
+Description Of Accounting Policy For Property Plant And Equipment Explanatory
+Description Of Accounting Policy For Provisions Explanatory
+Description Of Accounting Policy For Reclassification Of Financial Instruments Explanatory
+Description Of Accounting Policy For Recognising Difference Between Fair Value At Initial Recognition And Amount Determined Using Valuation Technique Explanatory
+Description Of Accounting Policy For Recognition Of Revenue Explanatory
+Description Of Accounting Policy For Regulatory Deferral Accounts Explanatory
+Description Of Accounting Policy For Reinsurance Explanatory
+Description Of Accounting Policy For Repairs And Maintenance Explanatory
+Description Of Accounting Policy For Repurchase And Reverse Repurchase Agreements Explanatory
+Description Of Accounting Policy For Research And Development Expense Explanatory
+Description Of Accounting Policy For Restricted Cash And Cash Equivalents Explanatory
+Description Of Accounting Policy For Segment Reporting Explanatory
+Description Of Accounting Policy For Service Concession Arrangements Explanatory
+Description Of Accounting Policy For Sharebased Payment Transactions Explanatory
+Description Of Accounting Policy For Stripping Costs Explanatory
+Description Of Accounting Policy For Subsidiaries Explanatory
+Description Of Accounting Policy For Taxes Other Than Income Tax Explanatory
+Description Of Accounting Policy For Termination Benefits Explanatory
+Description Of Accounting Policy For Transactions With Noncontrolling Interests Explanatory
+Description Of Accounting Policy For Transactions With Related Parties Explanatory
+Description Of Accounting Policy For Treasury Shares Explanatory
+Description Of Accounting Policy For Warrants Explanatory
+Description Of Accounting Policy To Determine Components Of Cash And Cash Equivalents Explanatory
+Description Of Acquiree
+Description Of Acquiree Acquired Receivables
+Description Of Acquiree Business Combinations
+Description Of Amortization Method Used
+Description Of Amounts Of Entitys Own Financial Instruments Included In Fair Value Of Plan Assets
+Description Of Amounts Of Other Assets Used By Entity Included In Fair Value Of Plan Assets
+Description Of Amounts Of Property Occupied By Entity Included In Fair Value Of Plan Assets
+Description Of Any Other Entitys Responsibilities For Governance Of Plan
+Description Of Arrangement Involving Legal Form Of Lease
+Description Of Assetsliability Matching Strategies Used By Plan Or Entity To Manage Risk
+Description Of Basis Of Consolidation Explanatory
+Description Of Basis Of Preparation Of Summarised Financial Information Of Associate
+Description Of Basis Of Preparation Of Summarised Financial Information Of Joint Venture
+Description Of Biological Assets
+Description Of Biological Assets Other Than Bearer Plants Previously Measured At Cost
+Description Of Cash Generating Unit
+Description Of Cash Generating Units
+Description Of Change In Valuation Technique Used In Fair Value Measurement Assets
+Description Of Change In Valuation Technique Used In Fair Value Measurement Entitys Own Equity Instruments
+Description Of Change In Valuation Technique Used In Fair Value Measurement Liabilities
+Description Of Changes In Entitys Objectives Policies And Processes For Managing Capital And What Entity Manages As Capital
+Description Of Changes In Plan To Sell Noncurrent Assets Or Disposal Group Held For Sale
+Description Of Contractual Agreement Or Stated Policy For Charging Net Defined Benefit Cost
+Description Of Criteria Used To Distinguish Investment Property From Owneroccupied Property And From Property Held Sale In Ordinary Course Of Business
+Description Of Crossreference To Disclosures About Plans That Share Risks Between Entities Under Common Control In Another Group Entitys Financial Statements
+Description Of Effect Of Regulatory Framework On Plan
+Description Of Employee Sharebased Payment Arrangement
+Description Of Estimates And Critical Accounting Estimates Explanatory
+Description Of Event Or Change In Circumstances That Caused Recognition Of Deferred Tax Benefits Acquired In Business Combination After Acquisition Date
+Description Of Existence Of Restrictions On Title Property Plant And Equipment
+Description Of Expected Impact Of Initial Application Of New Standards Or Interpretations Explanatory
+Description Of Expected Timing Of Outflows Other Provisions
+Description Of Expected Volatility Share Options Granted
+Description Of Expiry Date Of Temporary Differences Unused Tax Losses And Unused Tax Credits
+Description Of Exposure To Risk
+Description Of Extent To Which Fair Value Of Investment Property Is Based On Valuation By Independent Valuer
+Description Of Fact And Reason Why Volume Of Hedging Relationships To Which Exemption In INDAS10723 C Applies Is Unrepresentative Of Normal Volumes
+Description Of Fact That Amount Of Change In Accounting Estimate Is Impracticable Explanatory
+Description Of Fact That Changing One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Would Change Fair Value Significantly Assets
+Description Of Fact That Changing One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Would Change Fair Value Significantly Entitys Own Equity Instruments
+Description Of Fact That Changing One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Would Change Fair Value Significantly Liabilities
+Description Of Fact That Highest And Best Use Of Nonfinancial Assets Differs From Current Use
+Description Of Factors That Make Up Goodwill Recognised
+Description Of Financial Year
+Description Of Fully Amortised Intangible Assets
+Description Of Functional Currency
+Description Of Funding Arrangements And Funding Policy That Affect Future Contributions
+Description Of Goods Purchased
+Description Of Hedging Instruments Used To Hedge Risk Exposures And How They Are Used
+Description Of How Acquirer Obtained Control Of Acquiree
+Description Of How Effect On Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Was Calculated Assets
+Description Of How Effect On Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Was Calculated Entitys Own Equity Instruments
+Description Of How Effect On Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Was Calculated Liabilities
+Description Of How Entity Determined Maximum Economic Benefit Available
+Description Of How Entity Determines Economic Relationship Between Hedged Item And Hedging Instrument For Purpose Of Assessing Hedge Effectiveness
+Description Of How Entity Establishes Hedge Ratio And What Sources Of Hedge Ineffectiveness Are
+Description Of How Entity Reflects Its Risk Management Strategy By Using Hedge Accounting And Designating Hedging Relationships That It Frequently Resets
+Description Of How Management Determines Concentrations
+Description Of How Outstanding Unutilised Amounts Received In Respect Of Issue Of Securities For Specific Purpose Are Used
+Description Of Identification Of Financial Statements To Which Separate Financial Statements Relate
+Description Of Identity Of Rate Regulators
+Description Of Ind As Adjustment
+Description Of Individual Assets Or Cash Generating Units
+Description Of Initial Application Of Standards Or Interpretations Explanatory
+Description Of Inputs Used In Fair Value Measurement Assets
+Description Of Inputs Used In Fair Value Measurement Entitys Own Equity Instruments
+Description Of Inputs Used In Fair Value Measurement Liabilities
+Description Of Intangible Assets Material To Entity
+Description Of Intangible Assets With Indefinite Useful Life Supporting Assessment Of Indefinite Useful Life
+Description Of Interrelationships Between Unobservable Inputs And Of How They Might Magnify Or Mitigate Effect Of Changes In Unobservable Inputs On Fair Value Measurement Assets
+Description Of Interrelationships Between Unobservable Inputs And Of How They Might Magnify Or Mitigate Effect Of Changes In Unobservable Inputs On Fair Value Measurement Entitys Own Equity Instruments
+Description Of Interrelationships Between Unobservable Inputs And Of How They Might Magnify Or Mitigate Effect Of Changes In Unobservable Inputs On Fair Value Measurement Liabilities
+Description Of Investment Property Where Fair Value Information Is Unreliable Cost Model
+Description Of Investments In Equity Instruments Designated At Fair Value Through Other Comprehensive Income
+Description Of Limitations Of Methods Used In Preparing Sensitivity Analysis For Actuarial Assumptions
+Description Of Line Item In Balance Sheet That Includes Hedged Item
+Description Of Line Item In Balance Sheet That Includes Hedging Instrument
+Description Of Line Item In Statement Of Comprehensive Income That Includes Reclassification Adjustments
+Description Of Line Item In Statement Of Comprehensive Income That Includes Recognised Hedge Ineffectiveness
+Description Of Line Item Of Statement Of Comprehensive Income In Which Amount Recognised As Income From Arrangement Involving Legal Form Of Lease Is Included
+Description Of Line Item S In Statement Of Comprehensive Income In Which Amortisation Of Intangible Assets Is Included
+Description Of Line Items In Other Comprehensive Income Where Gains Losses Are Recognised Fair Value Measurement Assets
+Description Of Line Items In Other Comprehensive Income Where Gains Losses Are Recognised Fair Value Measurement Entitys Own Equity Instruments
+Description Of Line Items In Other Comprehensive Income Where Gains Losses Are Recognised Fair Value Measurement Liabilities
+Description Of Line Items In Profit Or Loss Where Gains Losses Are Recognised Fair Value Measurement Assets
+Description Of Line Items In Profit Or Loss Where Gains Losses Are Recognised Fair Value Measurement Entitys Own Equity Instruments
+Description Of Line Items In Profit Or Loss Where Gains Losses Are Recognised Fair Value Measurement Liabilities
+Description Of Line Items In Profit Or Loss Where Gains Losses Attributable To Change In Unrealised Gains Or Losses For Assets Held At End Of Period Are Recognised Fair Value Measurement
+Description Of Line Items In Profit Or Loss Where Gains Losses Attributable To Change In Unrealised Gains Or Losses For Entitys Own Equity Instruments Held At End Of Period Are Recognised Fair Value Measurement
+Description Of Line Items In Profit Or Loss Where Gains Losses Attributable To Change In Unrealised Gains Or Losses For Liabilities Held At End Of Period Are Recognised Fair Value Measurement
+Description Of Line Items In Statement Of Comprehensive Income In Which Impairment Losses Recognised In Profit Or Loss Are Included
+Description Of Line Items In Statement Of Comprehensive Income In Which Impairment Losses Recognised In Profit Or Loss Are Reversed
+Description Of Link Between Reimbursement Right And Related Obligation
+Description Of Main Product Or Service
+Description Of Major Assumptions Made Concerning Future Events Other Provisions
+Description Of Managing Liquidity Risk Explanatory
+Description Of Material Leasing Arrangements By Lessee Classified As Operating Lease
+Description Of Material Reconciling Items Reportable Segment
+Description Of Maximum Term Of Options Granted For Employee Sharebased Payment Arrangement
+Description Of Maximum Term Of Options Granted For Sharebased Payment Arrangement
+Description Of Method Of Settlement For Employee Sharebased Payment Arrangement
+Description Of Method Of Settlement For Sharebased Payment Arrangement
+Description Of Method Used And Assumptions Made To Incorporate Effects Of Expected Early Exercise Share Options Granted
+Description Of Method Used To Account For Employee Sharebased Payment Arrangement
+Description Of Methods And Assumptions Used In Preparing Sensitivity Analysis For Actuarial Assumptions
+Description Of Miscellaneous Other Operating Revenues
+Description Of Nature And Amount Of Change In Accounting Estimate Explanatory
+Description Of Nature And Extent Of Government Grants Recognised In Financial Statements
+Description Of Nature And Extent Of Rateregulated Activity
+Description Of Nature And Extent Of Significant Restrictions On Transfer Of Funds To Entity
+Description Of Nature And Extent Of Significant Restrictions On Transfer Of Funds To Parent
+Description Of Nature And Financial Effect Of Business Combinations After Reporting Period Before Statements Authorised For Issue
+Description Of Nature And Financial Effect Of Business Combinations During Period
+Description Of Nature Of Activities Of Biological Assets
+Description Of Nature Of Benefits Provided By Plan
+Description Of Nature Of Change In Accounting Policy
+Description Of Nature Of Contingent Assets
+Description Of Nature Of Contracts Arrangements Transactions With Related Party
+Description Of Nature Of Entitys Relationship With Associate
+Description Of Nature Of Entitys Relationship With Joint Operation
+Description Of Nature Of Entitys Relationship With Joint Venture
+Description Of Nature Of Financial Statements
+Description Of Nature Of Individual Assets
+Description Of Nature Of Material Contracts Arrangements Transactions With Related Party
+Description Of Nature Of Necessary Adjustment To Provide Comparative Information
+Description Of Nature Of Nonadjusting Event After Reporting Period
+Description Of Nature Of Obligation Contingent Liabilities
+Description Of Nature Of Obligation Contingent Liabilities In Business Combination
+Description Of Nature Of Obligation Other Provisions
+Description Of Nature Of Other Equity Others
+Description Of Nature Of Other Reserves
+Description Of Nature Of Reclassification Or Changes In Presentation
+Description Of Nature Of Regulatory Ratesetting Process
+Description Of Nature Of Related Party Relationship
+Description Of Nature Of Transactions With Related Party
+Description Of Nature Of Voluntary Change In Accounting Policy
+Description Of Noncurrent Assets Or Disposal Group Held For Sale Which Were Sold Or Reclassified
+Description Of Objectives Policies And Processes For Managing Risk
+Description Of Option Life Share Options Granted
+Description Of Other Accounting Policies Relevant To Understanding Of Financial Statements Explanatory
+Description Of Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Before Tax Others
+Description Of Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Net Of Tax Others
+Description Of Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Before Tax Others
+Description Of Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Net Of Tax Others
+Description Of Other Contingent Liabilities Others
+Description Of Other Current Assets Others
+Description Of Other Current Financial Liabilities Others
+Description Of Other Current Liabilities Others
+Description Of Other Financial Assets At Amortised Cost Class
+Description Of Other Financial Assets At Fair Value Class
+Description Of Other Impaired Assets
+Description Of Other Inputs To Options Pricing Model Share Options Granted
+Description Of Other Noncurrent Assets Others
+Description Of Other Noncurrent Liabilities Others
+Description Of Other Provisions Others
+Description Of Other Temporary Differences
+Description Of Other Transactions That Are Collectively Significant
+Description Of Plan Amendments Curtailments And Settlements
+Description Of Policy For Determining When Transfers Between Levels Are Deemed To Have Occurred Assets
+Description Of Policy For Determining When Transfers Between Levels Are Deemed To Have Occurred Entitys Own Equity Instruments
+Description Of Policy For Determining When Transfers Between Levels Are Deemed To Have Occurred Liabilities
+Description Of Presentation Currency
+Description Of Primary Reasons For Business Combination
+Description Of Principal Product Or Services Category
+Description Of Product Or Service
+Description Of Product Or Service Category
+Description Of Raw Materials Category
+Description Of Reason For Reclassification Or Changes In Presentation
+Description Of Reason For Using Longer Or Shorter Reporting Period
+Description Of Reason Why Consolidated Financial Statements Have Not Been Prepared
+Description Of Reason Why Entity With More Than Half Of Voting Power Directly Or Indirectly Owned Which Is Not Subsidiary Due To Absence Of Control
+Description Of Reason Why Nonfinancial Assets Is Being Used In Manner Different From Highest And Best Use
+Description Of Reason Why Reclassification Of Comparative Amounts Is Impracticable
+Description Of Reason Why Using Different Reporting Date Or Period For Associate
+Description Of Reason Why Using Different Reporting Date Or Period For Joint Venture
+Description Of Reason Why Using Different Reporting Date Or Period For Subsidiary
+Description Of Reason Why Using Different Reporting Date Or Period For Subsidiary Consolidated
+Description Of Reasons For Change In Valuation Technique Used In Fair Value Measurement Assets
+Description Of Reasons For Change In Valuation Technique Used In Fair Value Measurement Entitys Own Equity Instruments
+Description Of Reasons For Change In Valuation Technique Used In Fair Value Measurement Liabilities
+Description Of Reasons For Fair Value Measurement Assets
+Description Of Reasons For Fair Value Measurement Entitys Own Equity Instruments
+Description Of Reasons For Fair Value Measurement Liabilities
+Description Of Reasons For Transfers Into Level 3 Of Fair Value Hierarchy Assets
+Description Of Reasons For Transfers Into Level 3 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Description Of Reasons For Transfers Into Level 3 Of Fair Value Hierarchy Liabilities
+Description Of Reasons For Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Assets
+Description Of Reasons For Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Description Of Reasons For Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Liabilities
+Description Of Reasons For Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Assets
+Description Of Reasons For Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Description Of Reasons For Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Liabilities
+Description Of Reasons For Transfers Out Of Level 3 Of Fair Value Hierarchy Assets
+Description Of Reasons For Transfers Out Of Level 3 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Description Of Reasons For Transfers Out Of Level 3 Of Fair Value Hierarchy Liabilities
+Description Of Reasons Not For Technology Fully Absorbed
+Description Of Reasons Why Applying New Accounting Policy Provides Reliable And More Relevant Information
+Description Of Regulatory Deferral Account Balances
+Description Of Regulatory Framework In Which Plan Operates
+Description Of Reportable Segment To Which Individual Assets Belongs
+Description Of Restrictions On Distribution Of Revaluation Surplus To Shareholders Property Plant And Equipment
+Description Of Risk Free Interest Rate Share Options Granted
+Description Of Risks To Which Plan Exposes Entity
+Description Of Segment
+Description Of Sensitivity Of Fair Value Measurement To Changes In Unobservable Inputs Assets
+Description Of Sensitivity Of Fair Value Measurement To Changes In Unobservable Inputs Entitys Own Equity Instruments
+Description Of Sensitivity Of Fair Value Measurement To Changes In Unobservable Inputs Liabilities
+Description Of Service Concession Arrangement
+Description Of Shared Characteristic For Concentration
+Description Of Significant Concentrations Of Risk Related To Plan
+Description Of Significant Intangible Assets Controlled By Entity But Not Recognised
+Description Of State Of Companies Affair
+Description Of Technology
+Description Of Terms Of Shares Reserved For Issue Under Options And Contracts Or Commitments For Sale Of Shares Or Disinvestment
+Description Of Transaction By Entity For Provision Of Key Management Personnel Services Provided By Separate Management Entities
+Description Of Transitional Provisions Of Initially Applied Ind As
+Description Of Transitional Provisions Of Initially Applied Ind As That Might Have Effect On Future Periods
+Description Of Type Of Plan
+Description Of Type Of Plan Fair Value Of Plan Assets
+Description Of Type Of Plan Net Defined Benefit Liability Assets
+Description Of Type Of Plan Sensitivity Analysis For Actuarial Assumptions
+Description Of Uncertainties Of Entitys Ability To Continue As Going Concern Explanatory
+Description Of Valuation Processes Used In Fair Value Measurement Assets
+Description Of Valuation Processes Used In Fair Value Measurement Entitys Own Equity Instruments
+Description Of Valuation Processes Used In Fair Value Measurement Liabilities
+Description Of Valuation Techniques Used In Fair Value Measurement Assets
+Description Of Valuation Techniques Used In Fair Value Measurement Entitys Own Equity Instruments
+Description Of Valuation Techniques Used In Fair Value Measurement Liabilities
+Description Of Vesting Requirements For Employee Sharebased Payment Arrangement
+Description Of Vesting Requirements For Sharebased Payment Arrangement
+Description Of Voluntary Change In Accounting Policy Explanatory
+Description Of Whether Company Have Sufficient Authorised Capital To Cover Proposed Equity Share Capital Amount Resulting From Allotment
+Description Of Whether Investment In Associate Is Measured Using Equity Method Or At Fair Value
+Description Of Whether Investment In Joint Venture Is Measured Using Equity Method Or At Fair Value
+Description Of Whether There Are Potential Income Tax Consequences Not Practicably Determinable
+Description Other Current Financial Assets Others
+Description Other Noncurrent Financial Assets Others
+Description Other Noncurrent Financial Liabilities Others
+Description Whether Change In Accounting Policy Is Made In Accordance With Transitional Provisions Of Initially Applied Ind As
+Design Technical Assistance Apportioned Contracts
+Designation Of Director
+Designation Of Director Or Managerial Personnel
+Designation Of Key Managerial Personnel Or Director
+Details CSR Policy Explanatory
+Details CSR Policy Text Block
+Details If Exemption Is Granted For Statement Under Section 129
+Details Of Advance To Related Parties
+Details Of Bonds Or Debentures Domain
+Details Of Change In Promoters Shareholding Explanatory
+Details Of Current Investment Made In Partnership Firms Explanatory
+Details Of Current Investments Made In Body Corporate Which Are Partly Paid
+Details Of Deposits Which Are Not In Compliance With Requirements Of Chapter V Of Companies Act Explanatory
+Details Of Deposits Which Are Not In Compliance With Requirements Of Chapter V Of Companies Act Text Block
+Details Of Directors Or Key Managerial Personnels Who Were Appointed Or Have Resigned During Year Explanatory
+Details Of Directors Or Key Managerial Personnels Who Were Appointed Or Have Resigned During Year Text Block
+Details Of Implementing Agency
+Details Of Loans To Related Parties
+Details Of Material Changes And Commitment Occurred During Period Affecting Financial Position Of Company
+Details Of Nature Of Exceptional Items
+Details Of Noncurrent Investment Made In Partnership Firms Explanatory
+Details Of Noncurrent Investments Made In Body Corporate Which Are Partly Paid
+Details Of Outstanding Unutilised Amounts Received In Respect Of Public Offering
+Details Of Personal Security Given By Promoters Other Shareholders Or Other Third Parties Though Such Security Does Not Result In Classification Of Borrowings As Secured
+Details Of Share Of Each Partner In Capital Of Partnership Firm
+Details Of Share Of Each Partner In Profits Of Partnership Firm
+Details Of Shareholding Pattern Of Directors And Key Managerial Personnel Explanatory
+Details Of Significant And Material Orders Passed By Regulators Or Courts Or Tribunals Impacting Going Concern Status And Companys Operations In Future Explanatory
+Details Of Significant And Material Orders Passed By Regulators Or Courts Or Tribunals Impacting Going Concern Status And Companys Operations In Future Text Block
+Details Of Statement Indicating Manner In Which Formal Annual Evaluation Made By Board Of Its Performance And Of Its Committees And Individual Directors Explanatory
+Details Of Whether Such Body Corporate Is Subsidiary Associate Joint Venture Or Controlled Special Purpose Entity
+Details On Policy Development And Implementation By Company On Corporate Social Responsibility Initiatives Taken During Year Explanatory
+Details On Policy Development And Implementation By Company On Corporate Social Responsibility Initiatives Taken During Year Text Block
+Details Regarding Adequacy Of Internal Financial Controls With Reference To Financial Statements Explanatory
+Details Regarding Adequacy Of Internal Financial Controls With Reference To Financial Statements Text Block
+Details Regarding Cost Records And Cost Audit Explanatory
+Details Regarding Energy Conservation
+Details Regarding Foreign Exchange Earnings And Outgo
+Details Regarding Technology Absorption
+Details Relating To Deposits Covered Under Chapter V Of Companies Act Explanatory
+Details Relating To Deposits Covered Under Chapter V Of Companies Act Text Block
+Diluted Earnings Loss Per Share
+Diluted Earnings Loss Per Share From Continuing Operations
+Diluted Earnings Loss Per Share From Continuing Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Diluted Earnings Loss Per Share From Discontinued Operations
+Diluted Earnings Loss Per Share From Discontinued Operations Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Diluted Earnings Loss Per Share Including Net Movement In Regulatory Deferral Account Balances And Net Movement In Related Deferred Tax
+Diluted Earnings Per Equity Share
+Dilutive Effect Of Convertible Instruments On Number Of Ordinary Shares
+Dilutive Effect Of Share Options On Number Of Ordinary Shares
+Direct Expenditure On Projects Or Programs
+Direct Operating Expense From Investment Property
+Direct Operating Expense From Investment Property Generating Rental Income
+Direct Operating Expense From Investment Property Not Generating Rental Income
+Director Identification Number Of Director
+Director Identification Number Of Key Managerial Personnel Or Director
+Director Or Managerial Personnel Remuneration Domain
+Directors And Key Managerial Personnel Domain
+Directors Comment On Auditors Qualifications Reservations Adverse Remarks In Auditors Report
+Directors Comment On Company Secretary Qualification Or Observation Or Other Remarks In Secretarial Audit Report
+Directors Signing Board Report Domain
+Directors Signing Financial Statements Domain
+Directors Sitting Fees
+Disclosure About Loans Granted To Parties Covered Under Section 189 Of Companies Act
+Disclosure As Per Sub Rule 5 Of Rule 8 Of Companies Accounts Rules 2014 Explanatory
+Disclosure For Companies Covered Under Sub Section 1 Of Section 178 On Directors Appointment And Remuneration Including Other Matters Provided Under Sub Section 3 Of Section 178 Explanatory
+Disclosure For Companies Covered Under Sub Section 1 Of Section 178 On Directors Appointment And Remuneration Including Other Matters Provided Under Sub Section 3 Of Section 178 Text Block
+Disclosure In Auditors Report Explanatory
+Disclosure In Auditors Report Explanatory Text Block
+Disclosure In Auditors Report Relating To Compliance With Section 185 And 186 Of Companies Act 2013
+Disclosure In Auditors Report Relating To Default In Repayment Of Financial Dues
+Disclosure In Auditors Report Relating To Deposits Accepted
+Disclosure In Auditors Report Relating To Fixed Assets
+Disclosure In Auditors Report Relating To Fraud By The Company Or On The Company By Its Officers Or Its Employees Reported During Period
+Disclosure In Auditors Report Relating To Inventories
+Disclosure In Auditors Report Relating To Loans
+Disclosure In Auditors Report Relating To Maintenance Of Cost Records
+Disclosure In Auditors Report Relating To Managerial Remuneration
+Disclosure In Auditors Report Relating To Nidhi Company
+Disclosure In Auditors Report Relating To Non Cash Transactions With Directors Or Persons Connected With Him
+Disclosure In Auditors Report Relating To Preferential Allotment Or Private Placement Of Shares Or Convertible Debentures
+Disclosure In Auditors Report Relating To Public Offer And Term Loans Used For Purpose For Which Those Were Raised
+Disclosure In Auditors Report Relating To Registration Under Section 45 IA Of Reserve Bank Of India Act 1934
+Disclosure In Auditors Report Relating To Statutory Dues Explanatory
+Disclosure In Auditors Report Relating To Statutory Dues Text Block
+Disclosure In Auditors Report Relating To Transactions With Related Parties
+Disclosure In Board Of Directors Report Explanatory
+Disclosure In Board Of Directors Report Explanatory Text Block
+Disclosure In Secretarial Audit Report Explanatory
+Disclosure In Secretarial Audit Report Explanatory Text Block
+Disclosure Manner In Which Amount CSR Spent During Financial Year Explanatory
+Disclosure Of Accounting For Government Grants And Disclosure Of Government Assistance Explanatory
+Disclosure Of Accounting Policies Change In Accounting Policies And Changes In Estimates Explanatory Text Block
+Disclosure Of Acquired Receivables Explanatory
+Disclosure Of Additional Balance Sheet Notes Explanatory
+Disclosure Of Additional Balance Sheet Notes Explanatory Text Block
+Disclosure Of Additional Information About Defined Benefit Plans Explanatory
+Disclosure Of Additional Information Consolidated Financial Statements Explanatory
+Disclosure Of Amounts Arising From Insurance Contracts Explanatory
+Disclosure Of Amounts Incurred By Entity For Provision Of Key Management Personnel Services Provided By Separate Management Entities Explanatory
+Disclosure Of Amounts Of Potential Income Tax Consequences Practicably Determinable Explanatory
+Disclosure Of Amounts To Be Recovered Or Settled After Twelve Months For Classes Of Assets And Liabilities That Contain Amounts To Be Recovered Or Settled Both No More And More Than Twelve Months After Reporting Date Explanatory
+Disclosure Of Appointment And Remuneration Of Director Or Managerial Personnel If Any In The Financial Year Explanatory
+Disclosure Of Appointment And Remuneration Of Managerial Personnels Text Block
+Disclosure Of Arrangements Involving Legal Form Of Lease Explanatory
+Disclosure Of Assets And Liabilities With Significant Risk Of Material Adjustment Explanatory
+Disclosure Of Biological Assets And Government Grants For Agricultural Activity Explanatory
+Disclosure Of Borrowing Costs Explanatory
+Disclosure Of Business Combinations Explanatory
+Disclosure Of Cash Flow Statement Explanatory
+Disclosure Of Category Wise Quantitative Data About Outstanding Derivative Instruments Explanatory
+Disclosure Of Change In Nature Of Business Explanatory
+Disclosure Of Change In Nature Of Business Text Block
+Disclosure Of Changes In Accounting Estimates Explanatory
+Disclosure Of Changes In Accounting Policies Accounting Estimates And Errors Explanatory
+Disclosure Of Companies Which Have Become Or Ceased To Be Its Subsidiaries Joint Ventures Or Associate Companies During Year Explanatory
+Disclosure Of Companies Which Have Become Or Ceased To Be Its Subsidiaries Joint Ventures Or Associate Companies During Year Text Block
+Disclosure Of Composition Of Audit Committee And Non Acceptance Of Any Recommendation Of Audit Committee Along With Reasons Explanatory
+Disclosure Of Composition Of CSR Committee Explanatory
+Disclosure Of Composition Of CSR Committee Text Block
+Disclosure Of Composition Of Group Explanatory
+Disclosure Of Computation Of Managerial Information As Per Companies Act Explanatory
+Disclosure Of Consolidated And Separate Financial Statements Explanatory
+Disclosure Of Contents Of Corporate Social Responsibility Policy Explanatory
+Disclosure Of Contingent Liabilities Explanatory
+Disclosure Of Corporate Information Notes And Other Explanatory Information
+Disclosure Of Corporate Social Responsibility Explanatory
+Disclosure Of Credit Risk Explanatory
+Disclosure Of Credit Risk Exposure Explanatory
+Disclosure Of Credit Risk Of Insurance Contracts Explanatory
+Disclosure Of Dates From Which Dividend Is Unclaimed Beyond Seven Years Explanatory
+Disclosure Of Defined Benefit Plans Explanatory
+Disclosure Of Detailed Information About Arrangements Involving Legal Form Of Lease Explanatory
+Disclosure Of Detailed Information About Biological Assets Explanatory
+Disclosure Of Detailed Information About Business Combinations Explanatory
+Disclosure Of Detailed Information About Financial Instruments Explanatory
+Disclosure Of Detailed Information About Investment Property Explanatory
+Disclosure Of Detailed Information About Other Intangible Assets Explanatory
+Disclosure Of Detailed Information About Property Plant And Equipment Explanatory
+Disclosure Of Detailed Information About Service Concession Arrangements Explanatory
+Disclosure Of Details Of Establishment Of Vigil Mechanism Explanatory
+Disclosure Of Details Of Subsidiaries Explanatory
+Disclosure Of Earnings Per Share Explanatory
+Disclosure Of Effect Of Changes In Foreign Exchange Rates Explanatory
+Disclosure Of Employee Benefits Explanatory
+Disclosure Of Employee Benefits Explanatory Text Block
+Disclosure Of Entitys Reportable Segments Explanatory
+Disclosure Of Equity Shares With Differential Rights Explanatory
+Disclosure Of Events After Reporting Period Explanatory
+Disclosure Of Evidence Supporting Recognition Of Deferred Tax Assets Dependent On Future Taxable Profits And Entity Has Suffered A Loss In Current Or Preceding Period Explanatory
+Disclosure Of Exploration And Evaluation Assets Explanatory
+Disclosure Of Extract Of Annual Return As Provided Under Sub Section 3 Of Section 92 Explanatory
+Disclosure Of Extract Of Annual Return As Provided Under Sub Section 3 Of Section 92 Text Block
+Disclosure Of Facts Of Resignation Of Director In Report Of Directors Laid In Immediately Following General Meeting Explanatory
+Disclosure Of Fair Value Measurement Explanatory
+Disclosure Of Fair Value Measurement Of Assets Explanatory
+Disclosure Of Fair Value Measurement Of Equity Explanatory
+Disclosure Of Fair Value Measurement Of Liabilities Explanatory
+Disclosure Of Fair Value Of Plan Assets Explanatory
+Disclosure Of Fair Values Of Items Used As Deemed Cost Explanatory
+Disclosure Of Finance Lease And Operating Lease By Lessee Explanatory
+Disclosure Of Finance Lease And Operating Lease By Lessor Explanatory
+Disclosure Of Financial Assets Explanatory
+Disclosure Of Financial Instruments By Type Of Interest Rate Explanatory
+Disclosure Of Financial Instruments Explanatory
+Disclosure Of Financial Liabilities Explanatory
+Disclosure Of Financial Summary Or Highlights Explanatory
+Disclosure Of Financial Summary Or Highlights Text Block
+Disclosure Of First Time Adoption Explanatory
+Disclosure Of General Hedge Accounting Explanatory
+Disclosure Of Geographical Areas Explanatory
+Disclosure Of Goodwill Explanatory
+Disclosure Of How Entity Aggregated Interests In Similar Entities Explanatory
+Disclosure Of Hyperinflationary Reporting Explanatory
+Disclosure Of Impairment Loss And Reversal Of Impairment Loss Explanatory
+Disclosure Of Impairment Of Assets Explanatory
+Disclosure Of Income Tax Explanatory
+Disclosure Of Information About Activities Subject To Rate Regulation Explanatory
+Disclosure Of Information About Maturity Profile Of Defined Benefit Obligation Explanatory
+Disclosure Of Information For Each Material Impairment Loss Recognised Or Reversed For Individual Assets Or Cashgenerating Unit Explanatory
+Disclosure Of Information Sufficient To Permit Reconciliation Of Classes Determined For Fair Value Measurement To Line Items In Balance Sheet Assets Explanatory
+Disclosure Of Information Sufficient To Permit Reconciliation Of Classes Determined For Fair Value Measurement To Line Items In Balance Sheet Liabilities Explanatory
+Disclosure Of Insurance Contracts Explanatory
+Disclosure Of Intangible Assets Material To Entity Explanatory
+Disclosure Of Interests In Associates Explanatory
+Disclosure Of Interests In Joint Arrangements Explanatory
+Disclosure Of Interests In Other Entities Explanatory
+Disclosure Of Interests In Subsidiaries Explanatory
+Disclosure Of Interim Financial Reporting Explanatory
+Disclosure Of Inventories Explanatory
+Disclosure Of Investment Property Explanatory
+Disclosure Of Joint Operations Explanatory
+Disclosure Of Joint Ventures Explanatory
+Disclosure Of Key Managerial Personnels And Directors And Remuneration To Key Managerial Personnels And Directors Explanatory
+Disclosure Of Leases Explanatory
+Disclosure Of Nature And Extent Of Risks Arising From Financial Instruments Explanatory
+Disclosure Of Nature And Extent Of Risks Arising From Insurance Contracts Explanatory
+Disclosure Of Nature Of Potential Income Tax Consequences That Would Result From Payment Of Dividend Explanatory
+Disclosure Of Net Defined Benefit Liability Assets Explanatory
+Disclosure Of Noncurrent Assets Held For Sale And Discontinued Operations Explanatory
+Disclosure Of Notes On Advances Explanatory
+Disclosure Of Notes On Borrowings Explanatory
+Disclosure Of Notes On Cash And Bank Balances Explanatory
+Disclosure Of Notes On Cash And Bank Balances Explanatory Text Block
+Disclosure Of Notes On Changes In Equity Explanatory
+Disclosure Of Notes On Consolidated Financial Statements Explanatory
+Disclosure Of Notes On Construction Contracts Explanatory
+Disclosure Of Notes On Current Investments Explanatory
+Disclosure Of Notes On Depreciation Depletion And Amortisation Expense Explanatory
+Disclosure Of Notes On Employee Benefit Expense Explanatory
+Disclosure Of Notes On Equity Share Capital Explanatory
+Disclosure Of Notes On Expenditure On Production Transportation And Other Expenditure Pertaining To Exploration And Production Activities Explanatory
+Disclosure Of Notes On Finance Cost Explanatory
+Disclosure Of Notes On Loans Explanatory
+Disclosure Of Notes On Noncurrent Investments Explanatory
+Disclosure Of Notes On Other Current Assets Explanatory
+Disclosure Of Notes On Other Current Financial Assets Explanatory
+Disclosure Of Notes On Other Expenses Explanatory
+Disclosure Of Notes On Other Income Explanatory
+Disclosure Of Notes On Other Noncurrent Assets Explanatory
+Disclosure Of Notes On Other Noncurrent Assets Explanatory Text Block
+Disclosure Of Notes On Other Noncurrent Financial Assets Explanatory
+Disclosure Of Notes On Other Noncurrent Liabilities Explanatory
+Disclosure Of Notes On Other Operating Revenues Explanatory
+Disclosure Of Notes On Provisions Explanatory
+Disclosure Of Notes On Revenue From Operations Explanatory
+Disclosure Of Notes On Share Capital Explanatory Text Block
+Disclosure Of Notes On Trade Receivables Explanatory
+Disclosure Of Objectives Policies And Processes For Managing Capital Explanatory
+Disclosure Of Offsetting Of Financial Assets And Financial Liabilities Explanatory
+Disclosure Of Offsetting Of Financial Liabilities Explanatory
+Disclosure Of Other Current Financial Liabilities Notes Explanatory
+Disclosure Of Other Current Liabilities Notes Explanatory
+Disclosure Of Other Intangible Assets Explanatory
+Disclosure Of Other Noncurrent Financial Liabilities Notes Explanatory
+Disclosure Of Other Provisions Contingent Liabilities And Contingent Assets Explanatory
+Disclosure Of Other Provisions Explanatory
+Disclosure Of Other Reasons If Company Fails To Spend Prescribed Amount On CSR
+Disclosure Of Policy Formulated By Nomination And Remuneration Committee Relating To Remuneration For Directors Key Managerial Personnels And Other Employees Explanatory
+Disclosure Of Products And Services Explanatory
+Disclosure Of Property Plant And Equipment Explanatory
+Disclosure Of Provision Matrix Explanatory
+Disclosure Of Purpose For Which Derivative Instruments Have Been Acquired
+Disclosure Of Reasons If Company Fails To Spend Prescribed Amount On CSR
+Disclosure Of Reclassification Of Financial Assets Explanatory
+Disclosure Of Reclassifications Or Changes In Presentation Explanatory
+Disclosure Of Recognised Finance Lease As Assets By Lessee Explanatory
+Disclosure Of Reconciliation Of Changes In Goodwill Explanatory
+Disclosure Of Reconciliation Of Comprehensive Income From Previous Gaap To Ind As Explanatory
+Disclosure Of Reconciliation Of Profit Loss For The Period From Previous Gaap To Ind As Explanatory
+Disclosure Of Reconciliation Of Summarised Financial Information Of Associate Accounted For Using Equity Method To Carrying Amount Of Interest In Associate Explanatory
+Disclosure Of Reconciliation Of Summarised Financial Information Of Joint Venture Accounted For Using Equity Method To Carrying Amount Of Interest In Joint Venture Explanatory
+Disclosure Of Regulatory Deferral Accounts Explanatory
+Disclosure Of Related Party Explanatory
+Disclosure Of Reportable Segments Explanatory
+Disclosure Of Revenue Explanatory
+Disclosure Of Revenue Explanatory Text Block
+Disclosure Of Risk Management Strategy Related To Hedge Accounting Explanatory
+Disclosure Of Segments Major Customers Explanatory
+Disclosure Of Sensitivity Analysis For Actuarial Assumptions Explanatory
+Disclosure Of Service Concession Arrangements Explanatory
+Disclosure Of Sharebased Payment Arrangements Explanatory
+Disclosure Of Significant Investments In Associates Explanatory
+Disclosure Of Significant Investments In Subsidiaries Explanatory
+Disclosure Of Significant Judgements And Assumptions Made In Relation To Interests In Other Entities Explanatory
+Disclosure Of Significant Unobservable Inputs Used In Fair Value Measurement Of Assets Explanatory
+Disclosure Of Statement On Declaration Given By Independent Directors Under Sub Section 6 Of Section 149 Explanatory
+Disclosure Of Statement On Declaration Given By Independent Directors Under Sub Section 6 Of Section 149 Text Block
+Disclosure Of Statement On Development And Implementation Of Risk Management Policy Explanatory
+Disclosure Of Statement On Development And Implementation Of Risk Management Policy Text Block
+Disclosure Of Subclassification And Notes On Liabilities And Assets Explanatory
+Disclosure Of Summary Of Significant Accounting Policies Explanatory
+Disclosure Of Temporary Difference Unused Tax Losses And Unused Tax Credits Explanatory
+Disclosure Of Terms And Conditions Of Sharebased Payment Arrangement Explanatory
+Disclosure Of Transactions Between Related Parties Explanatory
+Disclosure Of Voting Rights Not Exercised Directly By Employees Explanatory
+Disclosure Of Whether All Assets And Liabilities Are Registered With Company
+Disclosure Other Contents CSR Policy
+Disclosure Overview Of Projects Or Programs Proposed To Be Undertaken CSR Policy
+Disclosure Regarding Issue Of Sweat Equity Shares Explanatory
+Disclosure Regarding Receipt Of Loans Granted
+Disclosure Regarding Terms Of Recovery Of Loans Granted
+Disclosure Relating To Amounts If Any Which Is Proposed To Carry To Any Reserves
+Disclosure Relating To Disputed Statutory Dues Explanatory
+Disclosure Relating To Disputed Statutory Dues Text Block
+Disclosure Relating To Physical Verification And Material Discrepancies Of Fixed Assets
+Disclosure Relating To Quantitative Details Of Fixed Assets
+Disclosure Relating To Regularity In Payment Of Undisputed Statutory Dues Explanatory
+Disclosure Relating To Regularity In Payment Of Undisputed Statutory Dues Text Block
+Disclosure Relating To Terms And Conditions Of Loans Granted
+Disclosure Relating To Title Deeds Of Immovable Properties
+Disclosure Responsibility Statement Of CSR Committee That Implementation And Monitoring Of CSR Policy Is In Compliance With CSR Policy Of Company
+Disclosure Web Link Of Company At Which Annual Report Is Placed
+Disclosure Web Link Of Company At Which CSR Policy Is Placed
+Disclosure Web Link Projects Or Programs Undertaken CSR Policy
+Disclosures In Directors Responsibility Statement
+Disclosures Relating To Amount Recommended To Be Paid As Dividend
+Discount Issue Debentures Written Off
+Discount Issue Shares Debentures Written Off
+Discount Issue Shares Written Off
+Discount Rate Used In Current Measurement Of Fair Value Less Costs Of Disposal
+Discount Rate Used To Reflect Time Value Of Money Regulatory Deferral Account Balances
+Discounting Charges
+Disposals And Retirements Goodwill
+Disposals And Retirements Other Intangible Assets
+Disposals And Retirements Property Plant And Equipment
+Disposals Biological Assets Other Than Bearer Plants At Cost
+Disposals Biological Assets Other Than Bearer Plants At Fair Value
+Disposals Goodwill
+Disposals Investment Property
+Disposals Of Investments
+Disposals Of Items Of Property Plant And Equipment
+Disposals Other Intangible Assets
+Disposals Property Plant And Equipment
+Disposals Tangible Assets
+Disposals Tangible Assets Others
+Dividend Appropriation
+Dividend Income
+Dividend Income Current Equity Securities
+Dividend Income Current Investments
+Dividend Income Current Investments From Others
+Dividend Income Current Investments From Subsidiaries
+Dividend Income Current Mutual Funds
+Dividend Income Long Term Investments
+Dividend Income Long Term Investments From Others
+Dividend Income Noncurrent Equity Securities
+Dividend Income Noncurrent Investments
+Dividend Income Noncurrent Investments From Others
+Dividend Income Noncurrent Investments From Subsidiaries
+Dividend Income Noncurrent Mutual Funds
+Dividend On Preference Shares Treated As Debt
+Dividend Receivable
+Dividend Receivable Others
+Dividend Receivable Subsidiaries
+Dividend Tax Appropriation
+Dividends From Subsidiary Companies
+Dividends Paid Classified As Financing Activities
+Dividends Paid Ordinary Shares
+Dividends Paid Ordinary Shares Per Share
+Dividends Paid To Noncontrolling Interests
+Dividends Proposed Or Declared Before Financial Statements Authorised For Issue But Not Recognised As Distribution To Owners
+Dividends Proposed Or Declared Before Financial Statements Authorised For Issue But Not Recognised As Distribution To Owners Per Share
+Dividends Received
+Dividends Received Classified As Investing Activities
+Dividends Received Classified As Operating Activities
+Dividends Received Of Joint Venture
+Dividends Recognised As Distributions To Owners Per Share
+Domestic Revenue Services
+Domestic Sale Manufactured Goods
+Domestic Sale Traded Goods
+Domestic Turnover Goods Gross
+Donations Subscriptions
+Duration Of Contracts Arrangements Transactions With Related Party
+Duration Of Material Contracts Arrangements Transactions With Related Party
+Earliest Date Of Redemption
+Earmarked Balances With Banks
+Earnings In Foreign Currency
+Earnings On Export Of Goods Calculated On FOB Basis
+Earnings Per Share Explanatory
+Education Cess Pertaining To Exploration And Production Activities
+Effect Of Changes In Accounting Policy
+Effect Of Exchange Rate Changes On Cash And Cash Equivalents
+Effective Dates Of Revaluation Other Intangible Assets
+Effective Dates Of Revaluation Property Plant And Equipment
+Efforts Made Towards Technology Absorption Explanatory
+Electricity Expenses
+Employee Benefit Expense
+Employee Medical Insurance Expenses
+Employee Share Based Payment
+Employee Share Based Payment Cash Settled
+Employee Share Based Payment Equity Settled
+Employee Sharebased Payment Arrangements Domain
+End Date Of Accounting Period Of Partnership Firm Or Association Of Persons Or Limited Liability Partnerships In Respect Of Which Profit Or Losses Have Been Accounted In Companys Books In Case Where Year Ending Is Different For Partnership Firm Or Association Of Persons Or Limited Liability Partnerships And Company
+End Date Of Accounting Period Of Subsidiary
+Entertainment Expenses
+Entities Consolidated Domain
+Entitys Own Equity Instruments Domain
+Equity
+Equity And Liabilities
+Equity As Per Ind As
+Equity As Per Indian Gaap
+Equity Attributable To Owners Of Parent
+Equity Before Restatement
+Equity Dividend Tax Appropriation
+Equity Fair Value
+Equity Interests Of Acquirer
+Equity Liabilities And Regulatory Deferral Account Credit Balances
+Equity Share Capital
+Equity Share Warrants
+Equity Share Warrants For Existing Members
+Equity Share Warrants For Others
+Estimate Of Contributions Expected To Be Paid To Plan
+Estimated Amount Of Contracts Remaining To Be Executed On Capital Account And Not Provided For
+Estimated Financial Effect Contingent Liabilities In Business Combination
+Estimated Financial Effect Of Contingent Assets
+Estimated Financial Effect Of Contingent Liabilities
+Exceptional Items
+Exceptional Items Before Tax
+Excess Provision Diminution In Value Investment Written Back
+Excess Provisions Bad Doubtful Debts Advances Written Back
+Excess Provisions Written Back
+Exchange Rate As Applicable For Subsidiary
+Excise Duty
+Excise Duty Payable
+Exercise Price Of Outstanding Share Options
+Exercise Price Share Options Granted
+Expected Dividend As Percentage Share Options Granted
+Expected Dividend Share Options Granted
+Expected Future Minimum Sublease Payments Receivable Under Non Cancellable Subleases Classified As Operating Lease
+Expected Future Minimum Sublease Payments Receivable Under Noncancellable Subleases Classified Finance Lease
+Expected Reimbursement Contingent Liabilities In Business Combination
+Expected Reimbursement Other Provisions
+Expenditure In Foreign Currency
+Expenditure Incurred On Research And Development
+Expenditure On Administrative Overheads
+Expenditure On Corporate Social Responsibility Activities As Per Guidelines
+Expenditure On Dividend Paid
+Expenditure On Other Matters
+Expenditure On Production Transportation And Other Expenditure Pertaining To Exploration And Production Activities
+Expense Arising From Exploration For And Evaluation Of Mineral Resources
+Expense Arising From Insurance Contracts
+Expense For Policyholder Claims And Benefits Without Reduction For Reinsurance Held
+Expense From Cashsettled Sharebased Payment Transactions In Which Goods Or Services Received Did Not Qualify For Recognition As Assets
+Expense From Equitysettled Sharebased Payment Transactions In Which Goods Or Services Received Did Not Qualify For Recognition As Assets
+Expense From Sharebased Payment Transactions In Which Goods Or Services Received Did Not Qualify For Recognition As Assets
+Expense From Sharebased Payment Transactions With Employees
+Expense Income Included In Profit Or Loss Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Expense Income On Discontinued Operations
+Expense Of Restructuring Activities
+Expense On Employee Stock Option Scheme And Employee Stock Purchase Plan
+Expense On Litigation Settlements
+Expense Recognised During Period For Bad And Doubtful Debts For Related Party Transaction
+Expenses
+Expenses Arising From Reinsurance Held
+Expenses Discontinued Operations
+Expenses On Legislative Changes Having Retrospective Application
+Explanation Of Adjustments Of Numerator To Calculate Basic Earnings Per Share
+Explanation Of Assets Acquired By Way Of Government Grant And Initially Recognised At Fair Value
+Explanation Of Changes In Applicable Tax Rates To Previous Accounting Period
+Explanation Of Contractual Obligations To Purchase Construct Or Develop Investment Property Or For Repairs Maintenance Or Enhancements
+Explanation Of Details Of Guarantees Given Or Received Of Outstanding Balances For Related Party Transaction
+Explanation Of Effect Of Changes In Plan To Sell Noncurrent Assets Or Disposal Group Held For Sale On Results Of Operations For Current Period
+Explanation Of Effect Of Changes In Plan To Sell Noncurrent Assets Or Disposal Group Held For Sale On Results Of Operations For Prior Period
+Explanation Of Estimated Financial Effect Of Contingent Assets
+Explanation Of Facts And Circumstances Of Sale Or Reclassification And Expected Disposal Manner And Timing
+Explanation Of Financial Effect Of Adjustments Related To Business Combinations
+Explanation Of Financial Effect Of Contingent Liabilities
+Explanation Of Financial Effect Of Nonadjusting Event After Reporting Period Explanatory
+Explanation Of Gain Or Loss That Relates To Identifiable Assets Acquired Or Liabilities Assumed In Business Combination
+Explanation Of Gains Losses Recognised When Control In Subsidiary Is Lost
+Explanation Of Independent Valuer Used For Revaluation Property Plant And Equipment
+Explanation Of Interest Revenue Reported Net Of Interest Expense
+Explanation Of Main Events And Circumstances That Led To Recognition Of Impairment Losses And Reversals Of Impairment Losses Cash Generating Units
+Explanation Of Management Judgements In Applying Entitys Accounting Policies With Significant Effect On Recognised Amounts
+Explanation Of Measurement Bases Used In Preparing Financial Statements Explanatory
+Explanation Of Nature And Adjustments To Amounts Previously Presented In Discontinued Operations
+Explanation Of Nature And Amount Of Significant Transactions
+Explanation Of Necessary Information Not Available And Development Cost Excessive
+Explanation Of Possibility Of Reimbursement Contingent Liabilities
+Explanation Of Reason For Nondisclosure Of Information Regarding Contingent Assets
+Explanation Of Reason For Nondisclosure Of Information Regarding Contingent Liability
+Explanation Of Reason For Nondisclosure Of Information Regarding Provision
+Explanation Of Restrictions On Remittance Of Income And Disposal Proceeds Of Investment Property
+Explanation Of Risk Management Strategy Related To Hedge Accounting Explanatory
+Explanation Of Share Options In Sharebased Payment Arrangement
+Explanation Of Significant Terms Of Service Concession Arrangement That May Affect Amount Timing And Certainty Of Future Cash Flows
+Explanation Of Terms And Conditions Of Outstanding Balances For Related Party Transaction
+Explanation Of Unfulfilled Conditions And Other Contingencies Attaching To Government Assistance
+Explanation Of Whether Entity Applies Exemption In Ind As 2425
+Explanation Of Why Fair Value Becomes Reliable For Biological Assets Other Than Bearer Plants Previously Measured At Cost
+Explanation Of Why Fair Value Cannot Be Reliably Measured For Biological Assets Other Than Bearer Plants At Cost
+Explanation Why Fair Value Cannot Be Reliably Measured For Investment Property Cost Model
+Export Revenue Services
+Export Sale Manufactured Goods
+Export Sale Traded Goods
+Export Turnover Goods Gross
+Extraction Cost Pertaining To Exploration And Production Activities
+FOB Value Of Traded Goods Exported
+Face Value Of Units Purchased
+Fair Value Of Acquired Receivables
+Fair Value Of Investment In Joint Ventures Where Price Quotations Published
+Fair Value Of Investments In Associates Where Price Quotations Published
+Fair Value Of Investments In Equity Instruments Designated As Measured At Fair Value Through Other Comprehensive Income
+Fair Value Of Property Plant And Equipment Materially Different From Carrying Amount
+Final Dividend Appropriation
+Final Equity Dividend Appropriation
+Final Special Dividend Appropriation
+Finance Costs
+Financial Assets
+Financial Assets At Fair Value
+Financial Assets Held For Managing Liquidity Risk
+Financial Assets Recognised As Of Acquisition Date
+Financial Effect Of Deviation From Accounting Standards Balance Sheet
+Financial Effect Of Deviation From Accounting Standards Profit And Loss Account
+Financial Liabilities
+Financial Liabilities At Fair Value
+Financial Liabilities Recognised As Of Acquisition Date
+Financing Charges Written Off
+Firms Registration Number Of Audit Firm
+Firms Registration Number Of Secretarial Audit Firm
+First Name Of Director
+Fixed Assets
+Fixed Deposits With Banks
+Forfeited Shares
+Forfeited Shares Reissued
+Future Finance Charge On Finance Lease
+Gain Loss Arising From Derecognition Of Financial Assets Measured At Amortised Cost
+Gain Loss Arising From Difference Between Carrying Amount Of Financial Liability Extinguished And Consideration Paid
+Gain Loss On Changes In Effect Of Limiting Net Defined Benefit Assets To Assets Ceiling
+Gain Loss On Remeasurement Of Net Defined Benefit Liability Assets
+Gain Loss Recognised On Measurement To Fair Value Less Costs To Sell Or On Disposal Of Assets Or Disposal Groups Constituting Discontinued Operations
+Gain On Disposal Of Intangible Assets
+Gain Recognised In Bargain Purchase Transaction
+Gains Losses Arising From Settlements Net Defined Benefit Liability Assets
+Gains Losses On Cash Flow Hedges Before Tax
+Gains Losses On Cash Flow Hedges Net Of Tax
+Gains Losses On Change In Fair Value Estimates Of Biological Assets For Current Period
+Gains Losses On Change In Fair Value Of Derivatives
+Gains Losses On Change In Value Of Foreign Currency Basis Spreads Before Tax
+Gains Losses On Change In Value Of Foreign Currency Basis Spreads Net Of Tax
+Gains Losses On Change In Value Of Forward Elements Of Forward Contracts Before Tax
+Gains Losses On Change In Value Of Forward Elements Of Forward Contracts Net Of Tax
+Gains Losses On Change In Value Of Time Value Of Options Before Tax
+Gains Losses On Change In Value Of Time Value Of Options Net Of Tax
+Gains Losses On Debt Instrument Through Other Comprehensive Income Before Tax
+Gains Losses On Debt Instrument Through Other Comprehensive Income Net Of Tax
+Gains Losses On Disposals Of Investment Properties
+Gains Losses On Disposals Of Investments
+Gains Losses On Disposals Of Noncurrent Assets
+Gains Losses On Disposals Of Other Noncurrent Assets
+Gains Losses On Disposals Of Property Plant And Equipment
+Gains Losses On Exchange Differences On Translation Before Tax
+Gains Losses On Exchange Differences On Translation Net Of Tax
+Gains Losses On Exchange Differences On Translation Recognised In Profit Or Loss
+Gains Losses On Fair Value Adjustment Attributable To Physical Changes Biological Assets Other Than Bearer Plants At Fair Value
+Gains Losses On Fair Value Adjustment Attributable To Price Changes Biological Assets Other Than Bearer Plants At Fair Value
+Gains Losses On Fair Value Adjustment Biological Assets Other Than Bearer Plants At Fair Value
+Gains Losses On Financial Assets At Fair Value Through Profit Or Loss
+Gains Losses On Financial Assets At Fair Value Through Profit Or Loss Classified As Held For Trading
+Gains Losses On Financial Assets At Fair Value Through Profit Or Loss Designated As Upon Initial Recognition
+Gains Losses On Financial Assets At Fair Value Through Profit Or Loss Mandatorily Measured At Fair Value
+Gains Losses On Financial Assets Measured At Fair Value Through Other Comprehensive Income Before Tax
+Gains Losses On Financial Assets Measured At Fair Value Through Other Comprehensive Income Net Of Tax
+Gains Losses On Financial Liabilities At Fair Value Through Profit Or Loss
+Gains Losses On Financial Liabilities At Fair Value Through Profit Or Loss Classified As Held For Trading
+Gains Losses On Hedges Of Net Investments In Foreign Operations Before Tax
+Gains Losses On Hedges Of Net Investments In Foreign Operations Net Of Tax
+Gains Losses On Initial Recognition Of Biological Assets For Current Period
+Gains Losses On Litigation Settlements
+Gains Losses On Net Movement In Regulatory Deferral Account Balances Related To Items That Will Be Reclassified To Profit Or Loss Before Tax
+Gains Losses On Net Movement In Regulatory Deferral Account Balances Related To Items That Will Be Reclassified To Profit Or Loss Net Of Tax
+Gains Losses On Subsequent Increase In Fair Value Less Costs To Sell Not In Excess Of Recognised Cumulative Impairment Loss
+Gains Losses Recognised In Other Comprehensive Income Fair Value Measurement Assets
+Gains Losses Recognised In Other Comprehensive Income Fair Value Measurement Entitys Own Equity Instruments
+Gains Losses Recognised In Other Comprehensive Income Fair Value Measurement Liabilities
+Gains Losses Recognised In Profit Or Loss Attributable To Change In Unrealised Gains Or Losses For Assets Held At End Of Period Fair Value Measurement
+Gains Losses Recognised In Profit Or Loss Attributable To Change In Unrealised Gains Or Losses For Liabilities Held At End Of Period Fair Value Measurement
+Gains Losses Recognised In Profit Or Loss Fair Value Measurement Assets
+Gains Losses Recognised In Profit Or Loss Fair Value Measurement Entitys Own Equity Instruments
+Gains Losses Recognised In Profit Or Loss Fair Value Measurement Liabilities
+Gains Losses Recognised In Profit Or Loss On Buying Reinsurance
+Gains On Change In Fair Value Of Derivatives
+Gains On Disposals Of Investment Properties
+Gains On Disposals Of Investments
+Gains On Disposals Of Noncurrent Assets
+Gains On Disposals Of Property Plant And Equipment
+Gains On Litigation Settlements
+Geological And Geophysical Expenditure Pertaining To Exploration And Production Activities
+Goods In Transit
+Goods Purchased
+Goodwill
+Goodwill Business Combinations
+Goodwill Derecognised Without Having Previously Been Included In Disposal Group Classified As Held For Sale Business Combinations
+Goodwill Expected Deductible For Tax Purposes
+Gratuity
+Gross Amount Due From Customers For Contract Work As Assets
+Gross Amount Due To Customers For Contract Work As Liability
+Gross Amount Due To Customers For Contract Work Current
+Gross Contractual Amounts Receivable For Acquired Receivables
+Gross Investment In Finance Lease
+Gross Lease Liabilities
+Gross Salary To Key Managerial Personnel Or Director
+Gross Value Of Transaction With Related Parties
+Gross Value Of Transaction With Related Parties As Per AS18
+Gross Value Of Transactions With Related Parties
+Guarantee Commission
+Guarantees
+Guest House Expenses
+Hedged Itemsdomain
+Hedging Instruments Domain
+Highest Turnover Contributing Product Or Service ITC8 Digit Code
+Hire Charges Assets Contracts
+Holder Of Bond Or Debenture
+ISO Country Code Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Identifiable Assets Acquired Liabilities Assumed
+Identifiable Intangible Assets Recognised As Of Acquisition Date
+Identification Number Of Foreign Associate In Country Of Incorporation Or Residence
+Identification Number Of Foreign Joint Venture In Country Of Incorporation Or Residence
+Identification Number Of Foreign Joint Venture Liquidated Or Sold During Year In Country Of Incorporation Or Residence
+Identification Number Of Foreign Related Party In Country Of Incorporation Or Residence
+Identification Number Of Foreign Subsidiary In Country Of Incorporation Or Residence
+Identification Number Of Foreign Subsidiary Liquidated Or Sold During Year In Country Of Incorporation Or Residence
+Identification Number Of Foreign Subsidiary Which Is Yet To Commence Operations In Country Of Incorporation Or Residence
+If Yes Central Excise Tariff Act Heading In Which Product Or Service Is Covered Under Cost Audit
+If Yes Central Excise Tariff Act Heading In Which Product Or Service Is Covered Under Cost Records
+Impact Of Change In Classification Of Significant Foreign Operation On Shareholders Fund
+Impairment Loss
+Impairment Loss Cash Generating Units
+Impairment Loss On Financial Assets
+Impairment Loss On Financial Assets Investments
+Impairment Loss On Financial Assets Loans And Advances
+Impairment Loss On Financial Assets Other
+Impairment Loss On Financial Assets Trade Receivables
+Impairment Loss On Intangible Assets
+Impairment Loss On Investment Property
+Impairment Loss On Non Financial Assets
+Impairment Loss On Non Financial Assets Others
+Impairment Loss On Property Plant And Equipment
+Impairment Loss Recognised In Other Comprehensive Income
+Impairment Loss Recognised In Other Comprehensive Income Other Intangible Assets
+Impairment Loss Recognised In Other Comprehensive Income Property Plant And Equipment
+Impairment Loss Recognised In Other Comprehensive Income Reportable Segment
+Impairment Loss Recognised In Profit Or Loss
+Impairment Loss Recognised In Profit Or Loss Biological Assets Other Than Bearer Plants At Cost
+Impairment Loss Recognised In Profit Or Loss Deferred Acquisition Costs Arising From Insurance Contracts
+Impairment Loss Recognised In Profit Or Loss Goodwill
+Impairment Loss Recognised In Profit Or Loss Goodwill Business Combinations
+Impairment Loss Recognised In Profit Or Loss Investment Property
+Impairment Loss Recognised In Profit Or Loss Other Intangible Assets
+Impairment Loss Recognised In Profit Or Loss Property Plant And Equipment
+Impairment Loss Recognised In Profit Or Loss Reportable Segment
+Impairment Loss Recognised In Profit Or Loss Trade Receivables
+Impairment Loss Reversal Of Impairment Loss Recognised In Profit Or Loss Trade Receivables
+Imported Technology Domain
+Income
+Income Arising From Exploration For And Evaluation Of Mineral Resources
+Income Arising From Insurance Contracts
+Income Export Incentives
+Income From Continuing Operations Attributable To Owners Of Parent
+Income From Contracts With Reinsurers
+Income From Discontinued Operations Attributable To Owners Of Parent
+Income From Pipeline Transportation
+Income From Subsidiaries
+Income Government Grants Subsidies
+Income Import Entitlements
+Income Insurance Claims
+Income On Brokerage Commission
+Income On Legislative Changes Having Retrospective Application
+Income On Litigation Settlements
+Income On Sales Tax Benefit
+Income Tax Consequences Of Dividends Proposed Or Declared Before Financial Statements Authorised For Issue Not Recognised As Liability
+Income Tax Expense Continuing Operations
+Income Tax Expense Continuing Operations Of Joint Venture
+Income Tax Expense Continuing Operations Reportable Segment
+Income Tax Relating To Cash Flow Hedges Of Other Comprehensive Income
+Income Tax Relating To Change In Value Of Foreign Currency Basis Spreads Of Other Comprehensive Income
+Income Tax Relating To Change In Value Of Forward Elements Of Forward Contracts Of Other Comprehensive Income
+Income Tax Relating To Change In Value Of Time Value Of Options Of Other Comprehensive Income
+Income Tax Relating To Changes In Fair Value Of Financial Liability Attributable To Change In Credit Risk Of Liability Of Other Comprehensive Income
+Income Tax Relating To Changes In Revaluation Surplus Of Other Comprehensive Income
+Income Tax Relating To Components Of Other Comprehensive Income
+Income Tax Relating To Components Of Other Comprehensive Income That Will Be Reclassified To Profit Or Loss
+Income Tax Relating To Components Of Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss
+Income Tax Relating To Exchange Differences On Translation Of Other Comprehensive Income
+Income Tax Relating To Financial Assets Measured At Fair Value Through Other Comprehensive Income
+Income Tax Relating To Hedges Of Investments In Equity Instruments Of Other Comprehensive Income
+Income Tax Relating To Hedges Of Net Investments In Foreign Operations Of Other Comprehensive Income
+Income Tax Relating To Investments In Equity Instruments Of Other Comprehensive Income
+Income Tax Relating To Net Movement In Regulatory Deferral Account Balances Related To Items That Will Be Reclassified To Profit Or Loss
+Income Tax Relating To Net Movement In Regulatory Deferral Account Balances Related To Items That Will Not Be Reclassified To Profit Or Loss
+Income Tax Relating To Other Individually Immaterial Components Of Other Comprehensive Income
+Income Tax Relating To Remeasurements Of Defined Benefit Plans Of Other Comprehensive Income
+Income Tax Relating To Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method
+Income Tax Relating To Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Be Reclassified To Profit Or Loss
+Income Tax Relating To Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Not Be Reclassified To Profit Or Loss
+Income Taxes Paid Refund
+Income Taxes Paid Refund Classified As Financing Activities
+Income Taxes Paid Refund Classified As Investing Activities
+Income Taxes Paid Refund Classified As Operating Activities
+Increase Decrease In Accounting Estimate
+Increase Decrease In Accumulated Deferred Tax Recognised In Other Comprehensive Income Due To Change In Tax Rate
+Increase Decrease In Cash And Cash Equivalents
+Increase Decrease In Cash And Cash Equivalents Before Effect Of Exchange Rate Changes
+Increase Decrease In Cash And Cash Equivalents Discontinued Operations
+Increase Decrease In Deferred Acquisition Costs Arising From Insurance Contracts
+Increase Decrease In Deferred Tax Liability Assets
+Increase Decrease In Defined Benefit Obligation Due To Reasonably Possible Decrease In Actuarial Assumption
+Increase Decrease In Defined Benefit Obligation Due To Reasonably Possible Increase In Actuarial Assumption
+Increase Decrease In Equity Share Capital
+Increase Decrease In Existing Provisions Other Provisions
+Increase Decrease In Fair Value Measurement Assets
+Increase Decrease In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Assets
+Increase Decrease In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Liabilities
+Increase Decrease In Fair Value Measurement Entitys Own Equity Instruments
+Increase Decrease In Fair Value Measurement Liabilities
+Increase Decrease In Financial Assets
+Increase Decrease In Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Increase Decrease In Net Defined Benefit Liability Assets
+Increase Decrease In Number Of Ordinary Shares Issued
+Increase Decrease In Number Of Shares Outstanding
+Increase Decrease In Regulatory Deferral Account Credit Balances
+Increase Decrease In Regulatory Deferral Account Debit Balances
+Increase Decrease In Reinsurance Assets
+Increase Decrease In Share Capital
+Increase Decrease In Shareholding During Year
+Increase Decrease Through Adjustments Arising From Passage Of Time Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Increase Decrease Through Adjustments Arising From Passage Of Time Reinsurance Assets
+Increase Decrease Through Balances Recognised In Current Period In Balance Sheet Regulatory Deferral Account Credit Balances
+Increase Decrease Through Balances Recognised In Current Period In Balance Sheet Regulatory Deferral Account Debit Balances
+Increase Decrease Through Business Combinations And Disposals Net Defined Benefit Liability Assets
+Increase Decrease Through Business Combinations Deferred Tax Liability Assets
+Increase Decrease Through Change In Discount Rate Other Provisions
+Increase Decrease Through Changes In Discount Rates Regulatory Deferral Account Credit Balances
+Increase Decrease Through Changes In Discount Rates Regulatory Deferral Account Debit Balances
+Increase Decrease Through Changes In Foreign Exchange Rates Net Defined Benefit Liability Assets
+Increase Decrease Through Changes In Foreign Exchange Rates Regulatory Deferral Account Credit Balances
+Increase Decrease Through Changes In Foreign Exchange Rates Regulatory Deferral Account Debit Balances
+Increase Decrease Through Changes In Ownership Interests In Subsidiaries That Do Not Result In Loss Of Control
+Increase Decrease Through Foreign Exchange And Other Movements Financial Assets
+Increase Decrease Through Foreign Exchange Financial Assets
+Increase Decrease Through Loss Of Control Of Subsidiary Deferred Tax Liability Assets
+Increase Decrease Through Net Exchange Differences Biological Assets Other Than Bearer Plants At Cost
+Increase Decrease Through Net Exchange Differences Biological Assets Other Than Bearer Plants At Fair Value
+Increase Decrease Through Net Exchange Differences Deferred Acquisition Costs Arising From Insurance Contracts
+Increase Decrease Through Net Exchange Differences Deferred Tax Liability Assets
+Increase Decrease Through Net Exchange Differences Goodwill
+Increase Decrease Through Net Exchange Differences Goodwill Business Combinations
+Increase Decrease Through Net Exchange Differences Investment Property
+Increase Decrease Through Net Exchange Differences Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Increase Decrease Through Net Exchange Differences Other Intangible Assets
+Increase Decrease Through Net Exchange Differences Other Provisions
+Increase Decrease Through Net Exchange Differences Property Plant And Equipment
+Increase Decrease Through Net Exchange Differences Reinsurance Assets
+Increase Decrease Through Other Changes Biological Assets Other Than Bearer Plants At Cost
+Increase Decrease Through Other Changes Biological Assets Other Than Bearer Plants At Fair Value
+Increase Decrease Through Other Changes Deferred Acquisition Costs Arising From Insurance Contracts
+Increase Decrease Through Other Changes Goodwill
+Increase Decrease Through Other Changes Investment Property
+Increase Decrease Through Other Changes Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Increase Decrease Through Other Changes Net Defined Benefit Liability Assets
+Increase Decrease Through Other Changes Other Intangible Assets
+Increase Decrease Through Other Changes Property Plant And Equipment
+Increase Decrease Through Other Changes Regulatory Deferral Account Credit Balances
+Increase Decrease Through Other Changes Regulatory Deferral Account Debit Balances
+Increase Decrease Through Other Changes Reinsurance Assets
+Increase Decrease Through Other Contributions By Owners
+Increase Decrease Through Other Distributions To Owners
+Increase Decrease Through Shadow Accounting Deferred Acquisition Costs Arising From Insurance Contracts
+Increase Decrease Through Time Value Of Money Adjustment Other Provisions
+Increase Decrease Through Transfers And Other Changes Equity
+Increase Decrease Through Transfers And Other Changes Goodwill
+Increase Decrease Through Transfers And Other Changes Goodwill Business Combinations
+Increase Decrease Through Transfers And Other Changes Other Intangible Assets
+Increase Decrease Through Transfers And Other Changes Other Provisions
+Increase Decrease Through Transfers And Other Changes Property Plant And Equipment
+Increase Decrease Through Transfers Goodwill
+Increase Decrease Through Transfers Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Increase Decrease Through Transfers Other Intangible Assets
+Increase Decrease Through Transfers Property Plant And Equipment
+Increase Decrease Through Transfers To Disposal Groups Regulatory Deferral Account Credit Balances
+Increase Decrease Through Transfers To Disposal Groups Regulatory Deferral Account Debit Balances
+Increase In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Assets
+Increase In Fair Value Measurement Due To Change In One Or More Unobservable Inputs To Reflect Reasonably Possible Alternative Assumptions Liabilities
+Increase Through Items Acquired In Business Combination Regulatory Deferral Account Debit Balances
+Increase Through Items Assumed In Business Combination Regulatory Deferral Account Credit Balances
+Increase Through Origination Or Purchase Financial Assets
+Incremental Fair Value Granted Modified Sharebased Payment Arrangements
+Ind As Adjustment For Comprehensive Income
+Ind As Adjustment For Comprehensive Income Domain
+Ind As Adjustment For Equity
+Ind As Adjustment For Equity Domain
+Ind As Adjustment For Profit Loss For The Period
+Indebtedness
+Indication Of How Frequently Hedging Relationships Are Discontinued And Restarted
+Indication Of Other Forms Of Government Assistance With Direct Benefits For Entity
+Indication Of Uncertainties Of Amount Or Timing Of Outflows Contingent Liabilities
+Indication Of Uncertainties Of Amount Or Timing Of Outflows Other Provisions
+Individual Assets Or Cash Generating Units Domain
+Information About Contingent Assets That Disclosure Is Not Practicable
+Information About Contingent Liabilities That Disclosure Is Not Practicable
+Information About How Designated Risk Component Relates To Hedged Item In Its Entirety Explanatory
+Information About How Entity Determined Risk Component Designated As Hedged Item Explanatory
+Information About How Expected Volatility Was Determined Share Options Granted
+Information About How Fair Value Was Measured Share Options Granted
+Information About Major Customers
+Information About Ultimate Risk Management Strategy In Relation To Hedging Relationships That Entity Frequently Resets
+Information Technology Expenses
+Information Whether And How Other Features Were Incorporated Into Measurement Of Fair Value Share Options Granted
+Information Whether Entity Complied With Any Externally Imposed Capital Requirements
+Initially Applied Ind A Ss Domain
+Insurance
+Insurance Cost Apportioned Contract
+Intangible Assets
+Intangible Assets Material To Entity Domain
+Intangible Assets Pledged As Security For Liabilities
+Intangible Assets Relating To Insurance Contracts Acquired In Business Combinations Or Portfolio Transfers
+Intangible Assets Under Development
+Intangible Assets Under Development Or Work In Progress
+Intangible Assets Whose Title Is Restricted
+Intangible Assets With Indefinite Useful Life
+Intangible Assets With Indefinite Useful Life Domain
+Interest Accrued And Due On Borrowings
+Interest Accrued And Due On Public Deposits
+Interest Accrued But Not Due
+Interest Accrued But Not Due On Borrowings
+Interest Accrued But Not Due On Public Deposits
+Interest Accrued On Borrowings
+Interest Accrued On Public Deposits
+Interest Accrued Others
+Interest Costs Capitalised
+Interest Costs Incurred
+Interest Due But Not Paid
+Interest Due Remaining Unpaid
+Interest Expense
+Interest Expense Borrowing Costs
+Interest Expense Borrowings
+Interest Expense Current Loans
+Interest Expense Current Loans Banks
+Interest Expense Current Loans Others
+Interest Expense Debt Securities
+Interest Expense Deposits
+Interest Expense Income Net Defined Benefit Liability Assets
+Interest Expense Noncurrent Loans
+Interest Expense Noncurrent Loans Banks
+Interest Expense Noncurrent Loans Others
+Interest Expense Of Joint Venture
+Interest Expense Other Borrowings
+Interest Expense Reportable Segment
+Interest From Customers On Amounts Overdue Current Investments
+Interest From Customers On Amounts Overdue Noncurrent Investments
+Interest Income
+Interest Income Accrued
+Interest Income For Financial Assets Measured At Amortised Cost
+Interest Income On Current Investments
+Interest Income On Noncurrent Investments
+Interest Lease Financing
+Interest On Current Debt Securities
+Interest On Current Government Securities
+Interest On Current Intercorporate Deposits
+Interest On Deposits Accrued And Due But Not Paid
+Interest On Fixed Deposits Current Investments
+Interest On Fixed Deposits Noncurrent Investments
+Interest On Income Tax Refund
+Interest On Noncurrent Debt Securities
+Interest On Noncurrent Government Securities
+Interest On Noncurrent Intercorporate Deposits
+Interest On Other Current Investments
+Interest On Other Noncurrent Investments
+Interest Paid Classified As Financing Activities
+Interest Paid Classified As Operating Activities
+Interest Received Classified As Investing Activities
+Interest Received Classified As Operating Activities
+Interest Revenue Expense Reportable Segment
+Interest Unclaimed Amount
+Interim Dividend Appropriation
+Interim Equity Dividend Appropriation
+Interim Special Dividend Appropriation
+Intrinsic Value Of Liabilities From Sharebased Payment Transactions For Which Counterpartys Right To Cash Or Other Assets Vested 2011
+Inventories
+Inventories At Fair Value Less Costs To Sell
+Inventories At Net Realisable Value
+Inventories Pledged As Security For Liabilities
+Inventory Cost Formulas
+Inventory Recognised As Of Acquisition Date
+Inventory Writedown
+Investment Accounted For Using Equity Method Of Associate
+Investment Accounted For Using Equity Method Of Joint Venture
+Investment Accounted For Using Equity Method Reportable Segment
+Investment In Government Companies
+Investment In Subsidiary Companies
+Investment Of Subsidiary
+Investment Property
+Investment Property Domain
+Investments Accounted For Using Equity Method
+Investments In Equity Instruments Measured At Fair Value Through Other Comprehensive Income Domain
+Issues Fair Value Measurement Assets
+Issues Fair Value Measurement Liabilities
+Joint Operations Domain
+Joint Ventures Domain
+Joint Ventures Liquidated Or Sold During Year Domain
+Joint Ventures Which Are Yet To Commence Operations Domain
+Key Management Personnel Compensation
+Key Management Personnel Compensation Other Longterm Benefits
+Key Management Personnel Compensation Postemployment Benefits
+Key Management Personnel Compensation Sharebased Payment
+Key Management Personnel Compensation Shortterm Employee Benefits
+Key Management Personnel Compensation Termination Benefits
+Key Managerial Personnel Or Director Remuneration
+Key Managerial Personnels And Directors Domain
+Last Name Of Director
+Latest Audited Balance Sheet Date
+Lease And Sublease Payments Recognised As Expense
+Leases As Lessee Related Party Transactions
+Leases As Lessor Related Party Transactions
+Leave Encashment Expenses
+Legal Professional Charges
+Level Of Rounding Used In Financial Statements
+Liabilities
+Liabilities Arising From Exploration For And Evaluation Of Mineral Resources
+Liabilities Arising From Insurance Contracts
+Liabilities Directly Associated With Assets In Disposal Group Classified As Held For Sale
+Liabilities Domain
+Liabilities Fair Value
+Liabilities From Sharebased Payment Transactions 2011
+Liabilities In Subsidiary Or Businesses Acquired Or Disposed 2013
+Liabilities Incurred
+Liabilities Or Components Of Equity Relating To Discretionary Participation Features
+Liabilities Reportable Segment
+Liabilities Written Off
+Liability Assets Of Defined Benefit Plans
+Loans
+Loans And Advances
+Loans And Advances Due By Directors
+Loans And Advances Due By Directors Other Officers Or Others
+Loans And Advances Due By Firms Or Companies In Which Any Director Is Partner Or Director
+Loans And Advances Due By Other Officers
+Loans And Advances Due By Private Companies In Which Any Director Is Member
+Loans And Advances Gross
+Loans Current
+Loans Due By Directors
+Loans Due By Directors Other Officers Or Others
+Loans Due By Firms In Which Any Director Is Partner
+Loans Due By Firms Or Companies In Which Any Director Is Partner Or Director
+Loans Due By Other Officers
+Loans Due By Others
+Loans Due By Private Companies In Which Any Director Is Director
+Loans Due By Private Companies In Which Any Director Is Member
+Loans Gross
+Loans Noncurrent
+Long Term Borrowings
+Long Term Loans And Advances
+Long Term Provisions
+Loss On Disposal Discard Demolishment And Destruction Of Depreciable Property Plant And Equipment
+Loss On Disposal Discard Demolishment And Destruction Of Depreciable Tangible Asset
+Loss On Disposal Of Intangible Asset
+Loss On Disposal Of Intangible Assets
+Losses On Change In Fair Value Of Derivatives
+Losses On Disposals Of Investment Properties
+Losses On Disposals Of Investments
+Losses On Disposals Of Noncurrent Assets
+Losses On Disposals Of Property Plant And Equipment
+Losses On Litigation Settlements
+MAT Credit Recognised During Year
+Major Customers Domain
+Managerial Remuneration
+Market Value Of Quoted Current Investments
+Market Value Of Quoted Noncurrent Investments
+Material Contracts Arrangements Transactions At Arms Length Basis Domain
+Material Cost Contract
+Maturity Analysis For Nonderivative Financial Liabilities Explanatory
+Maximum Amount Of Default In Repayment Of Deposits Or Payment Of Interest Thereon During Year
+Maximum Amount Outstanding For Period From Micro Small Medium Enterprises
+Maximum Exposure To Credit Risk Of Loans Or Receivables
+Maximum Number Of Cases Of Default In Repayment Of Deposits Or Payment Of Interest Thereon During Year
+Measurement Bases Property Plant And Equipment
+Membership Number Of Auditor
+Membership Number Of Secretarial Auditor
+Method Of Determining Fair Value Of Instruments Or Interests
+Method Used To Account For Investments In Associates
+Method Used To Account For Investments In Joint Ventures
+Method Used To Account For Investments In Subsidiaries
+Methods Used To Determine Construction Contract Revenue Recognised
+Methods Used To Determine Stage Of Completion Of Construction In Progress
+Methods Used To Measure Risk
+Micro Small Medium Enterprises Domain
+Middle Name Of Director
+Minimum Finance Lease Payments Payable
+Minimum Finance Lease Payments Payable At Present Value
+Minimum Finance Lease Payments Receivable At Present Value
+Minimum Lease Payments Of Arrangements That Include Payments For Nonlease Elements
+Minimum Lease Payments Of Other Arrangements That Do Not Include Payments For Nonlease Elements
+Minimum Lease Payments Payable Under Noncancellable Operating Lease
+Minimum Lease Payments Receivable Under Noncancellable Operating Lease
+Minimum Operating Lease Payments
+Miscellaneous Expenditure Written Off
+Miscellaneous Expenses
+Miscellaneous Other Nonoperating Income
+Miscellaneous Other Operating Revenues
+Miscellaneous Other Operating Revenues Domain
+Mode Of Amount Spent
+Mode Of Valuation
+NIC Code Of Product Or Service
+Name Of Acquiree
+Name Of Acquiree Acquired Receivables
+Name Of Acquiree Business Combinations
+Name Of Associate Entity
+Name Of Associate Liquidated Or Sold During Year
+Name Of Associate Which Is Yet To Commence Operations
+Name Of Audit Firm
+Name Of Auditor Signing Report
+Name Of Body Corporate In Whom Investment Has Been Made
+Name Of Chief Financial Officer
+Name Of City Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Name Of Company
+Name Of Company Secretary
+Name Of Consolidated Structured Entity
+Name Of Country Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Name Of Director Or Managerial Personnel
+Name Of Directors And Key Managerial Personnel
+Name Of District Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Name Of District Where Projects Or Programs Was Undertaken
+Name Of Entity Consolidated
+Name Of Entity Whose Consolidated Financial Statements Have Been Produced For Public Use
+Name Of Government And Nature Of Relationship With Government
+Name Of Joint Operation
+Name Of Joint Venture
+Name Of Joint Venture Liquidated Or Sold During Year
+Name Of Joint Venture Which Is Yet To Commence Operations
+Name Of Key Managerial Personnel Or Director
+Name Of Main Product Or Service
+Name Of Major Customers
+Name Of Parent Entity
+Name Of Partnership Firm Where Noncurrent Investment Is Made
+Name Of Product Or Services
+Name Of Promoter
+Name Of Registrar And Transfer Agent
+Name Of Related Party
+Name Of Secretarial Audit Firm
+Name Of Secretarial Auditor Signing Report
+Name Of Shareholder
+Name Of State Or Union Territory Where Projects Or Programs Was Undertaken
+Name Of State Union Territory Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Name Of Stock Exchange Where The Company Is Listed
+Name Of Subsidiary
+Name Of Subsidiary Consolidated
+Name Of Subsidiary Liquidated Or Sold During Year
+Name Of Subsidiary Which Is Yet To Commence Operations
+Name Of Ultimate Parent Of Group
+Name Supplier Being Micro Small Medium Enterprises
+Names Of All Partners In Partnership Firm
+National Calamity Contingency Duty Pertaining To Exploration And Production Activities
+Nature Of Biological Assets Other Than Bearer Plants At Cost
+Nature Of Biological Assets Other Than Bearer Plants At Fair Value
+Nature Of Bond Or Debenture
+Nature Of Current Investments
+Nature Of Entitys Own Equity Instruments
+Nature Of Investment Property
+Nature Of Investment Purchased Or Sold During Period
+Nature Of Issuing Authority In Country Of Incorporation Or Residence Foreign Subsidiary Liquidated Or Sold During Year
+Nature Of Issuing Authority In Country Of Incorporation Or Residence Foreign Subsidiary Which Is Yet To Commence Operations
+Nature Of Issuing Authority In Country Of Incorporation Or Residence Subsidiary Company
+Nature Of Liabilities
+Nature Of Noncurrent Investments
+Nature Of Other Advance
+Nature Of Other Assets
+Nature Of Other Cash And Cash Equivalents
+Nature Of Other Commitments
+Nature Of Other Intangible Assetsothers
+Nature Of Other Inventories
+Nature Of Other Loans
+Nature Of Other Loans And Advances
+Nature Of Other Noncurrent Assets Others
+Nature Of Other Property Plant And Equipment Others
+Nature Of Other Provisions
+Nature Of Other Risk
+Nature Of Other Tangible Assets
+Nature Of Related Party Relationship
+Nature Of Report Standalone Consolidated
+Nature Of Reportable Segment
+Nature Of Security
+Nature Of Security On Private Placement Of Equity Share
+Net Assets Of Entity As Percentage Of Consolidated Net Assets
+Net Deferred Tax Assets
+Net Deferred Tax Liabilities
+Net Foreign Exchange Gain
+Net Foreign Exchange Loss
+Net Gain Loss On Derivatives
+Net Gain Loss On Foreign Currency Fluctuations Treated As Other Income
+Net Gain Loss On Foreign Currency Fluctuations Treated As Other Operating Revenue
+Net Gain Loss On Foreign Currency Transactions And Translations Treated As Finance Costs
+Net Gain Loss On Foreign Currency Translation
+Net Gain Loss On Sale Of Current Investments
+Net Gain Loss On Sale Of Investments
+Net Gain Loss On Sale Of Long Term Investments
+Net Gain Loss On Sale Of Noncurrent Investments
+Net Movement In Deferred Tax Arising From Regulatory Deferral Account Balances Related To Profit Or Loss
+Net Movement In Other Regulatory Deferral Account Balances Related To Profit Or Loss
+Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss
+Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss And Net Movement In Related Deferred Tax
+Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss And The Related Deferred Tax Movement
+Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss Directly Associated With Discontinued Operations
+Net Profit Computed Under Section 198 And Adjusted As Per Rule 21 F Of Companies CSR Policy Rules 2014
+Net Provisions Charged
+Net Quantities Of Enterprises Interest In Proved Reserves And Proved Developed Reserves Of Oil And Gas On Geographical Basis Explanatory
+Net Quantities Of Enterprises Interests In Proved Reserves And Proved Developed Reserves Of Oil Including Condensate And Natural Gas Liquids And Gas As At Beginning And Additions Deductions Production And Closing Balance For Year Explanatory
+Net Worth Attributable To Shareholding As Per Latest Audited Balance Sheet Associate
+Net Worth Attributable To Shareholding As Per Latest Audited Balance Sheet Joint Venture
+Net Worth Of Company
+New Provisions Other Provisions
+Nominal Amount Of Bonds Or Debentures Held By Nominee Or Trustee Of Company
+Nominal Value Of Per Equity Share
+Nominal Value Per Bond Or Debenture
+Non Controlling Interest
+Noncontrolling Interest In Acquiree Recognised At Acquisition Date
+Noncontrolling Interests Of Subsidiary
+Noncurrent Advances
+Noncurrent Assets
+Noncurrent Assets Classified As Held For Sale
+Noncurrent Assets Of Associate
+Noncurrent Assets Of Joint Venture
+Noncurrent Assets Of Subsidiary
+Noncurrent Assets Other Than Financial Instruments Deferred Tax Assets Postemployment Benefit Assets And Rights Arising Under Insurance Contracts
+Noncurrent Assets Recognised As Of Acquisition Date
+Noncurrent Financial Assets
+Noncurrent Financial Liabilities
+Noncurrent Investments
+Noncurrent Liabilities
+Noncurrent Liabilities Of Associate
+Noncurrent Liabilities Of Joint Venture
+Noncurrent Liabilities Of Subsidiary
+Noncurrent Liabilities Recognised As Of Acquisition Date
+Nonderivative Financial Liabilities Undiscounted Cash Flows
+Noninsurance Assets Acquired By Exercising Rights To Recoveries
+Number Of Allottees In Case Of Preferential Allotment
+Number Of Allottees To Whom Bonds Or Debentures Were Issued
+Number Of Bonds Or Debentures
+Number Of Cases Of Default In Repayment Of Deposits Or Payment Of Interest Thereon Beginning Of Year
+Number Of Cases Of Default In Repayment Of Deposits Or Payment Of Interest Thereon End Of Year
+Number Of Certified Emission Rights Held As Inventory
+Number Of Certified Emission Rights Under Certification
+Number Of Demat Shares Held
+Number Of Employees In The Company At The End Of The Financial Year
+Number Of Instruments Granted In Sharebased Payment Arrangement
+Number Of Instruments Or Interests Issued Or Issuable
+Number Of Instruments Other Equity Instruments Granted
+Number Of Instruments Other Instruments Granted
+Number Of Meetings Of Board
+Number Of Other Equity Instruments Exercisable In Sharebased Payment Arrangement
+Number Of Other Equity Instruments Exercised Or Vested In Sharebased Payment Arrangement
+Number Of Other Equity Instruments Expired In Sharebased Payment Arrangement
+Number Of Other Equity Instruments Forfeited In Sharebased Payment Arrangement
+Number Of Other Equity Instruments Outstanding In Sharebased Payment Arrangement
+Number Of Other Issue Of Shares Arising Out Of Conversion Of Securities
+Number Of Other Issues Of Shares
+Number Of Outstanding Share Options
+Number Of Outstanding Stock Options
+Number Of Permanent Employees On Rolls Of Company
+Number Of Person Share Application Money Paid As At End Of Year
+Number Of Person Share Application Money Paid During Year
+Number Of Person Share Application Money Received As At End Of Year
+Number Of Person Share Application Money Received During Year
+Number Of Persons On Private Placement Of Equity Share
+Number Of Physical Shares Held
+Number Of Share Options Exercisable In Sharebased Payment Arrangement
+Number Of Share Options Exercised In Sharebased Payment Arrangement
+Number Of Share Options Expired In Sharebased Payment Arrangement
+Number Of Share Options Forfeited In Sharebased Payment Arrangement
+Number Of Share Options Granted In Sharebased Payment Arrangement
+Number Of Share Options Outstanding In Share Based Payment Arrangement
+Number Of Shareholders Of Company
+Number Of Shareholders Promoters
+Number Of Shareholders Promoters And Public
+Number Of Shareholders Public
+Number Of Shareholders To Whom Shares Are Allotted Under Private Placement During Period
+Number Of Shares
+Number Of Shares Allotted For Contracts Without Payment Received In Cash
+Number Of Shares Authorised
+Number Of Shares Bought Back
+Number Of Shares Bought Back Or Treasury Shares
+Number Of Shares Held
+Number Of Shares Held By Banks
+Number Of Shares Held By Body Corporate
+Number Of Shares Held By Central Government
+Number Of Shares Held By Financial Institutions
+Number Of Shares Held By Foreign Institutional Investors
+Number Of Shares Held By Foreign National Other Than Non Resident Indian
+Number Of Shares Held By Government Companies
+Number Of Shares Held By Indian
+Number Of Shares Held By Insurance Companies
+Number Of Shares Held By Mutual Funds
+Number Of Shares Held By Non Resident Indian
+Number Of Shares Held By Others
+Number Of Shares Held By State Government
+Number Of Shares Held By Venture Capital
+Number Of Shares Held In Company
+Number Of Shares Held Of Associate
+Number Of Shares Held Of Joint Venture
+Number Of Shares Issued
+Number Of Shares Issued As Bonus Shares
+Number Of Shares Issued As Other Preferential Allotment
+Number Of Shares Issued As Preferential Allotment Arising Out Of Conversion Of Debentures Preference Shares During Period
+Number Of Shares Issued As Rights
+Number Of Shares Issued In Other Private Placement
+Number Of Shares Issued In Private Placement Arising Out Of Conversion Of Debentures Preference Shares During Period
+Number Of Shares Issued In Public Offering
+Number Of Shares Issued In Shares Based Payment Transactions
+Number Of Shares Issued Under Employee Stock Option Plan
+Number Of Shares Issued Under Scheme Of Amalgamation
+Number Of Shares Of Current Investment Made In Body Corporate
+Number Of Shares Of Noncurrent Investment Made In Body Corporate
+Number Of Shares Outstanding
+Number Of Shares Paid Up
+Number Of Shares Proposed To Be Issued
+Number Of Shares Subscribed
+Number Of Shares Subscribed And Fully Paid
+Number Of Shares Subscribed But Not Fully Paid
+Number Of Stock Options In Employee Sharebased Payment Arrangement
+Number Of Subsidiary Companies
+Number Of Units Purchased
+Number Of Units Sold
+Number Of Warrants Converted Into Debentures During Period
+Number Of Warrants Converted Into Equity Shares During Period
+Number Of Warrants Converted Into Preference Shares During Period
+Number Of Warrants Issued During Period INR
+Number Of Warrants Issued During Period In Foreign Currency
+Operating And Maintenance Cost Of Emission And Other Pollution Reduction Equipments
+Original Paid Up Value Of Forfeited Shares
+Other Additions To Reserves
+Other Adjustments For Noncash Items
+Other Adjustments For Which Cash Effects Are Investing Or Financing Cash Flow
+Other Adjustments Tangible Assets
+Other Adjustments Tangible Assets Others
+Other Adjustments To Reconcile Profit Loss
+Other Advance
+Other Advance Received
+Other Allowances Deduction Other Income
+Other Appropriations
+Other Assets Amount Contributed To Fair Value Of Plan Assets
+Other Balances With Banks
+Other Bank Balances
+Other Benefits To Directors
+Other Benefits To Manager
+Other Borrowing Costs
+Other Cash Payments To Acquire Equity Or Debt Instruments Of Other Entities Classified As Investing Activities
+Other Cash Payments To Acquire Interests In Joint Ventures Classified As Investing Activities
+Other Cash Receipts From Sales Of Equity Or Debt Instruments Of Other Entities Classified As Investing Activities
+Other Cash Receipts From Sales Of Interests In Joint Ventures Classified As Investing Activities
+Other Cess Taxes
+Other Changes In Equity
+Other Changes In Equity Others
+Other Claims Contracts
+Other Commission Key Managerial Personnel Or Director
+Other Commitments
+Other Compensation Key Managerial Personnel Or Director
+Other Components Of Deferred Tax Expense Income
+Other Comprehensive Income
+Other Comprehensive Income Attributable To Noncontrolling Interests
+Other Comprehensive Income Attributable To Owners Of Parent
+Other Comprehensive Income Before Tax
+Other Comprehensive Income Before Tax Cash Flow Hedges
+Other Comprehensive Income Before Tax Change In Fair Value Of Financial Liability Attributable To Change In Credit Risk Of Liability
+Other Comprehensive Income Before Tax Change In Value Of Foreign Currency Basis Spreads
+Other Comprehensive Income Before Tax Change In Value Of Forward Elements Of Forward Contracts
+Other Comprehensive Income Before Tax Change In Value Of Time Value Of Options
+Other Comprehensive Income Before Tax Debt Instrument Through Other Comprehensive Income
+Other Comprehensive Income Before Tax Exchange Differences On Translation
+Other Comprehensive Income Before Tax Financial Assets Measured At Fair Value Through Other Comprehensive Income
+Other Comprehensive Income Before Tax Gains Losses From Investments In Equity Instruments
+Other Comprehensive Income Before Tax Gains Losses On Hedging Instruments That Hedge Investments In Equity Instruments
+Other Comprehensive Income Before Tax Gains Losses On Remeasurements Of Defined Benefit Plans
+Other Comprehensive Income Before Tax Gains Losses On Revaluation
+Other Comprehensive Income Before Tax Hedges Of Net Investments In Foreign Operations
+Other Comprehensive Income Before Tax Net Movement In Regulatory Deferral Account Balances Related To Items That Will Be Reclassified To Profit Or Loss
+Other Comprehensive Income Before Tax Net Movement In Regulatory Deferral Account Balances Related To Items That Will Not Be Reclassified To Profit Or Loss
+Other Comprehensive Income Net Of Tax Cash Flow Hedges
+Other Comprehensive Income Net Of Tax Change In Fair Value Of Financial Liability Attributable To Change In Credit Risk Of Liability
+Other Comprehensive Income Net Of Tax Change In Value Of Foreign Currency Basis Spreads
+Other Comprehensive Income Net Of Tax Change In Value Of Forward Elements Of Forward Contracts
+Other Comprehensive Income Net Of Tax Change In Value Of Time Value Of Options
+Other Comprehensive Income Net Of Tax Debt Instrument Through Other Comprehensive Income
+Other Comprehensive Income Net Of Tax Exchange Differences On Translation
+Other Comprehensive Income Net Of Tax Financial Assets Measured At Fair Value Through Other Comprehensive Income
+Other Comprehensive Income Net Of Tax Gains Losses From Investments In Equity Instruments
+Other Comprehensive Income Net Of Tax Gains Losses On Hedging Instruments That Hedge Investments In Equity Instruments
+Other Comprehensive Income Net Of Tax Gains Losses On Remeasurements Of Defined Benefit Plans
+Other Comprehensive Income Net Of Tax Gains Losses On Revaluation
+Other Comprehensive Income Net Of Tax Hedges Of Net Investments In Foreign Operations
+Other Comprehensive Income Net Of Tax Net Movement In Regulatory Deferral Account Balances Related To Items That Will Be Reclassified To Profit Or Loss
+Other Comprehensive Income Net Of Tax Net Movement In Regulatory Deferral Account Balances Related To Items That Will Not Be Reclassified To Profit Or Loss
+Other Comprehensive Income Of Associate
+Other Comprehensive Income Of Joint Venture
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Before Tax
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Before Tax Others
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Before Tax Others Domain
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Net Of Tax
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Net Of Tax Others
+Other Comprehensive Income That Will Be Reclassified To Profit Or Loss Net Of Tax Others Domain
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Before Tax
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Before Tax Others
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Before Tax Others Domain
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Net Of Tax
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Net Of Tax Others
+Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss Net Of Tax Others Domain
+Other Current Assets
+Other Current Assets Others
+Other Current Assets Others Domain
+Other Current Financial Assets
+Other Current Financial Assets Others
+Other Current Financial Assets Others Domain
+Other Current Financial Liabilities
+Other Current Financial Liabilities Of Joint Venture
+Other Current Financial Liabilities Others
+Other Current Financial Liabilities Others Domain
+Other Current Liabilities
+Other Current Liabilities Others
+Other Current Liabilities Others Domain
+Other Decrease In Amount Of Shares
+Other Decrease In Number Of Shares
+Other Deductions To Reserves
+Other Deposits Refundable Current
+Other Deposits With Banks
+Other Differences To Cash And Cash Equivalents In Statement Of Cash Flows
+Other Employee Related Expenses
+Other Equity
+Other Equity Balances
+Other Expenditure Pertaining To Exploration And Production Activities
+Other Expenses
+Other Income
+Other Increase Decrease In Other Provisions
+Other Increase Decrease Through Other Changes Regulatory Deferral Account Credit Balances
+Other Increase Decrease Through Other Changes Regulatory Deferral Debit Balances
+Other Individually Immaterial Components Of Other Comprehensive Income Before Tax
+Other Individually Immaterial Components Of Other Comprehensive Income Net Of Tax
+Other Inflows Outflows Of Cash Classified As Financing Activities
+Other Inflows Outflows Of Cash Classified As Investing Activities
+Other Inflows Outflows Of Cash Classified As Operating Activities
+Other Intangible Assets
+Other Intangible Assets Revaluation Surplus
+Other Intangible Assets Revalued Assets
+Other Intangible Assets Revalued Assets At Cost
+Other Interest Charges
+Other Liabilities Under Insurance Contracts And Reinsurance Contracts Issued
+Other Long Term Liabilities
+Other Material Actuarial Assumptions
+Other Material Noncash Items Reportable Segment
+Other Miscellaneous Expenditure Written Off
+Other Money For Which Company Is Contingently Liable
+Other Net Gain Loss On Foreign Currency Fluctuations Treated As Other Income
+Other Non Current Financial Assets Others Domain
+Other Noncurrent Assets
+Other Noncurrent Assets Others
+Other Noncurrent Assets Others Domain
+Other Noncurrent Financial Assets
+Other Noncurrent Financial Assets Others
+Other Noncurrent Financial Liabilities
+Other Noncurrent Financial Liabilities Of Joint Venture
+Other Noncurrent Financial Liabilities Others
+Other Noncurrent Financial Liabilities Others Domain
+Other Noncurrent Liabilities
+Other Noncurrent Liabilities Others
+Other Noncurrent Liabilities Others Domain
+Other Nonoperating Income
+Other Operating Revenues
+Other Overheads Apportioned Contracts
+Other Payables Current
+Other Provisions
+Other Provisions Created
+Other Regulatory Deferral Account Credit Balances
+Other Regulatory Deferral Account Debit Balances
+Other Related Party Transactions Contribution Made
+Other Related Party Transactions Contribution Received
+Other Related Party Transactions Expense
+Other Related Party Transactions Income
+Other Retirement Benefits
+Other Reversals Of Provisions
+Other Tangible Or Intangible Assets Transferred
+Other Tax Effects For Reconciliation Between Accounting Profit And Tax Expense Income
+Other Tax Rate Effects For Reconciliation Between Accounting Profit And Tax Expense Income
+Other Unamortised Expenses
+Other Utilisation Of Securities Premium If Permitted
+Others
+Others Income Tax Relating To Components Of Other Comprehensive Income That Will Be Reclassified To Profit Or Loss
+Others Income Tax Relating To Components Of Other Comprehensive Income That Will Not Be Reclassified To Profit Or Loss
+Outstanding Amount Of Continuing Default Interest
+Outstanding Amount Of Continuing Default Principal
+Outstanding Commitments Made By Entity Related Party Transactions
+Outstanding Commitments Made On Behalf Of Entity Related Party Transactions
+Outstanding Unutilised Amounts Received In Respect Of Issue Of Securities For Specific Purpose
+Over Due Period For Which Application Money Is Pending Prior To Allotment Of Shares
+Overhead Costs Apportioned Contracts
+Overheads On Projects Or Programs
+PAN Of Joint Venture Liquidated Or Sold During Year
+PAN Of Joint Venture Which Is Yet To Commence Operations
+PAN Of Shareholder
+PAN Of Subsidiary Company Liquidated Or Sold During Year
+PAN Of Subsidiary Company Which Is Yet To Commence Operations
+Par Value Per Share
+Participation In Defined Benefit Plan That Shares Risks Between Group Entities Related Party Transactions
+Particulars Of Any Redeemed Bonds Debentures Which Company Has Power To Reissue
+Particulars Of Contracts Arrangements With Related Parties Under Sub Section 1 Of Section 188 Explanatory
+Particulars Of Contracts Arrangements With Related Parties Under Sub Section 1 Of Section 188 Text Block
+Particulars Of Loans Guarantee Investment Under Section 186 Explanatory
+Particulars Of Loans Guarantee Investment Under Section 186 Text Block
+Particulars Of Redemption Or Conversion
+Past Service Cost And Gains Losses Arising From Settlements Net Defined Benefit Liability Assets
+Past Service Cost Net Defined Benefit Liability Assets
+Payment For Audit Services
+Payment For Company Law Matters
+Payment For Cost Audit Charges
+Payment For Cost Compliance Report
+Payment For Other Cost Services
+Payment For Other Services
+Payment For Reimbursement Of Expenses
+Payment For Taxation Matters
+Payment To Cost Auditor For Reimbursement Of Expenses
+Payments From Changes In Ownership Interests In Subsidiaries
+Payments From Plan Net Defined Benefit Liability Assets
+Payments In Respect Of Settlements Net Defined Benefit Liability Assets
+Payments Of Finance Lease Liabilities Classified As Financing Activities
+Payments Of Lease Liabilities Classified As Financing Activities
+Payments Of Other Equity Instruments
+Payments To Acquire Or Redeem Entitys Shares
+Payments To Auditor
+Payments To Cost Auditor
+Pension Schemes
+Percentage Increase Decrease In Shareholding During Year
+Percentage Increase In Median Remuneration Of Employees In Financial Year
+Percentage Increase In Remuneration Of Director Or Managerial Personnel In The Financial Year
+Percentage Of Capital Reduction To Capital Prior To Reduction
+Percentage Of Change In Shares Held During Year
+Percentage Of Entitys Revenue
+Percentage Of Paid Up Capital Held By Foreign Holding Company And Or With Its Subsidiaries
+Percentage Of Proposed Dividend
+Percentage Of Reasonably Possible Decrease In Actuarial Assumption
+Percentage Of Reasonably Possible Increase In Actuarial Assumption
+Percentage Of Share Capital Held By Foreign Company
+Percentage Of Shareholding In Company
+Percentage Of Shareholding In Subsidiary
+Percentage Of Shares
+Percentage Of Shares Held By Banks
+Percentage Of Shares Held By Body Corporate
+Percentage Of Shares Held By Central Government
+Percentage Of Shares Held By Financial Institutions
+Percentage Of Shares Held By Foreign Institutional Investors
+Percentage Of Shares Held By Foreign National Other Than Non Resident Indian
+Percentage Of Shares Held By Government Companies
+Percentage Of Shares Held By Indian
+Percentage Of Shares Held By Insurance Companies
+Percentage Of Shares Held By Mutual Funds
+Percentage Of Shares Held By Non Resident Indian
+Percentage Of Shares Held By Others
+Percentage Of Shares Held By State Government
+Percentage Of Shares Held By Venture Capital
+Percentage Of Shares Pledged Encumbered To Total Shares
+Percentage Of Total Shares Held
+Percentage Of Voting Equity Interests Acquired
+Percentage To Total Turnover Of Company
+Period Before Which Shares Are To Be Allotted
+Period Covered By Financial Statements
+Permanent Account Number Of Associate Entity
+Permanent Account Number Of Auditor Or Auditors Firm
+Permanent Account Number Of Chief Financial Officer
+Permanent Account Number Of Company Secretary
+Permanent Account Number Of Entity
+Permanent Account Number Of Joint Operation
+Permanent Account Number Of Joint Venture
+Permanent Account Number Of Key Managerial Personnel Or Director
+Permanent Account Number Of Related Party
+Permanent Account Number Of Secretarial Auditor Or Secretarial Auditors Firm
+Permanent Account Number Of Shareholder
+Permanent Account Number Of Subsidiary Company
+Perquisites Key Managerial Personnel Or Director
+Phone With STDISD Code Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Pin Code Of Place Of Maintenance Of Computer Servers Storing Accounting Data
+Pipeline Operation And Maintenance Expenditure Pertaining To Exploration And Production Activities
+Plan Assets At Fair Value
+Portion Of Gains Losses Recognised When Control Of Subsidiary Is Lost Attributable To Recognising Investment Retained In Former Subsidiary
+Power And Fuel
+Pre Tax Gain Or Loss Recognised On Disposal Of Assets Or Settlement Of Liabilities Attributable To Discontinued Operations
+Prescribed CSR Expenditure
+Principal Amount
+Principal And Interest Due Remaining Unpaid
+Principal Due Remaining Unpaid
+Principal Place Of Business Of Associate
+Principal Place Of Business Of Entity Whose Consolidated Financial Statements Have Been Produced For Public Use
+Principal Place Of Business Of Joint Operation
+Principal Place Of Business Of Joint Venture
+Principal Place Of Business Of Subsidiary
+Principal Place Of Business Of Subsidiary Consolidated
+Principal Product Or Principal Services Domain
+Printing Stationery
+Proceeds From Biological Assets Other Than Bearer Plants Classified As Investing Activities
+Proceeds From Borrowings Classified As Financing Activities
+Proceeds From Changes In Ownership Interests In Subsidiaries
+Proceeds From Exercise Of Stock Options
+Proceeds From Government Grants Classified As Investing Activities
+Proceeds From Issuing Debentures Notes Bonds Etc
+Proceeds From Issuing Other Equity Instruments
+Proceeds From Issuing Shares Classified As Financing Activities
+Proceeds From Sales Of Goodwill Classified As Investing Activities
+Proceeds From Sales Of Intangible Assets Classified As Investing Activities
+Proceeds From Sales Of Intangible Assets Under Development
+Proceeds From Sales Of Investment Property Classified As Investing Activities
+Proceeds From Sales Of Other Long Term Assets Classified As Investing Activities
+Proceeds From Sales Of Property Plant And Equipment Classified As Investing Activities
+Proceeds From Sales Of Tangible Assets Classified As Investing Activities
+Product Or Service Category ITC4 Digit Code
+Products And Services Domain
+Profit After Tax Of Subsidiary
+Profit Before Exceptional Items And Tax
+Profit Before Extraordinary Items And Tax
+Profit Before Prior Period Items Exceptional Items Extraordinary Items And Tax
+Profit Before Tax
+Profit Before Tax Of Financial Year
+Profit Before Tax Of Subsidiary
+Profit Loss Attributable To Noncontrolling Interests
+Profit Loss Attributable To Ordinary Equity Holders Of Parent Entity
+Profit Loss Attributable To Ordinary Equity Holders Of Parent Entity Including Dilutive Effects
+Profit Loss Before Tax Discontinued Operations
+Profit Loss Before Tax Reportable Segment
+Profit Loss For Period
+Profit Loss For Period Before Minority Interest
+Profit Loss For Period From Continuing Operations
+Profit Loss For The Period As Per Ind As
+Profit Loss For The Period As Per Indian Gaap
+Profit Loss For Year Associate
+Profit Loss For Year Associate Considered In Consolidation
+Profit Loss For Year Associate Not Considered In Consolidation
+Profit Loss For Year Joint Venture
+Profit Loss For Year Joint Venture Considered In Consolidation
+Profit Loss For Year Joint Venture Not Considered In Consolidation
+Profit Loss From Continuing Operations Attributable To Noncontrolling Interests
+Profit Loss From Continuing Operations Attributable To Ordinary Equity Holders Of Parent Entity
+Profit Loss From Continuing Operations Attributable To Ordinary Equity Holders Of Parent Entity Including Dilutive Effects
+Profit Loss From Continuing Operations Of Associate
+Profit Loss From Continuing Operations Of Joint Venture
+Profit Loss From Continuing Operations Reportable Segment
+Profit Loss From Discontinued Operations After Tax
+Profit Loss From Discontinued Operations Attributable To Noncontrolling Interests
+Profit Loss From Discontinued Operations Attributable To Ordinary Equity Holders Of Parent Entity
+Profit Loss From Discontinued Operations Attributable To Ordinary Equity Holders Of Parent Entity Including Dilutive Effects
+Profit Loss From Discontinued Operations Before Tax
+Profit Loss From Discontinued Operations Of Associate
+Profit Loss From Discontinued Operations Of Joint Venture
+Profit Loss Including Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss And Net Movement In Related Deferred Tax
+Profit Loss Including Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss And Net Movement In Related Deferred Tax Attributable To Noncontrolling Interests
+Profit Loss Including Net Movement In Regulatory Deferral Account Balances Related To Profit Or Loss And Net Movement In Related Deferred Tax Attributable To Owners Of Parent
+Profit Loss Of Acquiree
+Profit Loss Of Combined Entity
+Profit Loss Recognised On Exchanging Construction Services For Financial Assets 2011
+Profit Loss Recognised On Exchanging Construction Services For Intangible Assets 2011
+Profit Loss Reportable Segment
+Profit Or Loss Attributable To Non Controlling Interests
+Profit Or Loss Attributable To Owners Of Parent
+Profits In Lieu Of Salary Key Managerial Personnel Or Director
+Profits Or Losses From Partnership Firms Or Association Of Persons Or Limited Liability Partnerships
+Progress Billings
+Promoters Domain
+Property Plant And Equipment
+Property Plant And Equipment Carrying Amount At Cost Of Revalued Assets
+Property Plant And Equipment Carrying Amount Of Assets Retired From Active Use
+Property Plant And Equipment Carrying Amount Of Revalued Assets
+Property Plant And Equipment Expenditures Recognised For Constructions
+Property Plant And Equipment Gross Carrying Amount Fully Depreciated
+Property Plant And Equipment Held For Sale
+Property Plant And Equipment Pledged As Security
+Property Plant And Equipment Recognised As Of Acquisition Date
+Property Plant And Equipment Restrictions On Title
+Property Plant And Equipment Revaluation Surplus
+Property Plant And Equipment Temporarily Idle
+Proportion Of Ownership Interest In Associate
+Proportion Of Ownership Interest In Joint Operation
+Proportion Of Ownership Interest In Joint Venture
+Proportion Of Ownership Interest In Subsidiary
+Proportion Of Ownership Interest In Subsidiary Consolidated
+Proportion Of Ownership Interests Held By Noncontrolling Interests
+Proportion Of Voting Power Held In Associate
+Proportion Of Voting Power Held In Subsidiary
+Proportion Of Voting Power Held In Subsidiary Consolidated
+Proportion Of Voting Rights Held By Noncontrolling Interests
+Proportion Of Voting Rights Held In Joint Operation
+Proportion Of Voting Rights Held In Joint Venture
+Proposed Dividend
+Proposed Dividend Of Subsidiary
+Proposed Equity Dividend
+Proposed Equity Final Dividend
+Proposed Equity Interim Dividend
+Proposed Equity Special Dividend
+Proposed Preference Dividend
+Proposed Preference Final Dividend
+Proposed Preference Interim Dividend
+Proposed Preference Special Dividend
+Provision Bad Doubtful Debts Created
+Provision Bad Doubtful Loans Advances Created
+Provision Employee Insurance Scheme
+Provision For Abandonment Cost
+Provision For Corporate Dividend Tax
+Provision For Corporate Tax
+Provision For Cost Of Restoration
+Provision For Current Tax
+Provision For Fringe Benefit Tax
+Provision For Other Tax
+Provision For Proposed Dividend
+Provision For Proposed Equity Dividend
+Provision For Proposed Equity Final Dividend
+Provision For Proposed Equity Interim Dividend
+Provision For Proposed Equity Special Dividend
+Provision For Proposed Preference Dividend
+Provision For Proposed Preference Final Dividend
+Provision For Proposed Preference Interim Dividend
+Provision For Proposed Preference Special Dividend
+Provision For Statutory Liabilities
+Provision For Tax Of Subsidiary
+Provision For Wealth Tax
+Provision Gratuity
+Provision Leave Encashment
+Provision Of Guarantees Or Collateral By Entity Related Party Transactions
+Provision Of Guarantees Or Collateral To Entity Related Party Transactions
+Provision Other Employee Related Liabilities
+Provision Pension
+Provision Restructuring Created
+Provision Statutory Liabilities Created
+Provision Used Other Provisions
+Provision Warranty Claims Created
+Provision Wealth Tax
+Provisions
+Provisions Arising From Liability Adequacy Tests
+Provisions Current
+Provisions For Doubtful Debts Related To Outstanding Balances Of Related Party Transaction
+Provisions For Employee Benefits
+Provisions For Future Nonparticipating Benefits
+Provisions For Losses Of Subsidiary Companies
+Provisions Noncurrent
+Public Deposit Payable Current
+Public Deposit Payable Noncurrent
+Purchase Of Biological Assets Other Than Bearer Plants Classified As Investing Activities
+Purchase Of Goodwill Classified As Investing Activities
+Purchase Of Intangible Assets Classified As Investing Activities
+Purchase Of Intangible Assets Under Development
+Purchase Of Investment Property Classified As Investing Activities
+Purchase Of Other Long Term Assets Classified As Investing Activities
+Purchase Of Property Plant And Equipment Classified As Investing Activities
+Purchase Of Tangible Assets Classified As Investing Activities
+Purchase Price Per Unit
+Purchase Tax
+Purchases Fair Value Measurement Assets
+Purchases Fair Value Measurement Liabilities
+Purchases Of Goods Related Party Transactions
+Purchases Of Property And Other Assets Related Party Transactions
+Purchases Of Stock In Trade
+Qualification Of Key Managerial Personnel Or Director
+Qualitative Information About Entitys Objectives Policies And Processes For Managing Capital
+Quantity Of Highest Contributing Product Or Service In Uom
+Ranges Of Exercise Prices For Outstanding Share Options Domain
+Ranges Of Exercise Prices For Outstanding Stock Options Domain
+Rate Of Interest
+Rate Of Return Used To Reflect Time Value Of Money Regulatory Deferral Account Balances
+Rates And Taxes Excluding Taxes On Income
+Ratio Of Remuneration Of Director Or Managerial Personnel To Median Of Remuneration Of Employees For Financial Year
+Raw Materials Consumed
+Reappointment Of Independent Directors As Per Section 14910 Explanatory
+Reason For Over Due Period For Which Application Money Is Pending Prior To Allotment Of Shares
+Reason If No Filing Has Been Made By Subsidiary
+Reason Why Associate Is Not Consolidated
+Reason Why Joint Venture Is Not Consolidated
+Receivables And Payables Related To Insurance Contracts
+Reclassification Adjustments On Cash Flow Hedges Before Tax
+Reclassification Adjustments On Cash Flow Hedges Net Of Tax
+Reclassification Adjustments On Change In Value Of Foreign Currency Basis Spreads Before Tax
+Reclassification Adjustments On Change In Value Of Foreign Currency Basis Spreads Net Of Tax
+Reclassification Adjustments On Change In Value Of Forward Elements Of Forward Contracts Before Tax
+Reclassification Adjustments On Change In Value Of Forward Elements Of Forward Contracts Net Of Tax
+Reclassification Adjustments On Change In Value Of Time Value Of Options Before Tax
+Reclassification Adjustments On Change In Value Of Time Value Of Options Net Of Tax
+Reclassification Adjustments On Debt Instrument Through Other Comprehensive Income Before Tax
+Reclassification Adjustments On Debt Instrument Through Other Comprehensive Income Net Of Tax
+Reclassification Adjustments On Exchange Differences On Translation Before Tax
+Reclassification Adjustments On Exchange Differences On Translation Net Of Tax
+Reclassification Adjustments On Financial Assets Measured At Fair Value Through Other Comprehensive Income Before Tax
+Reclassification Adjustments On Financial Assets Measured At Fair Value Through Other Comprehensive Income Net Of Tax
+Reclassification Adjustments On Hedges Of Net Investments In Foreign Operations Before Tax
+Reclassification Adjustments On Hedges Of Net Investments In Foreign Operations Net Of Tax
+Reclassification Adjustments On Net Movement In Regulatory Deferral Account Balances Before Tax
+Reclassification Adjustments On Net Movement In Regulatory Deferral Account Balances Net Of Tax
+Reclassified Items Domain
+Recognised Finance Lease As Assets
+Recoverable Amount Of Assets Or Cashgenerating Unit
+Reduction In Indebtedness
+Registration Date
+Registration Filing Fees
+Regulatory Deferral Account Credit Balance
+Regulatory Deferral Account Credit Balances
+Regulatory Deferral Account Credit Balances And Related Deferred Tax Liability
+Regulatory Deferral Account Credit Balances Directly Related To Disposal Group
+Regulatory Deferral Account Debit Balance
+Regulatory Deferral Account Debit Balances
+Regulatory Deferral Account Debit Balances And Related Deferred Tax Assets
+Regulatory Deferral Account Debit Balances Directly Related To Disposal Group
+Reinsurance Assets
+Related Parties Domain
+Related Party Domain
+Remaining Amortisation Period Of Intangible Assets Material To Entity
+Remaining Recovery Period Of Regulatory Deferral Account Debit Balances
+Remaining Reversal Period Of Regulatory Deferral Account Credit Balances
+Remaining Unamortised Gains And Losses Arising On Buying Reinsurance
+Remuneration For Key Managerial Personnel
+Remuneration To Directors
+Remuneration To Manager
+Rent
+Rental Income From Investment Property
+Rental Income From Investment Property Net Of Direct Operating Expense
+Rental Income On Investment Property
+Rental Income On Investment Property Current
+Rental Income On Investment Property Long Term
+Rental Income On Investment Property Noncurrent
+Repairs To Building
+Repairs To Machinery
+Repatriation Restrictions If Any In Respect Of Cash And Bank Balances
+Repayments Of Borrowings Classified As Financing Activities
+Report On Highlights On Performance Of Subsidiaries Associates And Joint Venture Companies And Their Contribution To Overall Performance Of The Companies During The Period Under Report Explanatory
+Reporting Currency Of Subsidiary
+Research And Development Expenditure Pertaining To Exploration And Production Activities
+Research And Development Expense
+Research Development Expenditure
+Reserve Of Exchange Differences On Translation
+Reserves
+Reserves And Surplus
+Reserves And Surplus Of Subsidiary
+Retention For Contracts In Progress
+Retention Money Payable
+Retirements Goodwill
+Retirements Other Intangible Assets
+Retirements Property Plant And Equipment
+Return On Plan Assets Net Defined Benefit Liability Assets
+Revaluation Increase Decrease Other Intangible Assets
+Revaluation Increase Decrease Property Plant And Equipment
+Revenue
+Revenue Arising From Exchanges Of Goods Or Services
+Revenue Arising From Exchanges Of Goods Or Services Construction Contracts
+Revenue Arising From Exchanges Of Goods Or Services Dividends
+Revenue Arising From Exchanges Of Goods Or Services Interest
+Revenue Arising From Exchanges Of Goods Or Services Other Revenue
+Revenue Arising From Exchanges Of Goods Or Services Rendering Of Services
+Revenue Arising From Exchanges Of Goods Or Services Royalties
+Revenue Arising From Exchanges Of Goods Or Services Sale Of Goods
+Revenue Discontinued Operations
+Revenue From Construction Contracts
+Revenue From External Customers
+Revenue From Insurance Contracts Issued Without Reduction For Reinsurance Held
+Revenue From Interest
+Revenue From Interest Of Joint Venture
+Revenue From Interest Reportable Segment
+Revenue From Operations
+Revenue From Operations Finance Company
+Revenue From Operations Other Than Finance Company
+Revenue From Other Financial Services
+Revenue From Rendering Of Services Related Party Transactions
+Revenue From Sale Of Goods Related Party Transactions
+Revenue From Sale Of Products
+Revenue From Sale Of Products Gross
+Revenue From Sale Of Services
+Revenue From Sale Of Services Gross
+Revenue Of Acquiree
+Revenue Of Associate
+Revenue Of Combined Entity
+Revenue Of Joint Venture
+Revenue Of Subsidiary
+Revenue Other Services
+Revenue Primary Reportable Segment
+Revenue Received In Advance
+Revenue Recognised On Exchanging Construction Services For Financial Assets
+Revenue Recognised On Exchanging Construction Services For Intangible Assets
+Revenue Subsidies Or Grants Received From Government Authorities
+Revenues From External Customers And Transactions With Other Reportable Segments Of Same Enterprise Reportable Segment
+Revenues From Transactions With Other Operating Segments Of The Same Entity
+Reversal Of Cost Of Restructuring Of Enterprise
+Reversal Of Impairment Loss
+Reversal Of Impairment Loss Cash Generating Units
+Reversal Of Impairment Loss Recognised In Other Comprehensive Income
+Reversal Of Impairment Loss Recognised In Other Comprehensive Income Other Intangible Assets
+Reversal Of Impairment Loss Recognised In Other Comprehensive Income Property Plant And Equipment
+Reversal Of Impairment Loss Recognised In Other Comprehensive Income Reportable Segment
+Reversal Of Impairment Loss Recognised In Profit Or Loss
+Reversal Of Impairment Loss Recognised In Profit Or Loss Biological Assets Other Than Bearer Plants At Cost
+Reversal Of Impairment Loss Recognised In Profit Or Loss Investment Property
+Reversal Of Impairment Loss Recognised In Profit Or Loss Other Intangible Assets
+Reversal Of Impairment Loss Recognised In Profit Or Loss Property Plant And Equipment
+Reversal Of Impairment Loss Recognised In Profit Or Loss Reportable Segment
+Reversal Of Impairment Loss Recognised In Profit Or Loss Trade Receivables
+Reversal Of Inventory Writedown
+Reversal Of Provisions For Cost Of Restructuring
+Reversal Of Write Down Of Inventories To Net Realizable Value
+Rights Preferences And Restrictions Attaching To Class Of Equity Share Capital
+Risk Exposure Associated With Instruments Sharing Characteristic
+Royalty Pertaining To Exploration And Production Activities
+SRN Of Filing Of Balance Sheet By Subsidiary
+SRN Of Form ADT1
+Safety Security Expenses
+Salaries And Wages
+Salary Key Managerial Personnel Or Director
+Salary To Directors
+Salary To Manager
+Sale Material Scrap Other Assets Contracts
+Sales Fair Value Measurement Assets
+Sales Fair Value Measurement Entitys Own Equity Instruments
+Sales Fair Value Measurement Liabilities
+Sales Of Property And Other Assets Related Party Transactions
+Sales Tax Pertaining To Exploration And Production Activities
+Secondary Packing Expenses
+Secretarial Qualifications Or Observations Or Other Remarks In Secretarial Audit Report
+Section Under Which Company Became Subsidiary
+Section Under Which Company Is Subsidiary
+Sector In Which Project Is Covered
+Securities Premium Adjusted Bonus Shares
+Securities Premium Adjusted Premium Payable Redemption Preference Shares Debentures
+Securities Premium Adjusted Purchase Own Shares Other Securities Under Section 68
+Securities Premium Adjusted Writing Off Discount Expenses Issue Shares Debentures
+Securities Premium Adjusted Writing Off Preliminary Expenses
+Security Deposits
+Security Deposits Refundable Current
+Security Deposits Refundable Noncurrent
+Segment In Which Noncurrent Assets Or Disposal Group Held For Sale Is Presented
+Selling Price Per Unit
+Seminars Conference Expenses
+Sensitivity Analysis For Each Type Of Market Risk Explanatory
+Separate Management Entities Domain
+Service Concession Arrangements Domain
+Service Tax Payable
+Services Received Related Party Transactions
+Settlement Of Liabilities By Entity On Behalf Of Related Party Related Party Transactions
+Settlement Of Liabilities On Behalf Of Entity By Related Party Related Party Transactions
+Settlements Fair Value Measurement Assets
+Settlements Fair Value Measurement Liabilities
+Share Application Money Paid During Year
+Share Application Money Pending Allotment
+Share Application Money Received And Due For Refund
+Share Application Money Received During Year
+Share Capital
+Share Capital Of Subsidiary
+Share In Other Comprehensive Income Consolidated
+Share In Profit Or Loss Of Entity As Percentage Of Consolidated Profit Or Loss
+Share In Total Comprehensive Income Consolidated
+Share Of Contingent Liabilities Incurred Jointly With Other Venturers
+Share Of Contingent Liabilities Of Associates Incurred Jointly With Other Investors
+Share Of Other Comprehensive Income Of Associates Accounted For Using Equity Method
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method Before Tax
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Be Reclassified To Profit Or Loss Before Tax
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Be Reclassified To Profit Or Loss Net Of Tax
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Not Be Reclassified To Profit Or Loss Before Tax
+Share Of Other Comprehensive Income Of Associates And Joint Ventures Accounted For Using Equity Method That Will Not Be Reclassified To Profit Or Loss Net Of Tax
+Share Of Other Comprehensive Income Of Joint Ventures Accounted For Using Equity Method
+Share Of Profit And Loss From Partnership Firm Or Association Of Persons Or Limited Liability Partnerships
+Share Of Profit Loss Of Associates Accounted For Using Equity Method
+Share Of Profit Loss Of Associates And Joint Ventures Accounted For Using Equity Method
+Share Of Profit Loss Of Associates And Joint Ventures Accounted For Using Equity Method Reportable Segment
+Share Of Profit Loss Of Continuing Operations Of Associates Accounted For Using Equity Method
+Share Of Profit Loss Of Continuing Operations Of Joint Ventures Accounted For Using Equity Method
+Share Of Profit Loss Of Discontinued Operations Of Associates Accounted For Using Equity Method
+Share Of Profit Loss Of Discontinued Operations Of Joint Ventures Accounted For Using Equity Method
+Share Of Profit Loss Of Joint Ventures Accounted For Using Equity Method
+Share Of Total Comprehensive Income Of Associates Accounted For Using Equity Method
+Share Of Total Comprehensive Income Of Joint Ventures Accounted For Using Equity Method
+Share Premium For Shares To Be Allotted
+Sharebased Payment Arrangements Domain
+Shareholders Funds
+Shareholders Name
+Shares Held By Key Managerial Personnel Or Director
+Shares In Company Held By Associates Of Its Holding Company
+Shares In Company Held By Associates Of Its Ultimate Holding Company
+Shares In Company Held By Holding Company
+Shares In Company Held By Holding Company Or Ultimate Holding Company Or By Its Subsidiaries Or Associates
+Shares In Company Held By Subsidiaries Of Its Holding Company
+Shares In Company Held By Subsidiaries Of Its Ultimate Holding Company
+Shares In Company Held By Ultimate Holding Company
+Shares Reserved For Issue Under Options And Contracts Or Commitments For Sale Of Shares Or Disinvestment
+Short Term Borrowings
+Short Term Loans And Advances
+Short Term Provisions
+Signatories Of Secretarial Audit Report Domain
+Significant Investments In Associates Domain
+Significant Investments In Subsidiaries Domain
+Site Labour Supervision Cost Contracts
+Sitting Fees Key Managerial Personnel Or Director
+Special Dividend Remitted In Foreign Currency
+Staff Welfare Expense
+Start Date Of Accounting Period Of Partnership Firm Or Association Of Persons Or Limited Liability Partnerships In Respect Of Which Profit Or Losses Have Been Accounted In Companys Books In Case Where Year Ending Is Different For Partnership Firm Or Association Of Persons Or Limited Liability Partnerships And Company
+Start Date Of Accounting Period Of Subsidiary
+Statement Of Ind As Compliance Explanatory
+Statement Showing Details Of Employees Of Company Under Sub Rule 2 And 3 Of Rule 5 Of Companies Appointment And Remuneration Of Managerial Personnels Rules 2014 Explanatory
+Statement That Investment Entity Prepares Separate Financial Statements As Its Only Financial Statements
+Statement That Remuneration Is As Per Remuneration Policy Of Company
+Steps Taken By The Company For Utilising Alternate Sources Of Energy Explanatory
+Steps Taken Or Impact On Conservation Of Energy Explanatory
+Stock Exchange Domain
+Stock Option Key Managerial Personnel Or Director
+Subclassification And Notes On Income And Expense Explanatory
+Sublease Payments Recognised As Expense
+Subscriptions Membership Fees
+Subsequent Recognition Of Deferred Tax Assets Goodwill
+Subsequent Recognition Of Deferred Tax Assets Goodwill Business Combinations
+Subsidiaries Liquidated Or Sold During Year Domain
+Subsidiaries Which Are Yet To Commence Operations Domain
+Summary Of Quantitative Data About What Entity Manages As Capital
+Summary Quantitative Data About Entitys Exposure To Risk Explanatory
+Surplus Deficit In Plan
+Surplus On Disposal Discard Demolishment And Destruction Of Depreciable Property Plant And Equipment
+Surplus On Disposal Discard Demolishment And Destruction Of Depreciable Tangible Asset
+Sweat Equity Key Managerial Personnel Or Director
+Tangible Assets
+Tangible Assets Capital Work In Progress
+Tax Benefit Arising From Previously Unrecognised Tax Loss Tax Credit Or Temporary Difference Of Prior Period Used To Reduce Current Tax Expense
+Tax Benefit Arising From Previously Unrecognised Tax Loss Tax Credit Or Temporary Difference Of Prior Period Used To Reduce Deferred Tax Expense
+Tax Effect From Change In Tax Rate
+Tax Effect Of Exceptional Items
+Tax Effect Of Expense Not Deductible In Determining Taxable Profit Tax Loss
+Tax Effect Of Foreign Tax Rates
+Tax Effect Of Impairment Of Goodwill
+Tax Effect Of Revenues Exempt From Taxation 2011
+Tax Effect Of Tax Losses
+Tax Expense
+Tax Expense Income At Applicable Tax Rate
+Tax Expense Income Relating To Changes In Accounting Policies And Errors Included In Profit Or Loss
+Tax Expense Of Discontinued Operations
+Tax Expense Relating To Gain Loss On Discontinuance
+Tax Expense Relating To Profit Loss From Ordinary Activities Of Discontinued Operations
+Tax Rate Effect From Change In Tax Rate
+Tax Rate Effect Of Adjustments For Current Tax Of Prior Periods
+Tax Rate Effect Of Expense Not Deductible In Determining Taxable Profit Tax Loss
+Tax Rate Effect Of Foreign Tax Rates
+Tax Rate Effect Of Impairment Of Goodwill
+Tax Rate Effect Of Revenues Exempt From Taxation
+Tax Rate Effect Of Tax Losses
+Taxes Payable Other Tax
+Taxes Payable Sales Tax
+Technologybased Intangible Assets Recognised As Of Acquisition Date
+Telephone Postage
+Temporary Differences Associated With Investments In Subsidiaries Branches And Associates And Interests In Joint Ventures
+Ten Employed Throughout The Financial Year Of A Part Was In Receipt Of Aggregate Remuneration In Excess Of Managing Director Or Wholetime Director Or Manager And Holds By Himself Along With Spouse And Children Not Less Than Two Percent Of Equity Shares Of Company Explanatory
+Terms And Conditions Of Shares Pending Allotment
+Terms Of Repayment Of Term Loans And Other Loans
+Terms Of Securities Convertible Into Equity Shares Issued Along With Earliest Date Of Conversion In Descending Order Starting From Farthest Such Date Explanatory
+Title Of Initially Applied Ind As
+Top Ten Employed For A Part Of Financial Year At The Rate In Aggregate Was Not Less Than Eight Lakh And Fifty Thousand Rupees Per Month Explanatory
+Top Ten Employed Throughout The Financial Year Was In Receipt Of Remuneration In Aggregate For That Year Not Less Than One Crore And Two Lakh Rupees Explanatory
+Total Assets Of Subsidiary
+Total Liabilities Of Subsidiary
+Total Number Of Product Or Service Category
+Trade And Other Payables Recognised As Of Acquisition Date
+Trade Payables
+Trade Payables Current
+Trade Payables Long Term
+Trade Payables Noncurrent
+Trade Receivables
+Trade Receivables Current
+Trade Receivables Due By Directors
+Trade Receivables Due By Directors Other Officers Or Others
+Trade Receivables Due By Firms In Which Any Director Is Partner
+Trade Receivables Due By Firms Or Companies In Which Any Director Is Partner Or Director
+Trade Receivables Due By Other Officers
+Trade Receivables Due By Others
+Trade Receivables Due By Private Companies In Which Any Director Is Director
+Trade Receivables Due By Private Companies In Which Any Director Is Member
+Trade Receivables Gross
+Trade Receivables Noncurrent
+Training Recruitment Expenses
+Transfer From Investment Property Under Construction Or Development Investment Property
+Transfer From To Inventories And Owner Occupied Property Investment Property
+Transfer To Retained Earnings
+Transfers Into Level 3 Of Fair Value Hierarchy Assets
+Transfers Into Level 3 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Transfers Into Level 3 Of Fair Value Hierarchy Liabilities
+Transfers Of Research And Development From Entity Related Party Transactions
+Transfers Of Research And Development To Entity Related Party Transactions
+Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Assets
+Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Transfers Out Of Level 1 Into Level 2 Of Fair Value Hierarchy Liabilities
+Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Assets
+Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Entitys Own Equity Instruments
+Transfers Out Of Level 2 Into Level 1 Of Fair Value Hierarchy Liabilities
+Transfers Out Of Level 3 Of Fair Value Hierarchy Assets
+Transfers Out Of Level 3 Of Fair Value Hierarchy Liabilities
+Transfers Under Finance Agreements From Entity Related Party Transactions
+Transfers Under Finance Agreements To Entity Related Party Transactions
+Transfers Under License Agreements From Entity Related Party Transactions
+Transfers Under License Agreements To Entity Related Party Transactions
+Transportation Distribution Expenses
+Travelling Conveyance
+Turnover Of Highest Contributing Product Or Service
+Turnover Of Product Or Service Category
+Turnover Of Subsidiary
+Type Of Biological Assets Other Than Bearer Plants At Cost Domain
+Type Of Biological Assets Other Than Bearer Plants At Fair Value Domain
+Type Of Cash Flow Statement
+Type Of Current Investments
+Type Of Entity Consolidated
+Type Of Hedge Instruments
+Type Of Hedged Items
+Type Of Industry
+Type Of Investment
+Type Of Noncurrent Investments
+Type Of Share
+Type Of Unconsolidated Subsidiaries
+Types Of Rate Regulated Activities
+Types Of Rateregulated Activities Domain
+Unbilled Revenue
+Uncalled Liability On Shares And Other Investments Partly Paid
+Unclaimed Matured Debentures
+Unclaimed Matured Deposits
+Unclaimed Share Application Refund Money
+Unconsolidated Subsidiaries Domain
+Unearned Finance Income On Finance Lease
+Unearned Premiums
+Unit Of Measurement Of Highest Contributing Product Or Service
+Unpaid Dividends
+Unpaid Matured Debentures And Interest Accrued Thereon
+Unpaid Matured Deposits And Interest Accrued Thereon
+Unrecognised Share Of Losses Of Associates
+Unrecognised Share Of Losses Of Joint Ventures
+Unused Provision Reversed Other Provisions
+Unused Tax Credits For Which No Deferred Tax Assets Recognised
+Unused Tax Losses For Which No Deferred Tax Assets Recognised
+Useful Lives Or Amortisation Rates Other Intangible Assets
+Useful Lives Or Amortization Rates Intangible Assets
+Useful Lives Or Depreciation Rates Biological Assets Other Than Bearer Plants At Cost
+Useful Lives Or Depreciation Rates Investment Property Cost Model
+Useful Lives Or Depreciation Rates Property Plant And Equipment
+Useful Lives Or Depreciation Rates Tangible Assets
+VAT Payable
+Value Of Paid Up Capital Held By Foreign Holding Company And Or With Its Subsidiaries
+Value Of Share Capital Held By Foreign Company
+Value Of Shares Authorised
+Value Of Shares Called
+Value Of Shares Issued
+Value Of Shares Paid Up
+Value Of Shares Subscribed
+Value Of Shares Subscribed And Fully Paid
+Value Of Shares Subscribed But Not Fully Paid
+Vehicle Running Expenses
+Voluntary Changes In Accounting Policy Domain
+Voluntary Retirement Compensation
+Warranty Claim Expenses
+Warranty Cost Contracts
+Weighted Average Duration Of Defined Benefit Obligation
+Weighted Average Exercise Price Of Other Equity Instruments Exercisable In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Other Equity Instruments Exercised Or Vested In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Other Equity Instruments Expired In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Other Equity Instruments Forfeited In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Other Equity Instruments Granted In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Other Equity Instruments Outstanding In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options Exercisable In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options Exercised In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options Expired In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options Forfeited In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options Granted In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Share Options In Sharebased Payment Arrangement Exercised During Period At Date Of Exercise
+Weighted Average Exercise Price Of Share Options Outstanding In Sharebased Payment Arrangement
+Weighted Average Exercise Price Of Stock Options In Employee Sharebased Payment Arrangement
+Weighted Average Fair Value At Measurement Date Other Equity Instruments Granted
+Weighted Average Fair Value At Measurement Date Share Options Granted
+Weighted Average Remaining Contractual Life Of Outstanding Share Options
+Weighted Average Remaining Contractual Life Of Outstanding Stock Options
+Weighted Average Share Price
+Weighted Average Share Price Share Options Granted
+Weighted Average Shares
+Whether Any Borrowing Costs Has Been Capitalised During The Year
+Whether Any Operating Lease Has Been Converted To Financial Lease Or Vice Versa
+Whether Assets Have Been Measured At Fair Value
+Whether Associate Has Been Considered In Consolidation
+Whether Audit Of Cost Records Of Company Has Been Mandated Under Rules Specified In SN1
+Whether Auditors Report Has Been Qualified Or Has Any Reservations Or Contains Adverse Remarks
+Whether Bonds Or Debentures
+Whether Books Of Account And Other Books And Papers Are Maintained On Cloud
+Whether Cash Flow Statement Is Applicable On Company
+Whether Companies Auditors Report Order Is Applicable On Company
+Whether Company Has Adopted Ind As First Time
+Whether Company Has Associates Liquidated Or Sold During Year
+Whether Company Has Associates Which Are Yet To Commence Operations
+Whether Company Has Comprehensive Income OCI Components Presented Before Tax
+Whether Company Has Entered Into Any Lease Agreement
+Whether Company Has Invested In Associates
+Whether Company Has Invested In Joint Ventures
+Whether Company Has Joint Ventures Liquidated Or Sold During Year
+Whether Company Has Joint Ventures Which Are Yet To Commence Operations
+Whether Company Has Other Comprehensive Income OCI Components Presented Net Of Tax
+Whether Company Has Published Sustainability Report For The Financial Year
+Whether Company Has Received Any Government Grant Or Government Assistance
+Whether Company Has Subsidiary Companies
+Whether Company Has Subsidiary Companies Liquidated Or Sold During Year
+Whether Company Has Subsidiary Companies Which Are Yet To Commence Operations
+Whether Company Has Written CSR Policy
+Whether Company Is Listed Company
+Whether Company Is Maintaining Books Of Account And Other Relevant Books And Papers In Electronic Form
+Whether Company Is Subsidiary Company
+Whether Consolidated Financial Statements Is Applicable On Company
+Whether Entity Applies Exemption In Ind AS2425
+Whether Equity Have Been Measured At Fair Value
+Whether Financial Year Of Subsidiary Different From Financial Year Of Holding Company
+Whether Impairment Loss Recognised Or Reversed For Individual Assets Or Cash Generating Unit
+Whether Initial Application Of An Ind As Has An Effect On The Current Period Or Any Prior Period
+Whether Joint Venture Has Been Considered In Consolidation
+Whether Liabilities Have Been Measured At Fair Value
+Whether Maintenance Of Cost Records By Company Has Been Mandated Under Companies Cost Records And Audit Rules 2014
+Whether Money Raised From Public Offering During Year
+Whether Other Intangible Assets Are Stated At Revalued Amount
+Whether Projects Or Programs Undertaken In Local Area Or Other
+Whether Property Plant And Equipment Are Stated At Revalued Amount
+Whether Provisions Of Corporate Social Responsibility Are Applicable On Company
+Whether Reduction In Capital Done During Year
+Whether Secretarial Audit Report Has Been Qualified Or Has Any Observation Or Other Remarks
+Whether Secretarial Audit Report Is Applicable On Company
+Whether Subsidiary Has Filed Balance Sheet
+Whether Technology Fully Absorbed
+Whether There Are Any Acquired Receivables From Business Combination
+Whether There Are Any Arrangements Involving Legal Form Of Lease
+Whether There Are Any Construction Contracts
+Whether There Are Any Contingent Liabilities
+Whether There Are Any Contingent Liabilities In Business Combination
+Whether There Are Any Defined Benefit Plans
+Whether There Are Any Exploration And Evaluation Activities
+Whether There Are Any Insurance Contracts As Per Ind As 104
+Whether There Are Any Major Customers
+Whether There Are Any Related Party Transactions During Year
+Whether There Are Any Reportable Segments
+Whether There Are Any Service Concession Arrangments
+Whether There Are Any Share Based Payment Arrangement
+Whether There Are Any Shareholders Holding More Than Five Per Cent Shares In Company
+Whether There Are Changes In Acounting Estimates During The Year
+Whether There Are Contracts Arrangements Transactions Not At Arms Length Basis
+Whether There Are Intangible Assets With Indefinite Useful Life
+Whether There Are Material Contracts Arrangements Transactions At Arms Length Basis
+Whether There Are Non Adjusting Events After Reporting Period
+Whether There Are Reclassifications To Comparative Amounts
+Whether There Are Unconsolidated Structured Entities
+Whether There Are Unconsolidated Structured Entities Controlled By Investment Entity
+Whether There Are Unconsolidated Subsidiaries
+Whether There Is Any Business Combination
+Whether There Is Any Change In Functional Currency During The Year
+Whether There Is Any Departure From Ind AS
+Whether There Is Any Goodwill Arising Out Of Business Combination
+Whether There Is Any Impairment Loss Or Reversal Of Impairment Loss During The Year
+Whether There Is Any Voluntary Change In Accounting Policy
+Whether These Are In Accordance With The Books Of Accounts Maintained By The Company Explanatory
+Withholding Taxes Payable
+Write Down Of Inventories To Net Realizable Value
+Write Off Assets
+Writedowns Reversals Of Inventories
+Writedowns Reversals Of Property Plant And Equipment
+Year Of Import
+explicit Member
+footnote
+footnote Arc
+footnote Link
+instant
+loc
+scenario
+schema Ref
+typed Member
+unit Denominator
+unit Numerator
+xbrl

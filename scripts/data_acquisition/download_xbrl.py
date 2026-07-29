@@ -36,7 +36,7 @@ def download_file(url, output_path, retries=3):
     return False, url
 
 def main():
-    csv_path = 'CF-BRSR-equities-20-May-2026.csv'
+    csv_path = '/Users/ashishmishra/Downloads/CF-BRSR-equities-09-Jul-2026.csv'
     output_dir = 'data/raw/xbrl'
     error_log = 'data/raw/failed_downloads.txt'
     
@@ -87,8 +87,8 @@ def main():
         if (i + 1) % 10 == 0 or (i + 1) == total_files:
             print(f"Progress: {i + 1}/{total_files} processed... (Success: {success_count}, Failed: {len(failed_urls)})")
             
-        # Hard sleep to ensure we don't spam the server
-        time.sleep(1.5)
+        # Hard sleep removed to speed up processing
+        # time.sleep(1.5)
                 
     if failed_urls:
         with open(error_log, 'w') as f:

@@ -1,0 +1,8 @@
+{
+    "default": {
+        "Q_TURNOVER": {"applicable": 1, "weight": 0.25},
+        "Q_NET_WORTH": {"applicable": 1, "weight": 0.25},
+        "Q_RND_PCT": {"applicable": 1, "weight": 0.25},
+        "Q_ANTI_CORRUPTION": {"applicable": 1, "weight": 0.25}
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "docx": "^9.7.1",
+    "github-slugger": "^2.0.0"
+  }
+}

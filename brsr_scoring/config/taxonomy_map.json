@@ -1,0 +1,1582 @@
+{
+  "Total Scope1 And Scope2 Emissions Intensity The Relevant Metric May Be Selected By The Entity": {
+    "question_id": "Q1",
+    "question_text": "What is the scope 1 and scope 2 emissions intensity for the current year?",
+    "data_type": "boolean"
+  },
+  "Whether Total Scope3 Emissions And Its Intensity Is Applicable To The Company": {
+    "question_id": "Q2",
+    "question_text": "What is the scope 3 emissions intensity for the current year?",
+    "data_type": "boolean"
+  },
+  "Total Scope1 And Scope2 Emissions Intensity In Term Of Physical Output": {
+    "question_id": "Q3",
+    "question_text": "What was the Total Scope 1 and 2 intensity (Current Year) (Unit: Metric Tonne) - Physical Output?",
+    "data_type": "boolean"
+  },
+  "Total Scope1 And Scope2 Emissions Intensity Per Rupee Of Turnover Adjusted For Purchasing Power Parity": {
+    "question_id": "Q4",
+    "question_text": "What is the scope 1 and scope 2 emissions intensity in terms of purchasing power parity for the current year?",
+    "data_type": "boolean"
+  },
+  "Total Scope3 Emission Intensity The Relevant Metric May Be Selected By The Entity": {
+    "question_id": "Q5",
+    "question_text": "What are the total PM emissions for the Current Year (Unit: Metric Tonne)?",
+    "data_type": "boolean"
+  },
+  "SOx": {
+    "question_id": "Q6",
+    "question_text": "What are the total SOx emissions for the Current Year (Unit: Metric Tonne)?",
+    "data_type": "boolean"
+  },
+  "NOx": {
+    "question_id": "Q7",
+    "question_text": "What are the total NOx emissions for the Current Year (Unit: Metric Tonne)?",
+    "data_type": "boolean"
+  },
+  "Water Intensity Per Rupee Of Turnover": {
+    "question_id": "Q8",
+    "question_text": "What is the water intensity per rupee of turnover in crores for the Current Year? (in kilolitres)",
+    "data_type": "boolean"
+  },
+  "Whether Water Withdrawal Or Consumption And Discharge In Areas Of Water Stress In Kilolitres Is Assured By Assurer": {
+    "question_id": "Q9",
+    "question_text": "What is the % of untreated water discharge?",
+    "data_type": "boolean"
+  },
+  "Total Volume Of Water Withdrawal": {
+    "question_id": "Q10",
+    "question_text": "What is the total volume of fresh water withdrawal (in kilolitres) for the Current Year?",
+    "data_type": "boolean"
+  },
+  "Total Volume Of Water Consumption": {
+    "question_id": "Q11",
+    "question_text": "What is the total volume of fresh water discharge (in kilolitres) for the Current Year?",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Water Withdrawal Or Consumption And Discharge In Areas Of Water Stress In Kilolitres": {
+    "question_id": "Q12",
+    "question_text": "What is the total volume of water consumed (in kilolitres) in areas of water stress for the Current Year?",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle7 Member": {
+    "question_id": "Q13",
+    "question_text": "What is the total effluent discharge in the Current Year?",
+    "data_type": "boolean"
+  },
+  "Water Intensity In Term Of Physical Output": {
+    "question_id": "Q14",
+    "question_text": "How much was the Water intensity in Current Year (in kilolitres) for physical output?",
+    "data_type": "boolean"
+  },
+  "Water Intensity Per Rupee Of Turnover Adjusting For Purchasing Power Parity": {
+    "question_id": "Q15",
+    "question_text": "What is the water intensity per rupee of turnover adjusted for Purchasing Power Parity in crores Current Year (in kilolitres) - PPP?",
+    "data_type": "boolean"
+  },
+  "Energy Intensity The Relevant Metric May Be Selected By The Entity": {
+    "question_id": "Q16",
+    "question_text": "What is the energy intensity turnover for the current year?",
+    "data_type": "boolean"
+  },
+  "Total Energy Consumed From Renewable Sources": {
+    "question_id": "Q17",
+    "question_text": "Percentage of energy consumed from renewable sources?",
+    "data_type": "boolean"
+  },
+  "Energy Intensity In Term Of Physical Output": {
+    "question_id": "Q18",
+    "question_text": "What is the energy intensity in terms of physical output?",
+    "data_type": "boolean"
+  },
+  "Energy Intensity Per Rupee Of Turnover Adjusting For Purchasing Power Parity": {
+    "question_id": "Q19",
+    "question_text": "What is the energy intensity adjusted for Purchasing Power Parity for Current Year?",
+    "data_type": "boolean"
+  },
+  "Waste Intensity Per Rupee Of Turnover Adjusting For Purchasing Power Parity": {
+    "question_id": "Q20",
+    "question_text": "What is the waste intensity adjusted for Purchasing Power Parity for Current Year?",
+    "data_type": "boolean"
+  },
+  "Total Waste Recovered": {
+    "question_id": "Q21",
+    "question_text": "How much was the hazardous waste for the current year (in metric tonnes)?",
+    "data_type": "boolean"
+  },
+  "Waste Recovered Through Recycled": {
+    "question_id": "Q22",
+    "question_text": "What is the waste recycled/recovered intensity for the current year?",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Percentage Of Recycled Or Reused Input Material To Total Material By Value Used In Production Or Providing Services": {
+    "question_id": "Q23",
+    "question_text": "Percentage of recycled or reused input material used in production (for manufacturing industry) or providing services (for service industry)",
+    "data_type": "numeric"
+  },
+  "Waste Intensity In Term Of Physical Output": {
+    "question_id": "Q24",
+    "question_text": "What was the total waste intensity (current year) (Unit: Metric Tonne) - Physical Output?",
+    "data_type": "boolean"
+  },
+  "Waste Intensity The Relevant Metric May Be Selected By The Entity": {
+    "question_id": "Q25",
+    "question_text": "What is the waste intensity adjusted for Purchasing Power Parity for the current year?",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Turnover Of Products And Or Services As APercentage Of Turnover From All Products Or Service That Carry Information About As APercentage To Total Turnover": {
+    "question_id": "Q26",
+    "question_text": "Turnover of products and/or services as a percentage of turnover from all products/service that carry information about the safe and responsible usage?",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle4 Member": {
+    "question_id": "Q27",
+    "question_text": "What is the clinker factor ratio?",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle2 Member": {
+    "question_id": "Q28",
+    "question_text": "What is fly ash % utilisation in current year?",
+    "data_type": "boolean"
+  },
+  "Percentage Of Investments In Related Parties In Total Investments - Previous Year": {
+    "question_id": "Q29",
+    "question_text": "Is the company investing in new generation aircraft fleet? Has the number increased as compared to previous year?",
+    "data_type": "boolean"
+  },
+  "What Percentage Of Total Procurement By Value Does It Constitute": {
+    "question_id": "Q30",
+    "question_text": "What percentage of the total virgin raw material does the company produced and/or purchased covered by FSC, PEFC and/or SFI certification?",
+    "data_type": "boolean"
+  },
+  "Lost Time Injury Frequency Rate Per One Million Person Hours Worked - Workers Member": {
+    "question_id": "Q31",
+    "question_text": "Total Lost time incident rate (LTIR)_Workers?",
+    "data_type": "boolean"
+  },
+  "Lost Time Injury Frequency Rate Per One Million Person Hours Worked - Employees Member": {
+    "question_id": "Q32",
+    "question_text": "Total Lost time incident rate (LTIR)_Employees?",
+    "data_type": "boolean"
+  },
+  "Total Recordable Work Related Injuries - Employees Member": {
+    "question_id": "Q33",
+    "question_text": "Total recordable work related injuries for employees as a % of the total employees in the company",
+    "data_type": "numeric"
+  },
+  "Total Recordable Work Related Injuries - Workers Member": {
+    "question_id": "Q34",
+    "question_text": "Total recordable work related injuries for workers as a % of the total workers in the company",
+    "data_type": "numeric"
+  },
+  "Number Of Fatalities - Employees Member": {
+    "question_id": "Q35",
+    "question_text": "Fatalities of employees",
+    "data_type": "text"
+  },
+  "Number Of Fatalities - Workers Member": {
+    "question_id": "Q36",
+    "question_text": "Fatalities of workers",
+    "data_type": "text"
+  },
+  "High Consequence Work Related Injury Or Ill Health Excluding Fatalities - Employees Member": {
+    "question_id": "Q37",
+    "question_text": "Count of high consquence work related injury or ill health of employees (excluding fatalities)",
+    "data_type": "numeric"
+  },
+  "High Consequence Work Related Injury Or Ill Health Excluding Fatalities - Workers Member": {
+    "question_id": "Q38",
+    "question_text": "Count of high consquence work related injury or ill health of (excluding fatalities)",
+    "data_type": "numeric"
+  },
+  "Percentage Of Health And Safety Practices Of Your Plants And Offices That Were Assessed P3": {
+    "question_id": "Q39",
+    "question_text": "Percentage of plants and offices that were assessed (by entity or statutory authorities or third parties) with respect to health and safety practices?",
+    "data_type": "boolean"
+  },
+  "Percentage Of Trained Employees Or Workers - Male Member - On Health And Safety Measures Member - Employees Member": {
+    "question_id": "Q40",
+    "question_text": "Provide percentage of total employees covered under health and safety measures training",
+    "data_type": "numeric"
+  },
+  "Percentage Of Well Being Of Employees Or Workers - Male Member - Health Insurance Member - Permanent Employees Member": {
+    "question_id": "Q41",
+    "question_text": "Percentage of total permanent employees covered by health insurance",
+    "data_type": "numeric"
+  },
+  "Percentage Of Well Being Of Employees Or Workers - Other Gender Member - Health Insurance Member - Other Than Permanent Employees Member": {
+    "question_id": "Q42",
+    "question_text": "Percentage of total other than permanent employees covered by health insurance",
+    "data_type": "numeric"
+  },
+  "Percentage Of Persons In Respective Category Covered By The Awareness Programmes - Workers Segment Member": {
+    "question_id": "Q43",
+    "question_text": "Percentage of total permanent workers covered by health insurance",
+    "data_type": "numeric"
+  },
+  "Details Of Mechanism Available To Receive And Redress Grievances For Other Than Permanent Workers Explanatory Text Block": {
+    "question_id": "Q44",
+    "question_text": "Percentage of total other than permanent workers covered by health insurance",
+    "data_type": "numeric"
+  },
+  "Percentage Of Well Being Of Employees Or Workers - Male Member - Accident Insurance Member - Permanent Employees Member": {
+    "question_id": "Q45",
+    "question_text": "Percentage of total permanent employees covered by accident insurance",
+    "data_type": "numeric"
+  },
+  "Return To Work Rate Permanent Employees That Took Parental Leave - Female Member": {
+    "question_id": "Q46",
+    "question_text": "What is the percentage of female employees in the workforce",
+    "data_type": "boolean"
+  },
+  "Retention Rates Permanent Employees That Took Parental Leave - Female Member": {
+    "question_id": "Q47",
+    "question_text": "What is the turnover rate for permanent female employees in the Current Year",
+    "data_type": "boolean"
+  },
+  "Retention Rates Permanent Workers That Took Parental Leave - Female Member": {
+    "question_id": "Q48",
+    "question_text": "What is the turnover rate for permanent female worker in the Current Year",
+    "data_type": "boolean"
+  },
+  "Number Of Employees Or Workers Related To Minimum Wages - Total Minimum Wages Member - Female Member - Permanent Employees Member": {
+    "question_id": "Q49",
+    "question_text": "Pay parity between male and female employees",
+    "data_type": "text"
+  },
+  "Average Number Of Female Employees Or Workers At The Beginning Of The Year And As At End Of The Year": {
+    "question_id": "Q50",
+    "question_text": "Number of complaints on PSH as a % of female employees/workers for current year",
+    "data_type": "numeric"
+  },
+  "Percentage Of Gross Wages Paid To Female To Total Wages Paid": {
+    "question_id": "Q51",
+    "question_text": "What is the gross wages paid to females as percentage of wages paid",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed During The Year - Discrimination At Work Place Member": {
+    "question_id": "Q52",
+    "question_text": "How many complaints were filed on discrimination at workplace in current year?",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed From Stake Holder Group During The Year - Complaint Received From Employees And Workers Member": {
+    "question_id": "Q53",
+    "question_text": "How many complaints were filed by employees and workers or employees as a % of number of employees in the current year",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Pending From Stake Holder Group Resolution At The End Of Year - Complaint Received From Employees And Workers Member": {
+    "question_id": "Q54",
+    "question_text": "What is the number of pending/unresolved employees and workers grievances as % of total complaints filed in the current year",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed During The Year - Wages Member": {
+    "question_id": "Q55",
+    "question_text": "How many complaints were filed on wages in the current year",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Pending Resolution At The End Of Year - Working Conditions Complaints Member": {
+    "question_id": "Q56",
+    "question_text": "Pending resolution of complaints as a % of total complaints filed by employees and workers pertaining to working conditions",
+    "data_type": "numeric"
+  },
+  "Retention Rates Permanent Workers That Took Parental Leave - Male Member": {
+    "question_id": "Q57",
+    "question_text": "What is the turnover rate for permanent workers for the Current Year",
+    "data_type": "boolean"
+  },
+  "Retention Rates Permanent Employees That Took Parental Leave - Male Member": {
+    "question_id": "Q58",
+    "question_text": "What is the turnover rate for permanent employees for the Current Year",
+    "data_type": "boolean"
+  },
+  "Percentage Of Cost Incurred On Well Being Measures With Respect To Total Revenue Of The Company": {
+    "question_id": "Q59",
+    "question_text": "What is the percentage of cost incurred as a % of total revenue of the company with regards to spending on measures towards wellbeing of employees and workers?",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Membership Of Employees And Worker In Associations Or Unions Recognised By The Listed Entity": {
+    "question_id": "Q60",
+    "question_text": "Percentage of workers or employees in association(s) or unions recognised by the listed entity",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Filed From Stake Holder Group During The Year - Complaint Received From Customers Member": {
+    "question_id": "Q61",
+    "question_text": "What is the number of complaints filed by the customers as a % of revenue in Current Year?",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Instances Of Product Recalls On Account Of Safety Issues": {
+    "question_id": "Q62",
+    "question_text": "Total instances of product recalls",
+    "data_type": "numeric"
+  },
+  "Percentage Of Value Chain Partners By Value Of Business Done With Such Partners That Were Assessed For Environmental Impacts": {
+    "question_id": "Q63",
+    "question_text": "% of value chain partners (by value of business done with such partners) that were assessed for Health and Safety practices?",
+    "data_type": "boolean"
+  },
+  "Percentage Of Purchases From Top Ten Trading Houses In Total Purchases From Trading Houses - Previous Year": {
+    "question_id": "Q64",
+    "question_text": "What is the purchases from trading houses % of total purchases",
+    "data_type": "boolean"
+  },
+  "Percentage Of Purchases From Top Ten Trading Houses In Total Purchases From Trading Houses": {
+    "question_id": "Q65",
+    "question_text": "What is purchases from top 10 trading houses as % of total purchases from trading houses",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed From Stake Holder Group During The Year - Complaint Received From Communities Member": {
+    "question_id": "Q66",
+    "question_text": "Number of complaints filed by community stakeholders",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Describe The Mechanisms To Receive And Redress Grievances Of The Community": {
+    "question_id": "Q67",
+    "question_text": "Count of pending/unresolved communities grievances",
+    "data_type": "numeric"
+  },
+  "Percentage Of Total Turnover For Business Activities - Details Of Business Activities Accounting For Ninety Percent Of The Turnover Domain1": {
+    "question_id": "Q68",
+    "question_text": "Percentage of CSR obligation spent (CSR spent/CSR obligation)",
+    "data_type": "numeric"
+  },
+  "Percentage Of Directly Sourced From MSMEs Or Small Producers": {
+    "question_id": "Q69",
+    "question_text": "What is the input material directly sourced from MSMEs/small producers (in % terms - As % of total purchases by value)",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Percentage Of RAnd DAnd Capital Expenditure Investments In Specific Technologies": {
+    "question_id": "Q70",
+    "question_text": "Percentage of capital expenditure investments in specific technologies to improve the environmental and social impacts of products and processes to total capex",
+    "data_type": "numeric"
+  },
+  "Percentage Of Sourced Directly From Within The District And Neighbouring Districts": {
+    "question_id": "Q71",
+    "question_text": "What is the input material sourced directly from within India as % of total purchases",
+    "data_type": "boolean"
+  },
+  "Whether Job Creation In Smaller Towns Disclose Wages Paid To Persons Employed Including Employees Or Workers Employed On APermanent Or Non Permanent Or On Contract Basis Is Assured By Assurer": {
+    "question_id": "Q72",
+    "question_text": "What is the % of job creation in smaller towns - wages paid to persons employed in smaller towns (permanent or non-permanent / on contract) as % of total wage cost",
+    "data_type": "boolean"
+  },
+  "Number Of Days Of Accounts Payable": {
+    "question_id": "Q73",
+    "question_text": "What are the number of days of account payable?",
+    "data_type": "boolean"
+  },
+  "Percentage Of Sales To Dealers Or Distributors In Total Sales": {
+    "question_id": "Q74",
+    "question_text": "What is the sales to dealers/distributors as % of total sales",
+    "data_type": "boolean"
+  },
+  "Percentage Of Sales To Top Ten Dealers Or Distributors In Total Sales To Dealers Or Distributors": {
+    "question_id": "Q75",
+    "question_text": "What is the sales to top 10 dealers/distributors as % of total sales to dealers/distributors",
+    "data_type": "boolean"
+  },
+  "Percentage Of Data Breaches Involving Personally Identifiable Information Of Customers": {
+    "question_id": "Q76",
+    "question_text": "% of data breaches involving PII data of customers",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Name Of The National And International Codes Or Certifications Or Labels Or Standards Adopted By Your Entity And Mapped To Each Principle": {
+    "question_id": "Q77",
+    "question_text": "Share of buildings that are certified according to international building standards/GRESB/IGBC",
+    "data_type": "boolean"
+  },
+  "Percentage Of Female Board Of Directors": {
+    "question_id": "Q78",
+    "question_text": "Percentage of independent directors on the board",
+    "data_type": "numeric"
+  },
+  "Number Of Female Board Of Directors": {
+    "question_id": "Q79",
+    "question_text": "Number of independent women directors on the board",
+    "data_type": "numeric"
+  },
+  "Number Of Board Of Directors For Remuneration Or Salary Or Wages - Female Member": {
+    "question_id": "Q80",
+    "question_text": "Number of women directors on the board",
+    "data_type": "numeric"
+  },
+  "Assurance Sub Type For Whether The Entity Have ASpecified Committee Of The Board Or Director Responsible For Decision Making On Sustainability Related Issues": {
+    "question_id": "Q81",
+    "question_text": "Average attendance for board meeting in the current FY",
+    "data_type": "text"
+  },
+  "Total Number Of Training And Awareness Programs Held - Board Of Directors Segment Member": {
+    "question_id": "Q82",
+    "question_text": "Number of directorships of all board members",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Number Of Directors Or KMPs Or Employees Or Workers Against Whom Disciplinary Action Was Taken By Any Law Enforcement Agency For The Charges Of Bribery Or Corruption": {
+    "question_id": "Q83",
+    "question_text": "Number of directors against whom disciplinary action was taken by any law enforcement agency for the charges of bribery/corruption",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Received In Relation To Issues Of Conflict Of Interest Of The KMPs": {
+    "question_id": "Q84",
+    "question_text": "Number of complaints received in relation to issues of conflict of interest of the directors/KMPs",
+    "data_type": "numeric"
+  },
+  "Median Of Remuneration Or Salary Or Wages Of Board Of Directors - Male Member": {
+    "question_id": "Q85",
+    "question_text": "Percentage of independent directors in nomination and remuneration committee",
+    "data_type": "numeric"
+  },
+  "Percentage Of Persons In Respective Category Covered By The Awareness Programmes - Board Of Directors Segment Member": {
+    "question_id": "Q86",
+    "question_text": "Percentage of independent directors in audit committee",
+    "data_type": "numeric"
+  },
+  "Total Number Of Key Management Personnel": {
+    "question_id": "Q87",
+    "question_text": "Number of independent directors in risk management committee",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Received In Relation To Issues Of Conflict Of Interest Of The Directors": {
+    "question_id": "Q88",
+    "question_text": "Number of independent directors in CSR committee",
+    "data_type": "numeric"
+  },
+  "Particulate Matter": {
+    "question_id": "Q89",
+    "question_text": "Percentage of subject matter experts appointed in the Audit Committee",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Details Of Median Of Remuneration Or Salary Or Wages And Wages Paid To Female": {
+    "question_id": "Q90",
+    "question_text": "Ratio of remuneration of MD/CEO to median remuneration of employees",
+    "data_type": "numeric"
+  },
+  "Safe And Responsible Usage As APercentage To Total Turnover": {
+    "question_id": "Q91",
+    "question_text": "Percentage of non audit fees as compared to total audit fees",
+    "data_type": "numeric"
+  },
+  "Number Of Complaints Filed During The Year - Working Conditions Complaints Member": {
+    "question_id": "Q92",
+    "question_text": "Number of whistle blower complaints filed in the current year",
+    "data_type": "numeric"
+  },
+  "Consumer Complaints Pending Resolution At End Of Year - Unfair Trade Practices Member": {
+    "question_id": "Q93",
+    "question_text": "Number of pending consumer compliant on unfair trade practices",
+    "data_type": "numeric"
+  },
+  "Assurance Sub Type For Number Of Directors Or KMPs Or Employees Or Workers Against Whom Disciplinary Action Was Taken By Any Law Enforcement Agency For The Charges Of Bribery Or Corruption": {
+    "question_id": "Q94",
+    "question_text": "Number of employees against whom disciplinary action was taken by any law enforcement agency for the charges of bribery/corruption",
+    "data_type": "numeric"
+  },
+  "Number Of Workers Against Whom Disciplinary Action Was Taken": {
+    "question_id": "Q95",
+    "question_text": "Number of workers against whom disciplinary action was taken by any law enforcement agency for the charges of bribery/corruption",
+    "data_type": "numeric"
+  },
+  "Percentage Of Purchases From Related Parties In Total Purchases For Share Of Related Party Transactions - Previous Year": {
+    "question_id": "Q96",
+    "question_text": "What is the share of RPTs (as respective %age) in purchases",
+    "data_type": "boolean"
+  },
+  "Percentage Of Sales To Related Parties In Total Sales For Share Of Related Party Transactions": {
+    "question_id": "Q97",
+    "question_text": "What is the share of RPTs (as respective %age) in sales",
+    "data_type": "boolean"
+  },
+  "Percentage Of Loans And Advances Given To Related Parties In Total Loans And Advances": {
+    "question_id": "Q98",
+    "question_text": "What is the share of RPTs (as respective %age) in loans and advances",
+    "data_type": "boolean"
+  },
+  "Number Of Employees Covered As Percentage Of Total Employees - Provident Fund Member": {
+    "question_id": "Q99",
+    "question_text": "What is the share of RPTs (as respective %age) in investments",
+    "data_type": "boolean"
+  },
+  "Total Scope2 Emissions": {
+    "question_id": "Q100",
+    "question_text": "Are there any initiatives towards reduction in GHG emissions",
+    "data_type": "boolean"
+  },
+  "Water Intensity The Relevant Metric May Be Selected By The Entity": {
+    "question_id": "Q101",
+    "question_text": "What are the VOC/POP/HAP emissions for the current year (Unit: Metric Tonne)",
+    "data_type": "boolean"
+  },
+  "NOx - Previous Year": {
+    "question_id": "Q102",
+    "question_text": "What are the initiatives taken to reduce the NOx, SOx, PM, VOC, HAP and POP air emissions",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Water Withdrawal Or Consumption And Discharge In Areas Of Water Stress In Kilolitres": {
+    "question_id": "Q103",
+    "question_text": "Does the company have facilities/operations in water stress regions",
+    "data_type": "boolean"
+  },
+  "Has The Entity Implemented AMechanism For Zero Liquid Discharge": {
+    "question_id": "Q104",
+    "question_text": "Has the entity implemented mechanism for Zero Liquid Discharge",
+    "data_type": "boolean"
+  },
+  "Name Of Other Emissions - Other Air Emissions Domain8": {
+    "question_id": "Q105",
+    "question_text": "Does the company monitor Chemical Oxygen Demand during water discharge",
+    "data_type": "boolean"
+  },
+  "Water Withdrawal By Third Party Water": {
+    "question_id": "Q106",
+    "question_text": "Third party verification of water data",
+    "data_type": "text"
+  },
+  "Total Electricity Consumption From Renewable Sources": {
+    "question_id": "Q107",
+    "question_text": "What are the goals/targets/commitments towards Energy consumption",
+    "data_type": "boolean"
+  },
+  "Disclose Whether Targets Set Under The Pat Scheme Have Been Achieved In Case Targets Have Not Been Achieved Then Provide The Remedial Action Taken Explanatory Text Block": {
+    "question_id": "Q108",
+    "question_text": "Does the entity have any sites/facilities identified as designated consumers under the Performance, Achieve and Tade Scheme of the Government of India? (Y/N) If yes, disclose whether targets set under the PAT scheme have been achieved in case targets have not been achieved, provide the remedial action taken, if any",
+    "data_type": "boolean"
+  },
+  "Disclosure Web Link Of Entity At Which Business Continuity And Disaster Management Plan Is Placed": {
+    "question_id": "Q109",
+    "question_text": "Is there a disclosure regarding the energy management system? ISO 50001 Certification",
+    "data_type": "boolean"
+  },
+  "Details Of Waste Management Practices Adopted In Your Establishments And The Strategy Adopted By Company To Reduce Usage Of Hazardous And Toxic Chemicals Explanatory Text Block": {
+    "question_id": "Q110",
+    "question_text": "Waste management practices and strategies to reduce usage of hazardous and toxic chemicals from the products and processes",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Describe The Processes In Place To Safely Reclaim Your Products For Reusing Recycling And Disposing At The End Of Life For Plastics Including Packaging EWaste Hazardous Waste And Other Waste": {
+    "question_id": "Q111",
+    "question_text": "What are the processes to safely reclaim the products for reusing, recycling and disposing at the end of life for, (a) Plastics (including packaging) (b)e-waste (c) hazardous waste and (d) other waste?",
+    "data_type": "boolean"
+  },
+  "Whether The Waste Collection Plan Is In Line With The Extended Producer Responsibility Plan Submitted To Pollution Control Boards": {
+    "question_id": "Q112",
+    "question_text": "Whether Extended Producer Responsibility (EPR) is applicable to entity\u2019s activities (Y/N). If yes, whether the waste collection plan is in line with the Extended Producer Responsibility plan submitteed to Pollution Control Boards",
+    "data_type": "boolean"
+  },
+  "Waste Recovered Through Recycled - Previous Year": {
+    "question_id": "Q113",
+    "question_text": "Third party verification of waste data",
+    "data_type": "text"
+  },
+  "Whether Details Of Operations Or Offices In Or Around Ecologically Sensitive Areas Where Environmental Approvals Or Clearances Are Required Is Assured By Assurer": {
+    "question_id": "Q114",
+    "question_text": "Is there presence of offices/manufacturing facilities in ecologically sensitive areas",
+    "data_type": "boolean"
+  },
+  "Details Of Significant Direct And Indirect Impact Of The Entity On Biodiversity In Such Areas Along With Prevention And Remediation Activities Explanatory Text Block": {
+    "question_id": "Q115",
+    "question_text": "Provide details of significant direct and indirect impact of the entity on biodiversity in ecological sensitive areas along with prevention and remediation activities",
+    "data_type": "text"
+  },
+  "Does The Entity Have An Equal Opportunity Policy As Per The Rights Of Persons With Disabilities Act2016": {
+    "question_id": "Q116",
+    "question_text": "Does the company have an Environment or a Biodiversity policy",
+    "data_type": "boolean"
+  },
+  "Do The Enlisted Policies Extend To Your Value Chain Partners - Principle7 Member": {
+    "question_id": "Q117",
+    "question_text": "Does the company\u2019s policy on Biodiversity extend to its value chain partners (Y/N)",
+    "data_type": "boolean"
+  },
+  "Percentage Of Cost Incurred On Well Being Measures With Respect To Total Revenue Of The Company - Previous Year": {
+    "question_id": "Q118",
+    "question_text": "Does the company take initiatives with regards to its Biodiversity conservation/land rehabilitation and biodiversity restoration",
+    "data_type": "boolean"
+  },
+  "Specific Commitments Goals And Targets Set By The Entity With Defined Timelines Explanatory Text Block - Principle6 Member": {
+    "question_id": "Q119",
+    "question_text": "Are there any goals/targets/commitments set towards carbon neutrality/ Net Zero",
+    "data_type": "boolean"
+  },
+  "Type Of Assurance For Section AGeneral Disclosures": {
+    "question_id": "Q120",
+    "question_text": "Does the organisation report on CDP Disclosure as per Climate Change Module",
+    "data_type": "boolean"
+  },
+  "Assurer Has Assured Whether The Entity Have AFramework Or Policy On Cyber Security And Risks Related To Data Privacy": {
+    "question_id": "Q121",
+    "question_text": "Does the company perform climate related scenario analysis (based on TCFD framework); Based on the climate risk assessment, has the company set up a plan to adapt to the identified physical climate risks",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Name Of The National And International Codes Or Certifications Or Labels Or Standards Adopted By Your Entity And Mapped To Each Principle": {
+    "question_id": "Q122",
+    "question_text": "Presence of ISO 14001:2015 certifications",
+    "data_type": "boolean"
+  },
+  "Number Of Days Of Accounts Payable - Previous Year": {
+    "question_id": "Q123",
+    "question_text": "Does the entity implement carbon pricing mechanism/model?",
+    "data_type": "boolean"
+  },
+  "Whether Information Available In Public Domain - Public Policy1": {
+    "question_id": "Q124",
+    "question_text": "Does the company have a policy on environmental management and is it available publicly",
+    "data_type": "boolean"
+  },
+  "Provide Details Of The Non Compliance - Law Or Regulation Or Guidelines7": {
+    "question_id": "Q125",
+    "question_text": "Is the entity compliant with the appliacble environmental law/regulations/guidelines for India; such as the Water (Prevention and Control of Pollution) Act, AIr (Prevention and Control of Pollution) Act, Environmental protection act and rules thereunder (Y/N). If not, provide details of all such non compliances",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Disclose Any Significant Adverse Impact To The Environment Arising From The Value Chain Of The Entity What Mitigation Or Adaptation Measures Have Been Taken By The Entity In This Regard": {
+    "question_id": "Q126",
+    "question_text": "Does the company have a strategy for climate change adaptation and mitigation",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Data Breaches Information Like Number Of Instances Of Data Breaches Along With Impact And Percentage Of Data Breaches Involving Personally Identifiable Information Of Customers": {
+    "question_id": "Q127",
+    "question_text": "Discussion of the integration of environmental considerations into strategic planning for data centre needs",
+    "data_type": "numeric"
+  },
+  "Remarks For Assurance Of Details Of Significant Social Or Environmental Concerns From Production Or Disposal Of Product Or Service With Action Taken To Mitigate The Same": {
+    "question_id": "Q128",
+    "question_text": "Are there any social or environmental concerns and/or risks arising from production or disposal of products, as identified in the Life Cycle Perspective/Assessments",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Steps Taken To Inform And Educate Consumers About Safe And Responsible Usage Of Products And Or Services": {
+    "question_id": "Q129",
+    "question_text": "Has the company taken initiatives to use reusable, recyclable or compostable packagin",
+    "data_type": "boolean"
+  },
+  "Amount Of Recycled - Plastics Including Packaging Member": {
+    "question_id": "Q130",
+    "question_text": "What are the intiatives taken to reduce plastic packaging",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Turnover Of Products And Or Services As APercentage Of Turnover From All Products Or Service That Carry Information About As APercentage To Total Turnover": {
+    "question_id": "Q131",
+    "question_text": "Turnover of products and/or services as a percentage of turover from all products/service that carry information about the recycling and/or safe disposal",
+    "data_type": "numeric"
+  },
+  "Whether Information Available In Public Domain - Public Policy2": {
+    "question_id": "Q132",
+    "question_text": "Does your company have a publicly available no deforestation policy or commitment that applies to your company\u2019s operational practices",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Conducted Life Cycle Perspective Or Assessments For Any Of Its Products Or For Its Services": {
+    "question_id": "Q133",
+    "question_text": "Does the company owns/lease/manages forest land for its operations",
+    "data_type": "boolean"
+  },
+  "Whether Disclose Any Significant Adverse Impact To The Environment Arising From The Value Chain Of The Entity What Mitigation Or Adaptation Measures Have Been Taken By The Entity In This Regard Is Assured By Assurer": {
+    "question_id": "Q134",
+    "question_text": "Are there any intiatives taken with respect to sustainable agriclutire by the company",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle8 Member": {
+    "question_id": "Q135",
+    "question_text": "Is the manufacturing smart farm equipments/machinery",
+    "data_type": "boolean"
+  },
+  "Whether APreferential Procurement Policy Where Preference To Purchase From Suppliers Comprising Marginalized Or Vulnerable Groups And Its Percentage Of Total Procurement By Value Does It Constitute Is Assured By Assurer": {
+    "question_id": "Q136",
+    "question_text": "Is the company exposed to animal products and are these certified or accredited by one or more independent third party? If yes, does the company demand or monitor such certification or accreditation from its suppliers?",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Disclose Any Significant Adverse Impact To The Environment Arising From The Value Chain Of The Entity What Mitigation Or Adaptation Measures Have Been Taken By The Entity In This Regard": {
+    "question_id": "Q137",
+    "question_text": "What are the initiatives taken with respect to Chemical Sagety management",
+    "data_type": "boolean"
+  },
+  "Waste Recovered Through Other Recovery Operations": {
+    "question_id": "Q138",
+    "question_text": "Does the company have waste heat recovery systems for enchancing energy efficiency (Cement)",
+    "data_type": "boolean"
+  },
+  "Whether Name Of The National And International Codes Or Certifications Or Labels Or Standards Adopted By Your Entity And Mapped To Each Principle Is Assured By Assurer": {
+    "question_id": "Q139",
+    "question_text": "Is the forestland certified as per international sustainable forest management standards such as FSC, PEFC, SFI",
+    "data_type": "boolean"
+  },
+  "Whether Any Steps Are Being Taken By The Entity If The Premises Or Offices Of The Entity Not Accessible To Differently Abled Employees And Workers Explanatory Text Block": {
+    "question_id": "Q140",
+    "question_text": "What measures are taken to reduce marine pollution and manage ballast water",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Performance Against Above Policies And Follow Up Action": {
+    "question_id": "Q141",
+    "question_text": "Does the company comply with new regilation of Energy Efficiency Existing Ship (require al ships above 400GT)",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Number Of Locations Where Plants And Or Operations Or Offices Of The Entity Are Situated": {
+    "question_id": "Q142",
+    "question_text": "Are there any initiatives to promot sustainable shipping practices or reduce the carbon footprint of port operations",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Total Energy Consumption In Joules Or Multiples And Energy Intensity": {
+    "question_id": "Q143",
+    "question_text": "Does the copmany manufacture electric or alternate fuel bsaed vessel/ships or related components for the same?",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle9 Member": {
+    "question_id": "Q144",
+    "question_text": "Is company using sustainable alternative fuels liek SAF in its fleet",
+    "data_type": "boolean"
+  },
+  "Is There AMechanism Available To Receive And Redress Grievances For Permanent Workers": {
+    "question_id": "Q145",
+    "question_text": "Is there any commitment or plan to shift to alternate fuels such as SAF",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Percentage Of Value Chain Partners By Value Of Business Done With Such Partners That Were Assessed For Environmental Impacts": {
+    "question_id": "Q146",
+    "question_text": "Has the company partnered with airframe and tehnology manufacturesre to increase fuel efficiency and reduce environmental impact",
+    "data_type": "boolean"
+  },
+  "Whether Extended Producer Responsibility Is Applicable To The Entity SActivities": {
+    "question_id": "Q147",
+    "question_text": "Does the company measure or track the age of aircrafts? If yes, the what is the average of company\u2019s air fleet",
+    "data_type": "boolean"
+  },
+  "Is The Entity Compliant With The Applicable Environmental Law": {
+    "question_id": "Q148",
+    "question_text": "Does the company monitor and measure noise levels? Are they compliant with noise regulations",
+    "data_type": "boolean"
+  },
+  "Assurer Has Assured Whether The Waste Collection Plan Is In Line With The Extended Producer Responsibility Plan Submitted To Pollution Control Boards And Steps Taken To Address The Waste Collection Plan If Not Submitted": {
+    "question_id": "Q149",
+    "question_text": "Does the company\u2019s policy and measures align with International Civil Aviation Organisation\u2019s Balance Approach",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have Any Project Related To Reducing Green House Gas Emission": {
+    "question_id": "Q150",
+    "question_text": "Does the company have oil spill/gas leak action plan",
+    "data_type": "boolean"
+  },
+  "Waste Recovered Through Re Used - Previous Year": {
+    "question_id": "Q151",
+    "question_text": "Did the company experience any spills for the current and previous years",
+    "data_type": "boolean"
+  },
+  "The Entity Does Not Have The Financial Or Human And Technical Resources Available For The Task - Principle7 Member": {
+    "question_id": "Q152",
+    "question_text": "Does the entity have a system to finance sustainable projects",
+    "data_type": "boolean"
+  },
+  "Percentage Of Investments In Related Parties In Total Investments": {
+    "question_id": "Q153",
+    "question_text": "Are ESG factors incorporated in the lending and investment decisions",
+    "data_type": "boolean"
+  },
+  "Percentage Of Health And Safety Practices Of Value Chain Partners P3": {
+    "question_id": "Q154",
+    "question_text": "Does the company follow sustainable mining practices",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Health And Safety Management System": {
+    "question_id": "Q155",
+    "question_text": "Does the company have tailing management system after mining",
+    "data_type": "boolean"
+  },
+  "Details Of The Entity Have Processes In Place To Avoid Or Manage Conflict Of Interests Involving Members Of The Board Explanatory Text Block": {
+    "question_id": "Q156",
+    "question_text": "Does the company have a publicly available policy in place for mining from conflict affected and high risk areas. If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Total Number Of Awareness Programmes Held - Awareness Programmes Conducted For Value Chain Partners Domain1": {
+    "question_id": "Q157",
+    "question_text": "Does the company undertake intiatives or programs to raise awareness about sustainability challenges and opportunities in the natural rubber industry for suppliers",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Measures Taken By The Entity To Ensure ASafe And Healthy Work Place": {
+    "question_id": "Q158",
+    "question_text": "What measures are in palce to ensure public sagety and security at facilities?",
+    "data_type": "boolean"
+  },
+  "Remark For Consumer Complaints - Cyber Security Member": {
+    "question_id": "Q159",
+    "question_text": "How are potential security threats and emergencies addressed",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle6 Member": {
+    "question_id": "Q160",
+    "question_text": "Is the company using low carbon vehicle and equipments in its ports to carry out operations",
+    "data_type": "boolean"
+  },
+  "Statement By Director Responsible For The Business Responsibility Report Highlighting ESGRelated Challenges Targets And Achievements Explanatory Text Block": {
+    "question_id": "Q161",
+    "question_text": "Are the ESG related factors being monitored in investee companies/lending processes",
+    "data_type": "boolean"
+  },
+  "Energy Intensity Per Rupee Of Turnover": {
+    "question_id": "Q162",
+    "question_text": "Does the company lend towards Electric Vehicles",
+    "data_type": "boolean"
+  },
+  "Name Of Product Or Service - Product Or Service Domain1": {
+    "question_id": "Q163",
+    "question_text": "Does the company have ESG related products/services?",
+    "data_type": "boolean"
+  },
+  "The Entity Has Not Applicable Conducted Life Cycle Perspective Or Assessments For Any Of Its Products Or For Its Services Explanatory Text Block": {
+    "question_id": "Q164",
+    "question_text": "Does the company integrate ESG aspects in its insurance underwriting process for non life non health insurance reinsurance",
+    "data_type": "boolean"
+  },
+  "Details Of Your Entitys Policy Or Policies Has Not Applicable Each Principle And Its Core Elements Of The NGRBCs Explanatory Text Block - Principle2 Member": {
+    "question_id": "Q165",
+    "question_text": "Does your company offer eSG based products within its non life non health insurance business segment",
+    "data_type": "boolean"
+  },
+  "Does Company Participate In The Business Responsibility Initiatives Of The Listed Entity - Holding Subsidiary Associate Companies And Joint Ventures Domain1": {
+    "question_id": "Q166",
+    "question_text": "Does the company participate in the GRESB for real estate benchmark assessment",
+    "data_type": "boolean"
+  },
+  "Do You Have AFocal Point Responsible For Addressing Human Rights Impacts Or Issues Caused Or Contributed To By The Business": {
+    "question_id": "Q167",
+    "question_text": "Is the company currently operating/deploying low carbon fleet (EVs or other vehicles) in its logistics business or do they have a plan to shift current feet to low carbon alternative fleet",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Provide Transition Assistance Programs To Facilitate Continued Employability And The Management Of Career Endings Resulting From Retirement Or Termination Of Employment": {
+    "question_id": "Q168",
+    "question_text": "Does the company have End of Life Vehicles management",
+    "data_type": "boolean"
+  },
+  "Details Of Product Information On The Product Over And Above What Is Mandated As Per Local Laws Explanatory Text Block": {
+    "question_id": "Q169",
+    "question_text": "What steps are taken by the company to mitigate any potential health impacts of tyre and rubber product manufacturing on local communities",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Waste Management Practices Adopted In Your Establishments And The Strategy Adopted By Company To Reduce Usage Of Hazardous And Toxic Chemicals": {
+    "question_id": "Q170",
+    "question_text": "Does the company have a strategy or initiative in place to enourage small forest owners and timber suppliers to adopt best practices or sustainable management in order to obtain certification from recognized systems such as PEF, FSC or equivalent",
+    "data_type": "boolean"
+  },
+  "Details Of The Entity Have Not Applicable Processes In Place To Avoid Or Manage Conflict Of Interests Involving Members Of The Board Explanatory Text Block": {
+    "question_id": "Q171",
+    "question_text": "Does the company have commitment in place integrating circular fashin into all its operations? If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Name Of The Trade And Industry Chambers Or Associations - Industry Chambers Or Associations1 Member": {
+    "question_id": "Q172",
+    "question_text": "Does the company manufacture/sell sustainable apparel or garments",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of The Entity Has Undertaken Any Specific Initiatives Or Used Innovative Technology Or Solutions To Improve Resource Efficiency": {
+    "question_id": "Q173",
+    "question_text": "Is the company using sustainable material in its typre (also state the ttype of material used) or has committed to use sustainable material in typres",
+    "data_type": "boolean"
+  },
+  "Whether The Processes For Identifying Key Stakeholder Groups Of The Entity Is Assured By Assurer": {
+    "question_id": "Q174",
+    "question_text": "Is the company manufacturing sustainable/eco-friendly paint/coatings",
+    "data_type": "boolean"
+  },
+  "Percentage Of RAnd D": {
+    "question_id": "Q175",
+    "question_text": "Is the company manufacturing any energy efficient products or is spending on R&D for manufacturing such products in near future?",
+    "data_type": "boolean"
+  },
+  "Type Of Assurance For Governance Leadership And Oversight": {
+    "question_id": "Q176",
+    "question_text": "Is the company fulfilling International Maritime Organisation - MARPOL Air Pollution prevention guidelines",
+    "data_type": "boolean"
+  },
+  "Whether An Occupational Health And Safety Management System Has Been Implemented By The Entity": {
+    "question_id": "Q177",
+    "question_text": "Whether an occupational health and safety management system is implemented by the entity",
+    "data_type": "boolean"
+  },
+  "Desclosure Of The Processes Used To Identify Work Related Hazards And Assess Risks On ARoutine And Non Routine Basis By The Entity Explanatory Text Block": {
+    "question_id": "Q178",
+    "question_text": "What are the processes used to identify work-related hazards and assess risks on a routine and non routine bassi by the entity",
+    "data_type": "boolean"
+  },
+  "Whether You Have Processes For Workers To Report The Work Related Hazards And To Remove Themselves From Such Risks": {
+    "question_id": "Q179",
+    "question_text": "Does the company have processes for workers to report the work related hazards and to remove themselves from such risks (Y/N)",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Pending Resolution At The End Of Year - Discrimination At Work Place Member": {
+    "question_id": "Q180",
+    "question_text": "Was there training given to workers on health and sagety measures in Current Year",
+    "data_type": "text"
+  },
+  "Does The Entity Extend Any Life Insurance Or Any Compensatory Package In The Event Of Death Of Employees": {
+    "question_id": "Q181",
+    "question_text": "Does the company mention that they have a safety committee/policy in place with respect to accidents or misfortune events",
+    "data_type": "boolean"
+  },
+  "The Entity Does Not Have The Financial Or Human And Technical Resources Available For The Task - Principle2 Member": {
+    "question_id": "Q182",
+    "question_text": "Does the entity have ISO 45001:2018 certification",
+    "data_type": "boolean"
+  },
+  "SOx - Previous Year": {
+    "question_id": "Q183",
+    "question_text": "Are the entity\u2019s manufacturing facilties WRAP certified",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have Any Sites Or Facilities Identified As Designated Consumers Under The Performance Achieve And Trade Scheme Of The Government Of India": {
+    "question_id": "Q184",
+    "question_text": "Does the company have a target to achieve gender diversity in the workforce",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of CSRProjects Undertaken In Designated Aspirational Districts As Identified By Government Bodies": {
+    "question_id": "Q185",
+    "question_text": "Does the company have a diversity equality and inclusion policy",
+    "data_type": "boolean"
+  },
+  "Total Complaints Reported Under Sexual Harassment Of Women At Workplace": {
+    "question_id": "Q186",
+    "question_text": "Does the company have policy for precention to prevent sexual harassment at workplace",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed During The Year - Health Safety Complaints Member": {
+    "question_id": "Q187",
+    "question_text": "Are all complaints filed by the employees during current fiscal year closed",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Employees And Workers Who Have Been Provided Training On Human Rights Issues And Policies Of The Entity": {
+    "question_id": "Q188",
+    "question_text": "Does the company have a human rights policy established",
+    "data_type": "boolean"
+  },
+  "Does The Entity Provide Transition Assistance Programs To Facilitate Continued Employability And The Management Of Career Endings Resulting From Retirement Or Termination Of Employment": {
+    "question_id": "Q189",
+    "question_text": "Does the company provide medical assistance (Ambulance service, fixed medical checkups, to the employees)",
+    "data_type": "boolean"
+  },
+  "Number Of Well Being Of Employees Or Workers - Other Gender Member - Total Employee Benefits Member - Other Than Permanent Employees Member": {
+    "question_id": "Q190",
+    "question_text": "Does the company take measures for the well being of individuals other than permanent employees (which may include interns, contracts, etc.)",
+    "data_type": "boolean"
+  },
+  "Retention Rates Permanent Employees That Took Parental Leave - Gender Member": {
+    "question_id": "Q191",
+    "question_text": "Does the organisation have opportunities for Paternal leavesWhat all initiatives does the organisation undertake for increase in the retention rate of employees",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Measures Undertaken By The Entity To Ensure That Statutory Dues Have Been Deducted And Deposited By The Value Chain Partners": {
+    "question_id": "Q192",
+    "question_text": "Does the company have employe development programs that have been developed to upgrade and improve employee skills",
+    "data_type": "boolean"
+  },
+  "Do Human Rights Requirements Form Part Of Your Business Agreements And Contracts": {
+    "question_id": "Q193",
+    "question_text": "Did the company face any strike in the current year",
+    "data_type": "boolean"
+  },
+  "The Entity Has Not Applicable Carry Out Any Survey With Regard To Consumer Satisfaction Relating To The Major Products Or Services Explanatory Text Block": {
+    "question_id": "Q194",
+    "question_text": "Does the company conduct an employee satisfaction survey",
+    "data_type": "boolean"
+  },
+  "Name Of Stock Exchange Where The Company Is Listed - Stock Exchange1": {
+    "question_id": "Q195",
+    "question_text": "Does the company have policy on offering stock options",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of The Mechanisms In Place To Receive And Respond To Consumer Complaints And Feedback": {
+    "question_id": "Q196",
+    "question_text": "Does the company have mechanisms to receive and respond to consumer complaints and feedback",
+    "data_type": "boolean"
+  },
+  "Did Your Entity Carry Out Any Survey With Regard To Consumer Satisfaction Relating To The Major Products Or Services Of The Entity Significant Locations Of Operation Of The Entity Or The Entity As AWhole": {
+    "question_id": "Q197",
+    "question_text": "Did your entity carry out any survey with regard to consumer satisfaction relating to the major products/services of the entity, significant locations of operation of the entity or the entity as a whole",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Steps Taken To Inform And Educate Consumers About Safe And Responsible Usage Of Products And Or Services": {
+    "question_id": "Q198",
+    "question_text": "Steps taken to inform and educate consumers about safe and responsible usage of products and/or service",
+    "data_type": "text"
+  },
+  "Name Of The National And International Codes Or Certifications Or Labels Or Standards Adopted By Your Entity And Mapped To Each Principle Explanatory Text Block - Principle1 Member": {
+    "question_id": "Q199",
+    "question_text": "ISO 9001:2015 certification",
+    "data_type": "text"
+  },
+  "Does The Entity Display Product Information On The Product Over And Above What Is Mandated As Per Local Laws": {
+    "question_id": "Q200",
+    "question_text": "Does the entity display product information on the product over and above what is mandated as per local laws",
+    "data_type": "boolean"
+  },
+  "Name Of The Company Or LLPOr Firm Of Assurance Provider - Assurance Provider Domain1": {
+    "question_id": "Q201",
+    "question_text": "When the onboarding of new vendors takes place, does the company have their supplier code of conduct designed",
+    "data_type": "boolean"
+  },
+  "Disclose Any Significant Adverse Impact To The Environment Arising From The Value Chain Of The Entity What Mitigation Or Adaptation Measures Have Been Taken By The Entity In This Regard Explanatory Text Block": {
+    "question_id": "Q202",
+    "question_text": "Disclose any significant adverse impact on the environment arising from the value chain of the entity. Are there any mitigations or adaptiation measures taken by the entity in this context",
+    "data_type": "boolean"
+  },
+  "Details Of Any Corrective Actions Taken Or Underway To Address Significant Risks Or Concerns Arising From The Assessments Of Value Chain Partner Explanatory Text Block": {
+    "question_id": "Q203",
+    "question_text": "Provide details of any corrective actions taken or underway to adderss significant risks/concerns arising from asessment of health and safety practices practices and working conditions of value chain partners",
+    "data_type": "numeric"
+  },
+  "Does The Entity Have Procedures In Place For Sustainable Sourcing": {
+    "question_id": "Q204",
+    "question_text": "Does the entity have procedures in place for sustainable sourcing strategy around sustainable/efficient/responsible supply chain",
+    "data_type": "boolean"
+  },
+  "Whether The Entity Have Processes In Place To Avoid Or Manage Conflict Of Interests Involving Members Of The Board Is Assured By Assurer": {
+    "question_id": "Q205",
+    "question_text": "Is there a robust supplier assessment done by the company to avoid any conflicts with ESG requirements/sustainability/ESG assessment for suppliers",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether Do You Have AFocal Point Responsible For Addressing Human Rights Impacts Or Issues Caused Or Contributed To By The Business": {
+    "question_id": "Q206",
+    "question_text": "Does the company have a documented CSR policy in place",
+    "data_type": "boolean"
+  },
+  "Whether Describe The Mechanisms To Receive And Redress Grievances Of The Community Is Assured By Assurer": {
+    "question_id": "Q207",
+    "question_text": "Whether there are mechanisms to receive and redress grievances of the community",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Beneficiaries Of CSRProjects": {
+    "question_id": "Q208",
+    "question_text": "Does the entity disclose the details of beneficiaries of CSR projects",
+    "data_type": "boolean"
+  },
+  "Name And Brief Details Of Project - Environmental Impact Assessments Of Project1": {
+    "question_id": "Q209",
+    "question_text": "Does the company conduct impact assessments for CSR projects? If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Details Of Negative Social Impact Identified - Negative Social Impact Identified1": {
+    "question_id": "Q210",
+    "question_text": "Does the company conduct of assessment of negative impacts of its operation on the communities",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Actions Taken To Mitigate Any Negative Social Impacts Identified In The Social Impact Assessments": {
+    "question_id": "Q211",
+    "question_text": "Provide details of actions taken to mitigate any negative social impacts identified in the Social Impact Assessments",
+    "data_type": "text"
+  },
+  "Does The Entity Have AFramework Or Policy On Cyber Security And Risks Related To Data Privacy": {
+    "question_id": "Q212",
+    "question_text": "Does the entity have a framework/policy on cybersecurity and risks related to data privacy",
+    "data_type": "boolean"
+  },
+  "Web Link Of The Policy On Cyber Security And Risks Related To Data Privacy": {
+    "question_id": "Q213",
+    "question_text": "Does the company\u2019s policy on cybersecurity and risks related to data privacy extend to its value chain partners",
+    "data_type": "boolean"
+  },
+  "Number Of Instances Of Data Breaches Along With Impact": {
+    "question_id": "Q214",
+    "question_text": "Provide number of instances of data breaches along with their impact on the company",
+    "data_type": "numeric"
+  },
+  "Water Discharge By Sent To Third Parties": {
+    "question_id": "Q215",
+    "question_text": "Does the company conduct cybersecurity assessment by a third party",
+    "data_type": "boolean"
+  },
+  "Whether Data Breaches Information Like Number Of Instances Of Data Breaches Along With Impact And Percentage Of Data Breaches Involving Personally Identifiable Information Of Customers Is Assured By Assurer": {
+    "question_id": "Q216",
+    "question_text": "Does the entity comply with ISO 27001:2013, ISO 22301:2019 OR PCI DSS standards to safeguard the customer data",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Data Breaches Information Like Number Of Instances Of Data Breaches Along With Impact And Percentage Of Data Breaches Involving Personally Identifiable Information Of Customers": {
+    "question_id": "Q217",
+    "question_text": "Does the organisation conduct training on data privacy and awareness programs for information security to its customers/employees",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Have ABusiness Continuity And Disaster Management Plan": {
+    "question_id": "Q218",
+    "question_text": "Does the company have a communication plan for engaging with the communities affected with aircraft noise",
+    "data_type": "boolean"
+  },
+  "Whether Details Of Waste Management Practices Adopted In Your Establishments And The Strategy Adopted By Company To Reduce Usage Of Hazardous And Toxic Chemicals Is Assured By Assurer": {
+    "question_id": "Q219",
+    "question_text": "Does the company comply with Maritime Labour Convention adopted by International Labour Organisation in 2006",
+    "data_type": "boolean"
+  },
+  "Whether The Entity Has Undertaken Any Specific Initiatives Or Used Innovative Technology Or Solutions To Improve Resource Efficiency Is Assured By Assurer": {
+    "question_id": "Q220",
+    "question_text": "Is the company\u2019s training centre for its seafarers certified or has got validated by any institution",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Financial Year For Which Reporting Is Being Done": {
+    "question_id": "Q221",
+    "question_text": "Does the company have agreements which safeguard the wellbeing of farm workers through the Agricultural Labour Practices Code",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Measures Taken By The Entity To Ensure ASafe And Healthy Work Place": {
+    "question_id": "Q222",
+    "question_text": "Does the company ensure its jewellery meet BIS hallmark standards for quality assurance",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle3 Member": {
+    "question_id": "Q223",
+    "question_text": "Is the education institute providing placement assistance to its students",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Have An Equal Opportunity Policy As Per The Rights Of Persons With Disabilities Act2016": {
+    "question_id": "Q224",
+    "question_text": "Does the company have a editorial policy",
+    "data_type": "boolean"
+  },
+  "Construction And Demolition Waste": {
+    "question_id": "Q225",
+    "question_text": "Does the company implement strategies to control and reduce the amount of construction and demolition waste from buildings that are constructed or are part of portfolio",
+    "data_type": "boolean"
+  },
+  "Steps Taken To Address The Waste Collection Plan Explanatory Text Block": {
+    "question_id": "Q226",
+    "question_text": "Does the company have programs established to measure food loss and waste",
+    "data_type": "boolean"
+  },
+  "Amount Of Recycled - Hazardous Waste Member - Previous Year": {
+    "question_id": "Q227",
+    "question_text": "Does the company have any targets to reduce food waste",
+    "data_type": "boolean"
+  },
+  "Steps Taken To Inform And Educate Consumers About Safe And Responsible Usage Of Products And Or Services Explanatory Text Block": {
+    "question_id": "Q228",
+    "question_text": "What initiatives are undertaken to mitigate the health risks of smoking and tobacco use",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Weblink Where Information On Products And Services Of The Entity Can Be Accessed": {
+    "question_id": "Q229",
+    "question_text": "Are any of its hospitals accredited with NABH or JIC? How many of its hospitals accredited with NABH or JIC?",
+    "data_type": "boolean"
+  },
+  "Details If The Employees Or Worker Of The Entity Have Access To Non Occupational Medical And Healthcare Services Is Not Applicable Explanatory Text Block": {
+    "question_id": "Q230",
+    "question_text": "Does the company have a program or is taking efforts to increase the availability and affordability of the medicines in low income/developing markets",
+    "data_type": "boolean"
+  },
+  "Whether Information Available In Public Domain - Public Policy3": {
+    "question_id": "Q231",
+    "question_text": "Does the company have publicly available programs to improve the accessibility to healthcare",
+    "data_type": "boolean"
+  },
+  "Details Of Improvements In Environmental And Social Impacts Due To RAnd D": {
+    "question_id": "Q232",
+    "question_text": "Are the production units and R&D centres certified to International Aerospace Standard AS9100D and other required aviation standards",
+    "data_type": "boolean"
+  },
+  "The Entity Has Not Applicable AFramework Or Policy On Cyber Security And Risks Related To Data Privacy Explanatory Text Block": {
+    "question_id": "Q233",
+    "question_text": "Has the company identified risk and threats it faces in ensuring the safet and security of its passengers, staff, and assets",
+    "data_type": "boolean"
+  },
+  "Amount Of Recycled - Hazardous Waste Member": {
+    "question_id": "Q234",
+    "question_text": "Does the company collaborate with external agencies to reduce the amount of food loss and waste",
+    "data_type": "boolean"
+  },
+  "Assurer Has Assured Whether The Entity Display Product Information On The Product Over And Above What Is Mandated As Per Local Laws": {
+    "question_id": "Q235",
+    "question_text": "Is the company promoting local tourism",
+    "data_type": "boolean"
+  },
+  "Name Of Other Parameter Of Energy Consumption Through Other Source From Renewable Sources - Energy Consumption Through Other Source From Renewable Sources Domain1": {
+    "question_id": "Q236",
+    "question_text": "Does the company actively engage in the research collaborations with the universities, research institutions and other companies",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Significant Direct And Indirect Impact Of The Entity On Biodiversity In Such Areas Along With Prevention And Remediation Activities": {
+    "question_id": "Q237",
+    "question_text": "Provide details on development of clinical technology, clinical capabilites and programmes",
+    "data_type": "text"
+  },
+  "Remarks For Assurance Of The Internal Mechanisms In Place To Redress Grievances Related To Human Rights Issues": {
+    "question_id": "Q238",
+    "question_text": "Does the entity have system/mechanism in place to address issues (congestion, indoor coverage, call drops, modernisation and upgrade of data speeds, among others)",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Waste Collection Plan Is In Line With The Extended Producer Responsibility Plan Submitted To Pollution Control Boards And Steps Taken To Address The Waste Collection Plan If Not Submitted": {
+    "question_id": "Q239",
+    "question_text": "Does the company have digital/smart substations or plans to have it in future? (If yes, provide the number of substation)",
+    "data_type": "boolean"
+  },
+  "Energy Intensity Per Rupee Of Turnover Adjusting For Purchasing Power Parity - Previous Year": {
+    "question_id": "Q240",
+    "question_text": "Does the company use smart metters in its distribution grid",
+    "data_type": "boolean"
+  },
+  "Value Of Shares Paid Up": {
+    "question_id": "Q241",
+    "question_text": "Does the company have inhouse research and development facilities/centres and team",
+    "data_type": "boolean"
+  },
+  "Whether EMail Of The Company Is Assured By Assurer": {
+    "question_id": "Q242",
+    "question_text": "Is the company offering e-learning courses/certifications to its students",
+    "data_type": "boolean"
+  },
+  "CompanyName": {
+    "question_id": "Q243",
+    "question_text": "ISO 22000 FSSC",
+    "data_type": "text"
+  },
+  "Provide Details Of The Non Compliance - Law Or Regulation Or Guidelines1": {
+    "question_id": "Q244",
+    "question_text": "Does the company confirm on its commitments to follow guidelines provided by FSSAI and NIN",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Details Of Instances Of Product Recalls On Account Of Safety Issues": {
+    "question_id": "Q245",
+    "question_text": "Does the company conduct food safety audits",
+    "data_type": "boolean"
+  },
+  "Reclaimed Products And Their Packaging Materials As Percentage Of Total Products Sold In Respective Category - Reclaimed Products And Their Packaging Domain1": {
+    "question_id": "Q246",
+    "question_text": "Does the company mention use of natural ingredients in their products and are they approved by government norms",
+    "data_type": "boolean"
+  },
+  "The Entity Is Not At AStage Where It Is In APosition To Formulate And Implement The Policies On Specified Principles - Principle7 Member": {
+    "question_id": "Q247",
+    "question_text": "does the company have a policy on ingredient safety? is there any mention of use of paraben in the products",
+    "data_type": "boolean"
+  },
+  "Corporate Identity Number": {
+    "question_id": "Q248",
+    "question_text": "ISO 13485",
+    "data_type": "text"
+  },
+  "Assurance Sub Type For Whether The Entity Have An Equal Opportunity Policy As Per The Rights Of Persons With Disabilities Act2016": {
+    "question_id": "Q249",
+    "question_text": "Does the company have a policy for ensuring quality and patient safety during clinical trials",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Display Product Information On The Product Over And Above What Is Mandated As Per Local Laws": {
+    "question_id": "Q250",
+    "question_text": "Does the entity display relevant information on the product labels as per the requirements of national and international drug regulatory bodies",
+    "data_type": "boolean"
+  },
+  "Waste Intensity The Relevant Metric May Be Selected By The Entity - Previous Year": {
+    "question_id": "Q251",
+    "question_text": "How many labs are NABL accredited",
+    "data_type": "boolean"
+  },
+  "Details Of Instances As To How The Inputs Received From Stakeholders On These Topics Were Incorporated Into Policies And Activities Of The Entity Explanatory Text Block": {
+    "question_id": "Q252",
+    "question_text": "How did the entity handle aliquots and provide details on reducing aliquots",
+    "data_type": "boolean"
+  },
+  "Do You Have APreferential Procurement Policy Where You Give Preference To Purchase From Suppliers Comprising Marginalized Or Vulnerable Groups": {
+    "question_id": "Q253",
+    "question_text": "Does the company have a dedicated ethics committee to oversee all the clinical trials",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of APreferential Procurement Policy Where Preference To Purchase From Suppliers Comprising Marginalized Or Vulnerable Groups And Its Percentage Of Total Procurement By Value Does It Constitute": {
+    "question_id": "Q254",
+    "question_text": "Does the company have a public policy committing it and/or its suppliers to animal welfare principles",
+    "data_type": "boolean"
+  },
+  "Is The Premise Or Office Of The Entity Accessible To Differently Abled Visitors As Per The Requirements Of The Rights Of Persons With Disabilities Act2016": {
+    "question_id": "Q255",
+    "question_text": "Does the company meet priority sector lending requirements as per RBI",
+    "data_type": "boolean"
+  },
+  "Assurer Has Assured Whether The Entity Have ABusiness Continuity And Disaster Management Plan": {
+    "question_id": "Q256",
+    "question_text": "Does the entity have a plan to lend to MSME? If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of The Entity Is AMember Of Or Affiliated To Trade And Industry Chambers Or Associations Determined Based On The Total Members Of Such Body": {
+    "question_id": "Q257",
+    "question_text": "Does the company have a policy or commitment on financial inclusion",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Whether The Entity Have ABusiness Continuity And Disaster Management Plan": {
+    "question_id": "Q258",
+    "question_text": "Does the company have programmes for listing designed to promote small businesses (MSME) and community development",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether CSRIs Applicable As Per Section135 Of Companies Act2013": {
+    "question_id": "Q259",
+    "question_text": "Does the company index for social enterprises that target underserved or less privileged population segments",
+    "data_type": "boolean"
+  },
+  "Number Of Persons Benefitted From CSRProjects - CSRProjects83": {
+    "question_id": "Q260",
+    "question_text": "Does the company have its products in compliance with BIS standards",
+    "data_type": "boolean"
+  },
+  "It Is Planned To Be Done In The Next Financial Year - Principle5 Member": {
+    "question_id": "Q261",
+    "question_text": "Is the company adhering to Food Safety Standards and Processes",
+    "data_type": "boolean"
+  },
+  "Description Of Main Activity - Details Of Business Activities Accounting For Ninety Percent Of The Turnover Domain1": {
+    "question_id": "Q262",
+    "question_text": "Description of actions and initiatives to promote access to healthcare products for priority diseases",
+    "data_type": "boolean"
+  },
+  "Whether Details Of Total Energy Consumption And Energy Intensity Applicable To The Company": {
+    "question_id": "Q263",
+    "question_text": "Does the company focus on providing healthcare facilities to vulnerable portions of the population",
+    "data_type": "boolean"
+  },
+  "State Of CSRProjects Undertaken - CSRProjects Undertaken7": {
+    "question_id": "Q264",
+    "question_text": "N-CAP Rating of 4 or 5 star?",
+    "data_type": "boolean"
+  },
+  "Whether The Entity Have Procedures In Place For Sustainable Sourcing And Percentage Of Inputs Were Sourced Sustainably Is Assured By Assurer": {
+    "question_id": "Q265",
+    "question_text": "Is the company sourcing raw materials from the certified sustainable sources (such as global GAP, RSPO, Rainforest, FSC)",
+    "data_type": "boolean"
+  },
+  "Do The Employees Or Worker Of The Entity Have Access To Non Occupational Medical And Healthcare Services": {
+    "question_id": "Q266",
+    "question_text": "Do the farmers have access to PPE kits to prevent themselves from exposure to pesticides while handling wet green tobacco leaves which could lead to Green Tobacco Sickness",
+    "data_type": "text"
+  },
+  "Remarks For Assurance Of The Entity Have Procedures In Place For Sustainable Sourcing And Percentage Of Inputs Were Sourced Sustainably": {
+    "question_id": "Q267",
+    "question_text": "Does the company have any standards or programmes related to sustainable tobacco during their supply chain process",
+    "data_type": "boolean"
+  },
+  "Percentage Of Discrimination At Work Place Of Value Chain Partners P5": {
+    "question_id": "Q268",
+    "question_text": "Are there any technicians appointed during the supply chain process to detect or monitor the agriculture or crop management process",
+    "data_type": "boolean"
+  },
+  "Type Of Assurance For Policy And Management Processes": {
+    "question_id": "Q269",
+    "question_text": "Existence of management process for ensuring quality and patient safety during clinical trials",
+    "data_type": "text"
+  },
+  "Whether Details Of Projects For Which Ongoing Rehabilitation And Resettlement Is Being Undertaken By Entity Is Assured By Assurer": {
+    "question_id": "Q270",
+    "question_text": "Provide information on project(s) for which ongoing Rehabilitation and Resettlements is being undertaken by the company",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Filed During The Year - Otherhumanrightsrelatedissues Member": {
+    "question_id": "Q271",
+    "question_text": "How many patents were filed and granted during the current year",
+    "data_type": "numeric"
+  },
+  "Assurance Sub Type For The Entity Have Procedures In Place For Sustainable Sourcing And Percentage Of Inputs Were Sourced Sustainably": {
+    "question_id": "Q272",
+    "question_text": "Does the company have due diligence process for sourcing minerals as raw materials",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For Specific Commitments Goals And Targets Set By The Entity With Defined Timelines": {
+    "question_id": "Q273",
+    "question_text": "Has the entity performed audit by DoT and maintain compliance with EMF radiation levels set by local regulations and ICNIRP",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Have ASpecified Committee Of The Board Or Director Responsible For Decision Making On Sustainability Related Issues": {
+    "question_id": "Q274",
+    "question_text": "Does the organisation have Board Diversity Policy",
+    "data_type": "boolean"
+  },
+  "Details Of Specified Committee Of The Board Or Director Responsible For Decision Making On Sustainability Related Issues Explanatory Text Block": {
+    "question_id": "Q275",
+    "question_text": "Presence of policy on appointment and reappointment of board of directors",
+    "data_type": "boolean"
+  },
+  "Total Number Of Board Of Directors": {
+    "question_id": "Q276",
+    "question_text": "Is the chairperson of the board an independent director?",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Address Of Registered Office Of Company": {
+    "question_id": "Q277",
+    "question_text": "Does the company have separate roles for Chairman and CEO",
+    "data_type": "boolean"
+  },
+  "Assurer Has Assured Whether The Entity Have ASpecified Committee Of The Board Or Director Responsible For Decision Making On Sustainability Related Issues": {
+    "question_id": "Q278",
+    "question_text": "Does the company have lead independent director on the board",
+    "data_type": "boolean"
+  },
+  "Name Of The External Agency That Undertook Independent Assessment Or Evaluation Or Assurance For Energy Consumption Explanatory Text Block": {
+    "question_id": "Q279",
+    "question_text": "Does the company ensure effectiveness of the board through internal or external evaluation or assessment",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have Processes In Place To Avoid Or Manage Conflict Of Interests Involving Members Of The Board": {
+    "question_id": "Q280",
+    "question_text": "Does the company have processes in place to avoid/manage conflicts of interest involving members of the Board",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Percentage Coverage By Training And Awareness Programs On Any Of The Principles During The Financial Year For BODOr KMPOr Employee Or Worker": {
+    "question_id": "Q281",
+    "question_text": "Does the company conduct training and awareness programmes on any of the NGBRC principles for BOD",
+    "data_type": "boolean"
+  },
+  "Number Of Female Key Management Personnel": {
+    "question_id": "Q282",
+    "question_text": "Independence of Chairperson of committee (risk management)",
+    "data_type": "text"
+  },
+  "Description Of Other Committee For Compliance With Statutory Requirements Of Relevance To The Principles And Rectification - Principle1 Member": {
+    "question_id": "Q283",
+    "question_text": "Independence of Chairperson of committee (NRC)",
+    "data_type": "text"
+  },
+  "Amount Of Accounts Payable During The Year": {
+    "question_id": "Q284",
+    "question_text": "Independence of Chairperson of committee (Audit)",
+    "data_type": "text"
+  },
+  "Is There AMechanism Available To Receive And Redress Grievances For Permanent Employees": {
+    "question_id": "Q285",
+    "question_text": "Is there a claw back mechanism/policy for senior management/KMP",
+    "data_type": "boolean"
+  },
+  "Number Of Board Of Directors For Remuneration Or Salary Or Wages - Other Gender Member": {
+    "question_id": "Q286",
+    "question_text": "Is the independent director paid commissions/incentives other than the board sitting fees",
+    "data_type": "boolean"
+  },
+  "Whether Statement By Director Responsible For The Business Responsibility Report Highlighting ESGRelated Challenges Targets And Achievements Is Assured By Assurer": {
+    "question_id": "Q287",
+    "question_text": "Is the variable pay of executives linked to sustainability or ESG parameters",
+    "data_type": "boolean"
+  },
+  "The Entity Does Not Have The Financial Or Human And Technical Resources Available For The Task - Principle8 Member": {
+    "question_id": "Q288",
+    "question_text": "Does the company have a policy for appointment or reappointment o auditors",
+    "data_type": "boolean"
+  },
+  "Number Of Complaints Pending Resolution At The End Of Year - Working Conditions Complaints Member - Previous Year": {
+    "question_id": "Q289",
+    "question_text": "Discontinuation of auditors before end of term",
+    "data_type": "text"
+  },
+  "Assurer Has Assured Whether The Entity Have An Equal Opportunity Policy As Per The Rights Of Persons With Disabilities Act2016": {
+    "question_id": "Q290",
+    "question_text": "Does the entity have a whistleblower policy",
+    "data_type": "boolean"
+  },
+  "The Enlisted Policies Do Not Applicable Extend To Your Value Chain Partners Explanatory Text Block - Principle1 Member": {
+    "question_id": "Q291",
+    "question_text": "Is the whistleblower policy applicable to value chain",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have An Anti Corruption Or Anti Bribery Policy": {
+    "question_id": "Q292",
+    "question_text": "Does the entity have an anti corruption or anti bribery policy",
+    "data_type": "boolean"
+  },
+  "Does The Entity Extend Any Life Insurance Or Any Compensatory Package In The Event Of Death Of Workers": {
+    "question_id": "Q293",
+    "question_text": "Does the company have code of conduct policy",
+    "data_type": "boolean"
+  },
+  "Details For The Entity Have Not Applicable An Anti Corruption Or Anti Bribery Policy Explanatory Text Block": {
+    "question_id": "Q294",
+    "question_text": "Does the company have a policy on anti-money laundering and/or insider trading/dealing",
+    "data_type": "boolean"
+  },
+  "Anti Corruption Or Anti Bribery Policy Explanatory Text Block": {
+    "question_id": "Q295",
+    "question_text": "Does the company provide training on code of conduct, anti corruption, and anti bribery policies to the employee",
+    "data_type": "boolean"
+  },
+  "Percentage Of Sourced Directly From Within The District And Neighbouring Districts - Previous Year": {
+    "question_id": "Q296",
+    "question_text": "How does the company ensure that the minority shareholders effectively protect their interest and rights within company",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Fines Or Penalties Or Punishment Or Award Or Compounding Fees Or Settlement": {
+    "question_id": "Q297",
+    "question_text": "Has the company undergone any fines/penalties/punishments/award/compunding fees/settlement amount paid in proceedings with regulators/law enforcement agencies/judicial institution during the financial year",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Whether The Entity Have AFramework Or Policy On Cyber Security And Risks Related To Data Privacy": {
+    "question_id": "Q298",
+    "question_text": "Does the company implement a comprehensive framework or Enterprise Risk Management framework",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Corrective Action Taken Or Underway On Any Issues Related To Anti Competitive Conduct By The Entity Based On Adverse Orders From Regulatory Authorities": {
+    "question_id": "Q299",
+    "question_text": "Has the company taken any corrective action or underway on any issues related to anti competitive model, based on adverse orders from regulatory authorities? If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have ABusiness Continuity And Disaster Management Plan": {
+    "question_id": "Q300",
+    "question_text": "Does the entity have a business continuity and disaster management plan",
+    "data_type": "boolean"
+  },
+  "Whether The Company Has Undertaken Assessment Or Assurance Of The BRSRCore": {
+    "question_id": "Q301",
+    "question_text": "Does the company have ESG or Sustainability or BRSR policy",
+    "data_type": "boolean"
+  },
+  "Material Issue Identified - Entitys Material Responsible Business Conduct Issues Domain1": {
+    "question_id": "Q302",
+    "question_text": "Does the company perform materiality assessment and identify material ESG issues",
+    "data_type": "boolean"
+  },
+  "Name Of The External Agency If Any Independent Assessment Or Evaluation Or Assurance Has Been Carried Out By An External Agency For Energy Consumption Explanatory Text Block": {
+    "question_id": "Q303",
+    "question_text": "Does the company conduct assurance for its ESG or sustainability data through a third party or external agency",
+    "data_type": "boolean"
+  },
+  "Assurance Sub Type For APreferential Procurement Policy Where Preference To Purchase From Suppliers Comprising Marginalized Or Vulnerable Groups And Its Percentage Of Total Procurement By Value Does It Constitute": {
+    "question_id": "Q304",
+    "question_text": "Does the company conduct assurance for its suppliers\u2019 ESG or sustainability data through a third party or external agency",
+    "data_type": "boolean"
+  },
+  "Details Of The Highest Authority Responsible For Implementation And Oversight Of The Business Responsibility Policy Explanatory Text Block": {
+    "question_id": "Q305",
+    "question_text": "Does the company have a highest authority responsible for implementation and oversight of the Business Responsibility(ies) and ESG policy",
+    "data_type": "boolean"
+  },
+  "Does The Entity Have ASpecified Committee Of The Board Or Director Responsible For Decision Making On Sustainability Related Issues": {
+    "question_id": "Q306",
+    "question_text": "Does the company have a specified committee of the board/director responsible for decision making on sustainability related issues (Y/N)",
+    "data_type": "boolean"
+  },
+  "Percentage Of Discrimination At Work Place Of Your Plants And Offices That Were Assessed P5": {
+    "question_id": "Q307",
+    "question_text": "Were there any promotor sponsored resolutoins that were defeated during the current FY",
+    "data_type": "text"
+  },
+  "Any Independent Assessment Or Evaluation Or Assurance Has Been Carried Out By An External Agency For Energy Consumption": {
+    "question_id": "Q308",
+    "question_text": "Does the company follow GRI standards",
+    "data_type": "boolean"
+  },
+  "Whether Specific Commitments Goals And Targets Set By The Entity With Defined Timelines Is Assured By Assurer": {
+    "question_id": "Q309",
+    "question_text": "Is the company aligned with SDGs? Does the company set targets according  to SDGs",
+    "data_type": "boolean"
+  },
+  "Number Of Countries Where Market Served By The Entity": {
+    "question_id": "Q310",
+    "question_text": "Is your company a signatory/participant of the United Nations Global Compact",
+    "data_type": "boolean"
+  },
+  "Number Of Affiliations With Trade And Industry Chambers Or Associations": {
+    "question_id": "Q311",
+    "question_text": "Does the company have affiliatoins with trade and indsutry chambers/associations",
+    "data_type": "boolean"
+  },
+  "Web Link Public Policy Position Advocated - Public Policy1": {
+    "question_id": "Q312",
+    "question_text": "Has the company advocated any public policy positions? If yes, provide details",
+    "data_type": "boolean"
+  },
+  "Remarks For Assurance Of Details Of Complaints With Regard To Conflict Of Interest": {
+    "question_id": "Q313",
+    "question_text": "Does the company disclose ESG engagement with investee company",
+    "data_type": "boolean"
+  },
+  "The Entity Does Not Have The Financial Or Human And Technical Resources Available For The Task - Principle6 Member": {
+    "question_id": "Q314",
+    "question_text": "Does the entity have stewardship code",
+    "data_type": "boolean"
+  },
+  "Percentage Of Purchases From Related Parties In Total Purchases For Share Of Related Party Transactions": {
+    "question_id": "Q315",
+    "question_text": "Is there a policy on related party transactions",
+    "data_type": "boolean"
+  },
+  "Percentage Of Sales To Related Parties In Total Sales For Share Of Related Party Transactions - Previous Year": {
+    "question_id": "Q316",
+    "question_text": "Disclosure of transactions with related parties during the year which are more than 10% of the revenue",
+    "data_type": "boolean"
+  }
+}

@@ -58,3 +58,9 @@ scratch/
 test_*.py
 evaluate_rmse_nnls.py
 
+
+# Exclude the nested BharatABM repository
+india-eu_report/BharatABM/
+
+node_modules/
+
