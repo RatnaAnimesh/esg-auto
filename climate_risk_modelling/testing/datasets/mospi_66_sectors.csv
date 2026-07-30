@@ -1,0 +1,67 @@
+Industry_Code,Industry_Name
+1,Agriculture
+2,Forestry and logging
+3,Fishing and aquaculture
+4,Coal and lignite
+5,Extraction of crude petroleum and natural gas
+6,Mining of iron ores
+7,Mining of non-ferrous metal ores
+8,Mining of non-metallic minerals
+9,Support activities for petroleum and natural gas mining
+10,Meat, fish, fruit, vegetables, oils and fats
+11,Dairy products
+12,Grain mill products, starches and starch products
+13,Other food products
+14,Beverages
+15,Tobacco products
+16,Textiles
+17,Wearing apparel
+18,Leather and related products
+19,Wood and products of wood and cork, except furniture
+20,Paper and paper products
+21,Printing and reproduction of recorded media
+22,Coke and refined petroleum products
+23,Chemicals and chemical products
+24,Pharmaceuticals, medicinal chemical and botanical products
+25,Rubber and plastics products
+26,Other non-metallic mineral products
+27,Basic metals
+28,Fabricated metal products, except machinery and equipment
+29,Computer, electronic and optical products
+30,Electrical equipment
+31,Machinery and equipment n.e.c.
+32,Motor vehicles, trailers and semi-trailers
+33,Other transport equipment
+34,Furniture
+35,Other manufacturing
+36,Repair and installation of machinery and equipment
+37,Electricity, gas, steam and air conditioning supply
+38,Water collection, treatment and supply
+39,Sewerage, waste management and remediation activities
+40,Construction
+41,Wholesale and retail trade and repair of motor vehicles and motorcycles
+42,Wholesale trade, except of motor vehicles and motorcycles
+43,Retail trade, except of motor vehicles and motorcycles
+44,Land transport and transport via pipelines
+45,Water transport
+46,Air transport
+47,Warehousing and support activities for transportation
+48,Postal and courier activities
+49,Accommodation and food service activities
+50,Publishing activities
+51,Motion picture, video and television programme production, sound recording and music publishing activities
+52,Broadcasting and programming activities
+53,Telecommunications
+54,Computer programming, consultancy and related activities
+55,Information service activities
+56,Financial service activities, except insurance and pension funding
+57,Insurance, reinsurance and pension funding, except compulsory social security
+58,Activities auxiliary to financial services and insurance activities
+59,Real estate activities
+60,Professional, scientific and technical activities
+61,Administrative and support service activities
+62,Public administration and defence; compulsory social security
+63,Education
+64,Human health and social work activities
+65,Arts, entertainment and recreation
+66,Other service activities

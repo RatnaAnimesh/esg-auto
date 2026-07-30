@@ -63,4 +63,6 @@ evaluate_rmse_nnls.py
 india-eu_report/BharatABM/
 
 node_modules/
+.pytest_cache/
+*.egg-info/
 

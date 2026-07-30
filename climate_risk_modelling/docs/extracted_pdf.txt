@@ -1,0 +1,528 @@
+NSRAL Institutional Climate Risk Engine: Executive
+Strategic Briefing & Methodology
+NSE Sustainability Ratings and Analytics Ltd. (NSRAL)
+June 2026
+Contents
+1 Macroeconomic Transmission and Scenarios 2
+1.1 NGFS Scenario Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.2 Leontief Matrix Inversion for Supply Chain Contagion (δ N IC) . . . . . . . . . . . . . 2
+1.3 Dynamic Transition Vulnerability Factor (DTVF) . . . . . . . . . . . . . . . . . . . . 3
+2 Continuous Financial Vulnerability Satellite Models 3
+2.1 Climate Earnings-at-Risk (CEaR) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+2.2 Transition Cost-at-Risk (T CaR) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+3 The Basel Credit Risk Core Engine 8
+3.1 Empirically-Mapped KMV Default Transformation (PD) . . . . . . . . . . . . . . . . 8
+3.2 Numerical Inversion of Unobservable Asset Parameters (Merton) . . . . . . . . . . . 9
+3.3 Systemic Climate Stress Injection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+3.4 Asymmetric Vine Copula (Clayton) for Wrong Way Risk (WWR) . . . . . . . . . . . 11
+3.5 Market Stranding and Uninsurability Thresholds . . . . . . . . . . . . . . . . . . . . 11
+4 Institutional Strategic Risk & Capital Degradation 11
+4.1 Unit-Aligned CET1 Capital Degradation . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.2 Institutional Stress Variable Definitions . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.2.1 Baseline Regulatory Inputs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.2.2 Risk-Weighted Asset Inflation (r inf) . . . . . . . . . . . . . . . . . . . . . . . 12
+4.2.3 Total Institutional Loss (Loss T otal) . . . . . . . . . . . . . . . . . . . . . . . . 13
+1
+--- PAGE BREAK ---
+Abstract
+This document outlines the mathematical architecture of the National Systemic Risk Assessment
+Layer (NSRAL) Climate Stress Testing Framework. The core engine incorporates empirical
+market data to calculate systemic risk. The architectural pivot reduces reliance on theoretical,
+normal-distribution approximations in favor of empirical market realities.
+Key structural upgrades include:
+•Empirically-Mapped KMV Default Transformation:The engine maps a firm’s
+Distance-to-Default (DD) against an empirical Expected Default Frequency (EDF) func-
+tion calibrated to true emerging market equity volatility, capturing the leptokurtic tail of
+compounding climate events.
+•Asymmetric Vine Copula Architecture:The symmetric Student-t Copula has been
+replaced with a Clayton Copula to model downside Wrong Way Risk (WWR). This isolates
+the correlation between borrower default and physical collateral stranding during stress
+periods.
+•TCaR Structural Uncertainty Isolation:The Transition Cost-at-Risk (T CaR) mod-
+ule evaluates the gap between a firm’s Required Green CAPEX and their Realized Green
+CAPEX sourced from BRSR filings.
+•Spatial Tensor Interpolation:Core probability and spatial mapping operations have
+been refactored to utilize JAX interpolations, supporting Monte Carlo execution.
+These enhancements allow NSRAL to produce A-IRB-aligned capital degradation metrics.
+1 Macroeconomic Transmission and Scenarios
+1.1 NGFS Scenario Architecture
+The engine executes multi-decade stress tests anchored by the Network for Greening the Financial
+System (NGFS) Phase 4 scenarios. The platform processes trajectories mapping the CMIP6 climate
+models, analyzing the impacts of Orderly Transitions versus Disorderly Hot House Worlds.
+Under theOrderly Transition (Net Zero 2050)framework, the engine models the impact
+of coordinated policy interventions. This scenario introduces a smoothly escalating shadow carbon
+price, allowing the macroeconomic environment and structural sectors to adapt gradually while
+mitigating physical damage by limiting global warming to 1.5 ◦C.
+Conversely, theDisorderly TransitionandHot House World (Current Policies)sce-
+narios introduce non-linear shocks. A delayed policy response forces an abrupt implementation
+of carbon pricing late in the horizon, introducing transition disruption and stranded asset risks.
+Meanwhile, the Hot House World pathway assumes no new climate policies, resulting in unabated
+emissions. In this scenario, the engine models lower transition costs but amplifies acute and chronic
+physical damages, driven by temperature anomalies and weather events.
+1.2 Leontief Matrix Inversion for Supply Chain Contagion (δ N IC)
+Calculatingδ N IC requires transforming the macroeconomic accounting of the Indian government
+into a financial network. The engine leverages the Ministry of Statistics and Programme Im-
+plementation (MoSPI) 67-industry Supply and Use Tables (SUT) to build a structural Leontief
+Input-Output model.
+The engine computes the Technical Coefficients Matrix (A), representing the direct requirements
+of one industry from another. To isolate the total upstream carbon dependencies (direct plus
+indirect), we compute the Leontief Inverse Matrix (L):
+L= (I−A) −1 (1)
+2
+--- PAGE BREAK ---
+The upstream structural dependency (δ) for each sector is determined by matrix multiplying the
+direct carbon intensities (γ) by the Leontief Inverse:
+δ=γ T L(2)
+Because the Leontief Inverse accounts for intermediate consumption, this formulation provides a
+Supply Chain Risk Metric. A carbon pricing shock applied deep in the supply chain (e.g., coal
+mining) will cascade downstream through intermediate sectors (e.g., steel production), manifesting
+as a transition vulnerability penalty (δ) for the end-consumer (e.g., automotive manufacturing).
+These 67 industry-level variables are expanded into a dictionary covering 83,900 5-digit National
+Industrial Classification (NIC) codes, allowing the macroeconomic stress to map into the asset-level
+Merton credit engine.
+1.3 Dynamic Transition Vulnerability Factor (DTVF)
+With the structural supply chain contagion (δ N IC) computed, the engine calculates the transi-
+tion vulnerability of the industry. The vulnerability of an industry to transition risk accelerates
+non-linearly with carbon pricing. The engine captures this shift using the Dynamic Transition
+Vulnerability Factor (DTVF):
+ϵN IC,t =ϵ base + (γN IC +δ N IC)×ln(1 +P carbon,t) (3)
+Where:
+•ϵ base is the historical baseline sensitivity to GDP cycles.
+•P carbon,t is the exogenous NGFS shadow carbon price at yeart.
+•γ N IC is the direct emissions intensity of the sector.
+•δ N IC captures the Scope 3 upstream ”Cost-Push” inflation dependencies (calculated via the
+Leontief Inverse).
+2 Continuous Financial Vulnerability Satellite Models
+The model supplements qualitative BRSR preparedness grids with continuous financial satellite
+models. Instead of using scalar penalties, the engine maps acute and chronic physical constraints, as
+well as transition policies, directly into financial loss matrices. This continuous structural modeling
+mitigates statistical distortions associated with ordinal risk buckets and provides differentiable risk
+metrics.
+2.1 Climate Earnings-at-Risk (CEaR)
+The Climate Earnings-at-Risk (CEaR) module captures the margin compression caused by com-
+pounding physical climate risks over an extended time horizon. Specifically, the framework isolates
+chronic heat stress, water stress, and continuous physical capital depreciation, translating tempera-
+ture anomalies into operational cash flow compression. This translation relies on empirical sectoral
+elasticity functions that map the macroeconomic sensitivity of 5-digit NIC codes to localized heat
+indices.
+3
+--- PAGE BREAK ---
+TheCEaRmodule continuously degrades the operating cash flow of an asset proportional to
+the severity of the expected local climate trajectory. The framework models this dual-stressor envi-
+ronment using a bivariate exponential decay function to compute a structural margin compression
+ratio:
+CEaR Ratiot = 1−exp (−(η T ∆Tt +η P |∆Pt|)) (4)
+whereη T andη P represent the empirical heat and precipitation sensitivity elasticity coefficients
+specific to the borrower’s 5-digit NIC code. The engine utilizes a Hybrid Cascade Framework,
+anchoring econometric panel data at the 2-digit industry level and expanding it via MoSPI factor-
+intensity scaling to cover 83,900 unique 5-digit NIC codes. ∆T t and ∆Pt represent the local oper-
+ational temperature and precipitation anomalies relative to historical baselines under the specified
+NGFS pathway.
+Because corporate accounting standardizes earnings at the consolidated entity level (EBIT DAbase),
+whereas climate hazards materialize at specific coordinates, the engine must bridge this spatial
+divide. For entities with geographically distributed physical assets, the framework employs a
+Capacity-Weighted Aggregationprotocol. The localized hazard anomalies are averaged at the
+corporate level proportionally to the physical capacity (e.g., production volume, square footage)
+of each underlying facility, generating a corporate climate shock prior to computing theCEaR
+compression.
+The Hybrid Cascade Framework for Empirical Elasticity Calibration
+To compute these elasticity coefficients across 83,900 5-digit NIC codes, the engine executes a
+Hybrid Cascade Framework:
+1.The Baseline Layer (Econometric Grouping):The engine anchors the elasticities via
+panel data regressions evaluated at the 2-digit NIC level (67 industries). The core econometric
+panel model isolates the climate signals:
+ln(GVAi,s,t) =µ i +δ s +
+KTX
+k=1
+βk,NICT k
+s,t +
+MPX
+m=1
+γm,NICP m
+s,t +ϵ i,s,t (5)
+where GVAi,s,t is the Gross Value Added for firmiin statesat timet;T s,t andP s,t are
+localized temperature and precipitation anomalies; andµ i andδ s are firm and spatial fixed
+effects. The extracted coefficients establish an empirical baseline (¯ηT,2-digit and ¯ηP,2-digit).
+The optimal polynomial degreesK T andM P are not assigned arbitrarily. They are determined
+independently for each 2-digit NIC sector via offline Bayesian Information Criterion (BIC)
+minimization. This structural constraint enforces the “laws of physics” governing economic
+damages, grounded in canonical climate economics:
+•Non-Linear Damage Functions:Following Burke, Hsiang, and Miguel (Nature,
+2015), the framework recognizes that economic productivity exhibits an inverted U-
+shape, declining non-linearly (quadratically) at extremes. This validates the use of
+polynomial expansions (T k) rather than simple linear bounds.
+•Sectoral Heterogeneity:The engine explicitly differentiates risk by industry clas-
+sification. As demonstrated by Graff Zivin and Neidell (Journal of Labor Economics,
+2014), climate shocks primarily destroy physical labor output and agricultural yields,
+while insulated service sectors are structurally protected.
+4
+--- PAGE BREAK ---
+To calibrate these elasticities, the engine utilizes anOffline Calibration Bootstrapper.
+The bootstrapper synthesizes a massive historical panel dataset (i.e., 4,000 simulated firm
+realities over 20 years) masked by extreme idiosyncratic errors. By executing an iterative
+OLS regression grid search across hundreds of polynomial combinations against this noisy
+data, the Bayesian optimizer discovers the underlying elasticities. It empirically isolates
+concave, violent non-linear relationships for Primary sectors (Agriculture, Mining), linear
+heat penalties for Secondary sectors (Manufacturing), and zero expected elasticity for Tertiary
+sectors (IT Services). This ensures that the JAX execution backend is powered by a robust,
+noise-filtered 3D elasticity tensor.
+Empirical GVA Derivation via Hybrid Proxy Transfer
+To bypass institutional data moats and the reliance on proprietary datasets (e.g., CMIE), the
+framework employs a Hybrid Proxy Transfer methodology to dynamically reconstruct firm-
+level Gross Value Added (GVA). Because listed entities in India are legally mandated by the
+Securities and Exchange Board of India (SEBI) to publish standard Profit and Loss (P&L)
+statements, the engine reverse-engineers the precise GVA using open-source market data
+APIs. By harvesting these mandated accounting disclosures, the framework mathematically
+synthesizes the underlying economic value creation before it is distributed.
+The reconstruction process utilizes Earnings Before Interest, Taxes, Depreciation, and Amor-
+tization (EBITDA) as the primary base. By adding back staff costs—which represent the
+value distributed to the workforce—the engine accurately computes the total value created
+by the firm’s operations. This open-source pipeline transforms raw ticker financial data into a
+structured macroeconomic panel dataset. The empirical GVA observations from this sample
+of publicly traded equities provide the exact dependent variable required by the Offline Cali-
+bration Bootstrapper, allowing the system to robustly calibrate the localized climate elasticity
+coefficients without requiring expensive proprietary licenses.
+2.The Micro-Allocation Layer (SUT Factor-Intensity Scaling):The engine expands
+the 2-digit baseline down to the granular 5-digit NIC code by calculating the relative labor
+and capital intensity ratios from the MoSPI SUT absorption matrices.
+For any specific 5-digit NIC code, the localized heat elasticity coefficient (η T,NIC) and precipi-
+tation elasticity coefficient (ηP,NIC) are modeled as expansions of the sector’s Labor Compensation
+Intensity (LC) and Fixed Capital Density (KD):
+ηT,NIC = ¯ηT,2-digit ×
+"
+αT
+Compensation of Employees NIC
+Total GVANIC
+
++β T
+Consumption of Fixed Capital NIC
+Total GVANIC
+# (6)
+ηP,NIC = ¯ηP,2-digit ×
+"
+αP
+Compensation of Employees NIC
+Total GVANIC
+
++β P
+Consumption of Fixed Capital NIC
+Total GVANIC
+# (7)
+5
+--- PAGE BREAK ---
+Whereα T,P represent the baseline outdoor labor vulnerability penalties, andβ T,P capture the
+physical capital degradation coefficients (e.g., cooling costs, machinery stress, or flooded inventory).
+Labor-intensive outdoor industries generate higher elasticities, while automated indoor tertiary
+sectors scale down toward zero, capturing structural vulnerability.
+Cross-Entropy Information-Theoretic Scaling
+To acquire the factor-intensity ratios without relying on expensive proprietary databases, the frame-
+work capitalizes on the structural disclosure patterns of the Indian state. The Ministry of Statistics
+and Programme Implementation (MoSPI) publishes comprehensive aggregate summaries, including
+the Annual Survey of Industries (ASI), which provide the absolute Indian Rupee totals for total
+emoluments, depreciation, and Gross Value Added at the granular 4-digit NIC level. This public
+data serves as the exact baseline parameters required for the micro-allocation layer.
+To mathematically bridge the 4-digit MoSPI data to the required 5-digit sub-sectors, the engine
+deploys a cross-entropy optimization model, specifically the RAS Information-Theoretic Multiplier.
+By treating the known 4-digit ratio as a prior probability distribution, the framework utilizes free
+structural proxies from the Ministry of Corporate Affairs (MCA) Master Data (such as the count
+of active companies and total paid-up capital) to minimize the Kullback-Leibler divergence. Let
+xj represent the unknown 5-digit factor intensity to be solved for, andq j the known 4-digit parent
+baseline intensity. The framework minimizes the information distance:
+min
+X
+j
+xj ln
+ xj
+qj
+
+(8)
+This minimization is subjected to strict macroeconomic boundary constraints, ensuring that the
+weighted sum of the 5-digit intensities perfectly reconstructs the 4-digit parent value:
+X
+j
+xj ·ω j = Total Factor Value4-digit (9)
+whereω j is the free structural weight of the sector’s total capital held by the specific 5-digit child
+node. This optimization guarantees that the generated 5-digit micro-intensities are anchored by em-
+pirical realities, preventing the synthesis of impossible operational profiles. Should computational
+overhead be a concern, the framework is designed to utilize international academic open-data man-
+dates. Elite global academic repositories, such as the Harvard Dataverse and CERN’s Zenodo,
+contain fully processed 5-digit unit-level ASI matrices generated by econometric researchers, pro-
+viding a robust, free open-access loophole.
+2.2 Transition Cost-at-Risk (T CaR)
+The Transition Cost-at-Risk (T CaR) module captures the structural uncertainty and variance
+introduced by the energy transition under various NGFS trajectories. The framework modelsT CaR
+as the uncertainty of unhedged Green CAPEX requirements—the Transition CAPEX Adequacy
+Ratio.
+By quantifying the borrower’s greenhouse gas emissions inventory across Scope 1 and Scope 2
+horizons, the engine computes the required capital expenditure to abate these emissions. When
+explicit firm-level emissions disclosures are unavailable, the framework incorporates systemic emis-
+sions estimates utilizing the PCAF intensity methodology to impute absolute carbon volumes:
+Imputed Emissionst = Revenuet ×PCAF Sectoral Intensity NIC (10)
+6
+--- PAGE BREAK ---
+where PCAF Sectoral Intensity NIC represents the empirically derived greenhouse gas emissions in-
+tensity (measured intCO 2eper unit of revenue) specific to the borrower’s industry sub-sector, as
+cataloged by the global Partnership for Carbon Accounting Financials (PCAF) database. This
+allows unlisted entities without carbon accounting to be integrated into the transition risk frame-
+work.
+Data Architecture – The PCAF Financed Emissions Hierarchy
+Assessing transition risk requires understanding the portfolio’s carbon baseline. When precise
+Scope 1, 2, and 3 disclosures from unlisted corporate clients are unavailable, the engine implements
+a hierarchical fallback proxy mapping aligned with the PCAF. For any given unlisted corporate
+asset, the engine cascades through the following logic:
+1.Tier 1/2 (Reported Data):If the entity publishes verified Scope 1, 2, and 3 emissions via
+the Business Responsibility and Sustainability Report (BRSR) framework, the engine utilizes
+these precise figures.
+2.Tier 3/4 (Physical Proxies):If reported emissions are absent but physical production
+volumes (e.g., tonnes of steel, MWh of electricity) are known, the engine maps this to empirical
+PHYSICAL INTENSITY FACTORS.
+3.Tier 5 (Economic Proxies):As a final fallback, the engine correlates the entity’s NIC
+code to its gross revenue.
+This hierarchical derivation generates aPCAF Data Quality Score(1 to 5), which indicates the
+confidence interval of the subsequent transition risk penalties.
+First, the engine calculates the capital expenditure required to transition the firm’s operations.
+This is achieved by multiplying the firm’s imputed emissions footprint by an exogenous, sector-
+specific technological abatement cost factor (θ N IC,t):
+CAP EXRequired,t = Imputed Emissionst ×θ N IC,t (11)
+Next, we isolate the unhedged portion of this transition requirement to quantify the firm’s
+structural uncertainty. We subtract the firm’s actual realized Green CAPEX (sourced from BRSR
+filings) from the required amount. We then normalize this unmitigated capital requirement against
+the firm’s baseline Total Revenue. This design choice provides computational stability across un-
+listed SME portfolios where standard asset book values (V 0) may be opaque or heavily depreciated,
+utilizing Total Revenue as an empirical proxy for firm scale:
+T CaRt = max(0, CAP EXRequired,t −(ω×Green CAP EXRealized,t))
+T otal Revenue0
+(12)
+By bounding the numerator with a max(0, . . .) function, we ensure that firms investing in
+transition technology are assigned aT CaRof 0. To prevent corporate ”greenwashing” where
+ineffective CAPEX is reported to inflate transition readiness, the architecture introducesω, the
+Abatement Efficiency Factor. This acts as a mathematical haircut to self-reported green investments
+based on the firm’s historical track record of true emissions decay. Conversely, a firm with a
+large emissions footprint and zero realized Green CAPEX (or anωof 0) will generate a positive
+T CaRratio. Because this unmitigated liability represents a future shock to the balance sheet, it
+is incorporated into the Merton engine as an additive scalar to the firm’s baseline asset volatility
+(σbase ×(1 +T CaR t)).
+7
+--- PAGE BREAK ---
+3 The Basel Credit Risk Core Engine
+The engine aligns with Basel Advanced Internal Rating-Based (A-IRB) standards. Rather than
+applying scalar penalties, we utilize a structural credit framework based on the Merton Distance-
+to-Default model, augmented by Copula dependencies.
+3.1 Empirically-Mapped KMV Default Transformation (PD)
+The engine builds upon the standard 1974 Vasicek/Merton model by addressing its structural
+limitations: the assumption of a single zero-coupon debt barrier and the reliance on a standard
+normal distribution, which can underestimate tail risk.
+To support Basel A-IRB compliance, the architecture utilizes an Empirically-Mapped KMV
+framework. First, the engine defines a dynamic Default Point (DP) that reflects corporate capital
+structure, modeling short-term debt and long-term debt dynamics:
+DP=Short T erm Debt+ 0.5×Long T erm Debt(13)
+Crucially, the architecture incorporates the empirical realities of SME financing in emerging mar-
+kets through aStructural Proxy Transfer. While the topological manifold itself is calibrated
+using historical equity data from large, listed Indian entities (which possess the observable market
+pricing required for Merton inversion), the resulting mapping from Distance-to-Default to Expected
+Default Frequency represents a universal mathematical relationship between solvency buffers and
+bankruptcy risk.
+To construct this core topological manifold, the engine executes a rigorous multi-step empirical
+calibration process:
+1.Historical Equity Extraction & Inversion: The engine ingests a pre-calculated dataset
+of continuous Distance-to-Default (DD) metrics. These metrics are derived by streaming a
+decade of historical equity pricing for major listed Indian entities (via ‘yfinance‘) and sub-
+jecting them to the numerical Black-Scholes Merton inversion process.
+2.Market Moment Extraction: The engine computes the true empirical moments of this
+live market solvency data, specifically extracting the structural mean (µ DD) and standard
+deviation (σDD) of the Indian corporate universe.
+3.Logistic EDF Calibration: Rather than using the standard normal distribution (Φ), the
+engine constructs an empirical Expected Default Frequency (EDF) mapping using a Logistic
+Cumulative Distribution Function (CDF). Crucially, the decay factor (k) of this logistic curve
+is mathematically calibrated to be inversely proportional to the empirical market volatility
+(k= 1.0/(0.5×σ DD)). This ensures the default barrier accurately reflects real-world market
+distributions.
+4.Systemic Contagion & Tail Thickening: To simulate systemic climate stress (the NGFS
+Severity domain), the engine mathematically shifts the Distance-to-Default coordinates down-
+wards. Furthermore, an explicit probability “tail thickener” is injected for firms near the
+default barrier to simulate sudden liquidity freezing. The resulting continuous 3D probability
+tensor is the geometric surface depicted in Figure 1.
+To translate this public-market surface down to unlisted SMEs, the engine evaluates their
+observable accounting metrics and drops them onto the manifold as coordinates. Following Allen
+et al. (Journal of Financial Intermediation, 2012), which established that Indian SMEs lack access
+8
+--- PAGE BREAK ---
+to standard long-term corporate bond markets and rely heavily on short-term vendor financing
+and informal credit, the engine natively handles structural debt inversion during this transfer. For
+unlisted Indian portfolios, long-term debt is often negligible, forcing their specific Default Point
+(DPSM E) to hinge entirely on immediate short-term liquidity shocks. This accurately reflects their
+heightened fragility without requiring their own listed equity.
+Figure 1: Mathematical manifold visualization of the Empirical Risk Topology, mapping the trans-
+lation from Distance-to-Default and NGFS Climate Severity into the ultimate Expected Default
+Frequency.
+3.2 Numerical Inversion of Unobservable Asset Parameters (Merton)
+The Merton structural model relies on a fundamental insight from corporate finance: holding equity
+in a leveraged firm is mathematically analogous to holding a European call option on the firm’s
+assets. Because equity holders possess limited liability, their downside is capped. At debt maturity,
+if the total value of the firm’s assets (V) falls below the face value of its debt obligations (the
+Default Point,DP), the equity holders will simply default and surrender the firm to the creditors
+(analogous to letting an out-of-the-money call option expire worthless). Conversely, if the asset
+value exceeds the debt, the equity holders pay off the creditors and retain the remaining residual
+value (exercising an in-the-money option).
+Therefore, to calculate the baselineDD base, the engine deploys a numerical Merton Inversion.
+This process streams historical equity pricing and extracts the unobservable Market Value of Assets
+(V) and Asset Volatility (σ V ) by solving a system of two non-linear simultaneous equations derived
+directly from this Black-Scholes call option analogy:
+E=VΦ(d 1)−DP e −rT Φ(d2) (14)
+9
+--- PAGE BREAK ---
+Where the pricing terms are structured as:
+d1 = ln(V /DP) + (r+ 0.5σ 2
+V )T
+σV
+√
+T
+andd 2 =d 1 −σ V
+√
+T(15)
+The second equation establishes the volatility transformation constraint:
+σE =
+ V
+E
+
+Φ(d1)σV (16)
+The engine constructs an objective minimization function utilizing a multi-dimensional Pow-
+ell hybrid root-finding algorithm (‘scipy.optimize.root‘) to iteratively minimize the residuals until
+convergence (<10 −7). This extracts the asset parameters, allowing for the computation of the
+pre-shock baseline metric:
+DDbase =
+ln(Vsol/DP) + (r−0.5σ 2
+Vsol)T
+σVsol
+√
+T
+(17)
+3.3 Systemic Climate Stress Injection
+The continuous financial metrics generated by the satellite engines are injected directly into the
+firm’s asset dynamics.CEaRdegrades the firm’s expected cash flows (Asset Drift Penalty), while
+T CaRmodels the uncertainty of unmitigated transition liabilities (Asset Volatility Penalty).
+Because a firm’s baselineDD base represents its safety buffer from the default barrier, the com-
+bined macroeconomic and physical drift penalties are subtracted from the numerator. Concurrently,
+the transition uncertainty scales the variance in the denominator:
+M acro Drif t P enalty= 0.5×(ϵ N IC,t × |∆GDPt|) (18)
+The 0.5 scalar acts as an empirical dampening factor, transforming the absolute gross domes-
+tic product collapse into a standardized Z-score asset drift penalty, calibrated against historical
+emerging market default dynamics.
+DDstressed = DDbase −M acro Drif t P enalty−CEaR Drif t P enalty
+1 +T CaR V olatility P enalty (19)
+Finally, the stressed Probability of Default (P D stressed) is extracted by mappingDD stressed
+against the empirical logistic EDF curve calibrated to true emerging market volatility.
+Multivariate Topological Surface & Continuity: To support mathematical continuity
+during gradient-based risk calculations, the discrete empirical data is transformed into a geometric
+topological surface. Rather than relying on discrete binning, the engine mathematically shifts
+the Distance-to-Default coordinates across the continuous NGFS Severity domain. By using this
+continuous 3D topography, we preventN aNgradient issues during marginal risk calculations and
+ensure that the probability tail expands continuously during systemic stress.
+P Dstressed =EDF Empirical(DDstressed) (20)
+10
+--- PAGE BREAK ---
+3.4 Asymmetric Vine Copula (Clayton) for Wrong Way Risk (WWR)
+This architecture models the correlation between default timing and collateral degradation (Wrong
+Way Risk). Historically, some climate models treat PD and LGD as independent variables.
+However, standard symmetric models (like the Gaussian or Student-t Copula) apply this corre-
+lation to both tails of the distribution. Climate risk presents asymmetries: a severe physical event
+increases the correlation between default and physical ruin, while benign periods do not necessarily
+present equivalent upside correlation.
+To capture this risk, the engine utilizes aClayton Copula. The Clayton Copula exhibits
+lower-tail dependence and zero upper-tail dependence, mirroring the physical reality of a downside
+shock:
+CClayton
+θ (u, v) =
+h
+max(u−θ +v −θ −1,0)
+i−1/θ
+(21)
+This ensures that the expected loss reflects portfolios with concentrated physical risk, without
+distorting calculations during non-stressed baseline years.
+3.5 Market Stranding and Uninsurability Thresholds
+Physical damage to collateral is a component of the Loss Given Default (LGD) equation. Other
+considerations include market stranding (liquidity of the collateral) and insurability.
+The engine introduces a decay function for insurability. Once the asset’s Climate Risk Score
+surpasses an empirical threshold, the engine models a reduction in available insurance coverage.
+When the uninsurability threshold is breached, the insurance mitigation drops to zero. However,
+to translate the joint probability of the Copula into a physical loss severity, the engine computes
+a WWR Multiplier. This metric isolates the tail dependence by dividing the joint probability (the
+Copula output) by the probability of the events occurring independently:
+W W R M ultiplier= CClayton
+θ (P Dstressed, PDamage)
+P Dstressed ×P Damage
+(22)
+This dependency ratio is applied as a scalar to the baseline physical collateral damage. To
+mathematically prevent the loss severity from exceeding the total value of the asset, the calculation
+is bounded at 1.0 (100% loss) prior to the application of the dynamic insurance threshold:
+LGDstressed = min(1.0, LGDbase ×W W R M ultiplier)×(1−Insurance Cover t) (23)
+Ultimately, the primary goal of the preceding derivations is to compute the final Expected
+Credit Loss (ECL) for each loan under severe climate stress. WhileP D stressed andLGD stressed
+are heavily shocked by the complex climate manifolds, the bank’s Exposure at Default (EAD)
+remains a relatively static accounting input (comprising drawn balances plus a standard credit
+conversion factor applied to undrawn credit lines), yielding the final loan-level loss metric:
+ECL Stressed =P D stressed ×LGD stressed ×EAD(24)
+4 Institutional Strategic Risk & Capital Degradation
+While individual loan defaults drive portfolio losses, systemic climate events also influence strategic
+liquidity and market risks across the institution’s balance sheet.
+11
+--- PAGE BREAK ---
+4.1 Unit-Aligned CET1 Capital Degradation
+The engine scales micro-level exposures to match the macro-financial parameters of the bank (e.g.,
+aligning EADs with the institution’s Rupee capital base). The system aggregates facility losses
+(∆ECL) and institutional stresses (Treasury Mark-to-Market losses, Liquidity Drawdowns) into
+LossT otal.
+The metric of institutional survivability is the Common Equity Tier 1 Capital Ratio variation:
+CET1 Stressed = CET1 CapitalBase −Loss T otal
+RW Abase(1 +r inf) (25)
+This metric informs the assessment of the bank’s capacity to absorb systemic climate shock relative
+to regulatory capital minimums.
+4.2 Institutional Stress Variable Definitions
+The components driving the stressed CET1 ratio are mathematically defined as follows:
+4.2.1 Baseline Regulatory Inputs
+TheCET1 CapitalBase andRW A base are static accounting inputs derived from the institution’s core
+balance sheet prior to the injection of the climate shock:
+•CET1 CapitalBase : The core equity tier 1 capital held in reserve to absorb losses.
+•RW A base: The aggregate value of the bank’s assets weighted by their historical baseline risk
+profiles.
+4.2.2 Risk-Weighted Asset Inflation (r inf)
+As the underlying credit quality of the loan portfolio deteriorates due to the realization of physical
+and transition hazards, regulatory capital requirements force a highly non-linear inflation of the
+portfolio’s Risk Weights. Rather than relying on a static or crude macroeconomic pass-through
+multiplier, the engine actively models this dynamic ratings migration as an emergent property of
+the portfolio.
+For every loan in the simulated universe, the engine recalculates the precise capital requirement
+(K) under the Basel III Advanced Internal Ratings-Based (A-IRB) framework using the dynam-
+ically stressed Default Probability (P D stressed) and Loss Given Default (LGD stressed). The true
+systemic RWA inflation rate (rinf) is explicitly derived by taking the ratio of the newly aggregated
+stressed RWA against the baseline RWA boundary:
+rinf =
+PN
+i=1 [K(P Dstressed,i, LGDstressed,i)×12.5×EAD i]PN
+i=1 RW Abase,i
+−1 (26)
+WhereK(·) represents the standardized Basel III corporate asset correlation and maturity ad-
+justment function. The 12.5 scaling factor is a global regulatory constant derived from the Basel
+minimum capital ratio of 8% (where mathematically,RW A= M inimumCapital
+0.08 , yielding the 12.5 mul-
+tiplier to convert the raw capital requirement percentageKback into an equivalent Risk-Weighted
+Asset volume).
+12
+--- PAGE BREAK ---
+4.2.3 Total Institutional Loss (Loss T otal)
+The total loss is an aggregate of five distinct stress vectors sweeping across the institution’s balance
+sheet, transcending simple loan defaults:
+LossT otal = ∆ECL Inc +Liquidity Draw +M arket Loss +F unding Cost +Op Loss (27)
+Where:
+•∆ECL Inc: The sum of all incremental Expected Credit Losses generated by borrower defaults
+(P ECL Stressed −ECL Base).
+•Liquidity Draw: Cash flow losses caused by distressed borrowers maximizing their undrawn
+credit lines prior to default.
+•M arket Loss: Mark-to-market shock on the bank’s treasury portfolio due to widening climate
+credit spreads.
+•F unding Cost: The increased premium the bank must pay in wholesale funding markets due
+to its own credit rating downgrade.
+•Op Loss: Direct physical damage to the bank’s operational infrastructure and branch network,
+augmented by transition-related regulatory fines.
+13
+--- PAGE BREAK ---
